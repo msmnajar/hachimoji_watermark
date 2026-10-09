@@ -1,4 +1,4 @@
-# watermarking/zero_watermark.py  (v2)
+# watermarking/zero_watermark.py  (v3: handcrafted or learned features)
 """
 ROI-selective Hachimoji zero-watermarking (v2).
 
@@ -75,6 +75,32 @@ def extract_features(image):
     return f, blk, grp, (Hh // BLOCK, Ww // BLOCK)
 
 
+def extract_features_learned(image, weights=None):
+    """v3 learned features (models/feature_net.py, AIF-Net).
+    (a) global: signs of the 256 global logits;
+    (b) block-local: signs of the 3 local logits resampled to the LL2 block grid
+        (same block grid and bit order as extract_features).
+    Returns f, blk, grp, grid exactly like extract_features."""
+    from models import feature_net as FN
+    c = pywt.wavedec2(image.astype(np.float64), "haar", level=2)
+    Hh, Ww = c[0].shape
+    gh, gw = Hh // BLOCK, Ww // BLOCK
+    g_log, l_log = FN.logits(image, (gh, gw), weights or FN.DEFAULT_WEIGHTS)
+    g = (g_log > 0).astype(np.uint8)
+    loc = (l_log > 0).astype(np.uint8)                         # (3, gh, gw)
+    loc = loc.reshape(3, gh * gw).T.ravel()                    # block-major, 3 bits per block
+    nb = gh * gw
+    ng = len(g)
+    f = np.concatenate([g, loc])
+    blk = np.concatenate([-np.ones(ng, np.int64), np.arange(3 * nb) // 3])
+    n_ggroups = (ng + GROUP - 1) // GROUP
+    grp = np.concatenate([np.arange(ng) // GROUP, n_ggroups + np.arange(3 * nb) // 3])
+    return f, blk, grp, (gh, gw)
+
+
+FEATURES = {"handcrafted": extract_features, "learned": extract_features_learned}
+
+
 def block_classes(roi_mask, grid):
     """ROI flag per LL2 block (block covers 32x32 image pixels)."""
     gh, gw = grid
@@ -111,9 +137,11 @@ def arnold(img, a, b, n, inverse=False):
 
 # ---------------------------------------------------------------- core
 class ZeroWatermarkV2:
-    def __init__(self, seed_digest: bytes, arnold_params):
+    def __init__(self, seed_digest: bytes, arnold_params, features: str = "handcrafted"):
         self.seed = seed_digest
         self.ap = arnold_params
+        self.features = features
+        self._feat = FEATURES[features]
 
     def _keystream(self, n_feat, n_groups, roi_pos, uniform_full=False):
         """All chaotic material for one image. Returns dict + generation time."""
@@ -147,7 +175,7 @@ class ZeroWatermarkV2:
 
     def register(self, image, watermark, roi_mask=None, uniform_full=False):
         t0 = time.perf_counter()
-        f, blk, grp, grid = extract_features(image)
+        f, blk, grp, grid = self._feat(image)
         nb = grid[0] * grid[1]
         cls = block_classes(roi_mask, grid) if roi_mask is not None else np.ones(nb, bool)
         full_fn = lambda p: np.where(blk[p] < 0, True, cls[np.maximum(blk[p], 0)])
@@ -155,15 +183,17 @@ class ZeroWatermarkV2:
         par = self._code_parity(f, grp, ks)
         wsc = arnold(watermark.astype(np.uint8), *self.ap).ravel()
         mwk = np.bitwise_xor(par, wsc)
-        return dict(mwk=mwk, block_class=cls, grid=grid, uniform_full=uniform_full,
+        return dict(mwk=mwk, block_class=cls, grid=grid, uniform_full=uniform_full, features=self.features,
                     t_keystream_ms=t_ks, t_warm_ms=ks["t_warm"], n_full=int(ks["full"].sum()),
                     t_total_ms=(time.perf_counter() - t0) * 1000,
                     roi_block_fraction=float(cls.mean()))
 
     def extract(self, image, record):
-        f, blk, grp, grid = extract_features(image)
+        f, blk, grp, grid = self._feat(image)
         if grid != record["grid"]:
             raise ValueError("image size changed")
+        if record.get("features", "handcrafted") != self.features:
+            raise ValueError("record was registered with another feature extractor")
         cls = record["block_class"]
         full_fn = lambda p: np.where(blk[p] < 0, True, cls[np.maximum(blk[p], 0)])
         ks, _ = self._keystream(len(f), int(grp.max()) + 1, full_fn, record["uniform_full"])

@@ -1,4 +1,4 @@
-# watermarking/volumetric.py  (v2)
+# watermarking/volumetric.py  (v3: feature extractor selectable)
 """
 Hash-chained volumetric verification (v2).
 
@@ -25,16 +25,17 @@ def slice_seed(prev_mwk: bytes, k_patient: bytes, n: int) -> bytes:
 
 
 class VolumeChain:
-    def __init__(self, k_patient: bytes, arnold_params):
+    def __init__(self, k_patient: bytes, arnold_params, features: str = "handcrafted"):
         self.k = k_patient
         self.ap = arnold_params
+        self.features = features
 
     def register(self, vol, wm):
         recs, prev, Hc = [], self.k, self.k
         fragile = []
         for n in range(vol.shape[2]):
             sl = vol[:, :, n]
-            zw = ZeroWatermarkV2(slice_seed(prev, self.k, n), self.ap)
+            zw = ZeroWatermarkV2(slice_seed(prev, self.k, n), self.ap, self.features)
             r = zw.register(sl, wm, otsu_roi(sl))
             recs.append(r)
             prev = r["mwk"].tobytes()
@@ -48,7 +49,7 @@ class VolumeChain:
         n_slices = min(vol.shape[2], len(recs))
         for n in range(n_slices):
             sl = vol[:, :, n]
-            zw = ZeroWatermarkV2(slice_seed(prev, self.k, n), self.ap)
+            zw = ZeroWatermarkV2(slice_seed(prev, self.k, n), self.ap, self.features)
             ncs.append(nc(wm, zw.extract(sl, recs[n])))
             prev = recs[n]["mwk"].tobytes()
             Hc = hashlib.sha256(Hc + hashlib.sha256(np.ascontiguousarray(sl).tobytes()).digest()).digest()
