@@ -1,0 +1,9 @@
+BrainTumorMRI_Nickparvar done 419
+CT_Kidney done 828
+BrainMRI_Navoneel done 1255
+TCGA_LGG_Buda done 1639
+MIAS done 2061
+BoneBreak done 2473
+RetinaFundus done 2889
+COVID_CXR_Cohen done 3343
+ALL DONE 3343.3119626045227

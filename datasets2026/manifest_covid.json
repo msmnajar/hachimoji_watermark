@@ -1,0 +1,205 @@
+{
+ "note": "First 20 PA/AP X-ray images (one per patient) in sorted file-name order from the GitHub repository at the given commit.",
+ "files": [
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-1.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-1.jpg",
+   "patientid": "395",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 421556,
+   "sha256": "4570a9524d57cb2697ea577ac5d36553cf28e0d190d347edda1fe12f07d54751"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-1.png",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-1.png",
+   "patientid": "416",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 195250,
+   "sha256": "f30ed78a4c18d162dde6e5305116daa1c8cf9cc653eb032495341ba40889c8e8"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-10.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-10.jpg",
+   "patientid": "406",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 474143,
+   "sha256": "f25a8060ce3083bb25877389c50c447a0656b635542187908b7e7b149838eec8"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-11.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-11.jpg",
+   "patientid": "407",
+   "view": "AP",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 134735,
+   "sha256": "5db804a329524d5f0c9a64ce2f5155109703e93532cf409d01227adc58495891"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-12.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-12.jpg",
+   "patientid": "281",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 79547,
+   "sha256": "f01fb53064f07d7ff7bcbaf733f6ddee0c4bee6404163bc1e5aff9dd44e2bce6"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-13.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-13.jpg",
+   "patientid": "408",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 12937,
+   "sha256": "0a8c59d1a4feaf25c4331c6bb7aace8d36c721c6d5e9f8e0a53e86074925d2de"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-15.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-15.jpg",
+   "patientid": "413",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 374451,
+   "sha256": "71dd3b32ee82036732790b6178f7f7bf6d3bc843a377d9b1162640a9dcdaa156"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-17.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-17.jpg",
+   "patientid": "283",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 219670,
+   "sha256": "02ad94e08f3e4bd51210cca23e80f82738dc37aec0783fe527af7e70efc2b33e"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-18.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-18.jpg",
+   "patientid": "418",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 119368,
+   "sha256": "d2c025d94651b0582513ffc730111852786c2ca0712bedf136e81957b07800e1"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-19.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-19.jpg",
+   "patientid": "284",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 314043,
+   "sha256": "2f8508767ea977988d832a7d9d1a799f348285a945ff6e37e7d22dfb19bbe307"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-2.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-2.jpg",
+   "patientid": "273",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 52934,
+   "sha256": "7bb4b9f4571cc520286e1c3d5c811012a0393d857aef03a8b0ec25bed0e667b1"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-20.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-20.jpg",
+   "patientid": "420",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 88524,
+   "sha256": "226657c60b65e85d999f8c3982c4e8cbe219031812d0e8cd0131a5df78401705"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-24.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-24.jpg",
+   "patientid": "339",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 35935,
+   "sha256": "9019cf584ebf6d0c3cf46a39e22de17858bb0eb787d9eee796c5c68c7eabb51d"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-266.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-266.jpg",
+   "patientid": "480",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 22895,
+   "sha256": "e5479c1f156919980b3edff4e864ec0b3ba545a9df15971fe681045e13e5ab4e"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-27.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-27.jpg",
+   "patientid": "340",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 308519,
+   "sha256": "8ef44c3a152e36871b5e052c9999dd9f12864e65944b0713720ff65ddc1f0112"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-272.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-272.jpg",
+   "patientid": "481",
+   "view": "AP",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 23090,
+   "sha256": "cf0f7df93f0454e25b0b53f62547f5304a32f5a208d90fe1748205eb07e12801"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-3.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-3.jpg",
+   "patientid": "397",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 131853,
+   "sha256": "cbb592951f5cfb636227a057238798a1fa1197243330acd5671a55abf80d4f04"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-4.jpg",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-4.jpg",
+   "patientid": "399",
+   "view": "AP",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 315528,
+   "sha256": "8d3e3903b0aee7588ed16d6c0e0d0eee52e592e58b046ebd2b43c32528ca7525"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-4.png",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-4.png",
+   "patientid": "417",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 140906,
+   "sha256": "e0490d09ce2e355104734e8a807b7c39ce6ae03127281c2dafbee747f3082ad0"
+  },
+  {
+   "file": "datasets2026/COVID_CXR_Cohen/000001-5.png",
+   "github": "ieee8023/covid-chestxray-dataset@78543292f8b01d5e0ed1d0e15dce71949f0657bb",
+   "source_path": "images/000001-5.png",
+   "patientid": "421",
+   "view": "PA",
+   "license": "CC BY-NC-SA 4.0",
+   "bytes": 370073,
+   "sha256": "799753e6604ca6bb194ce2da8db5fa3eac624a12ab586437765ff50902144697"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "validation_cases": [
+  "BraTS-GLI-00217-000",
+  "BraTS-GLI-00218-000",
+  "BraTS-GLI-00219-000",
+  "BraTS-GLI-00220-000",
+  "BraTS-GLI-00221-000",
+  "BraTS-GLI-00222-000",
+  "BraTS-GLI-00227-000",
+  "BraTS-GLI-00228-000"
+ ],
+ "learned_v4": {
+  "tau": 1.0,
+  "benign_n": 320,
+  "benign_p1": 1.0,
+  "benign_min": 0.9929464897048825,
+  "benign_false_alarms_at_tau": 1,
+  "replaced_n": 160,
+  "replaced_max": 1.0,
+  "replaced_mean": 0.7325097818615506,
+  "replaced_missed_at_tau": 1
+ },
+ "select_q": 0.7
+}

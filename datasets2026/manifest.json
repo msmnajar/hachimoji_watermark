@@ -1,0 +1,986 @@
+{
+ "created": "2026-10-12T07:42:35.236Z",
+ "note": "Test subsets extracted from public Kaggle datasets by HTTP range requests: first k image files in sorted order per class (TCGA_LGG_Buda: middle slice of the first 20 patients).",
+ "files": [
+  {
+   "file": "datasets2026/BoneBreak/Avulsion_fracture__Avulsion_fracture__000002.png",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Avulsion fracture/Avulsion fracture/000002.png",
+   "bytes": 158964,
+   "sha256": "9620cdabd963e733756d4745f33f567dde131247115139f443e4b7b69525ba7d"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Avulsion_fracture__Avulsion_fracture__05cc2e0302957e0ad27edb6b9ffbc2_jumbo.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Avulsion fracture/Avulsion fracture/05cc2e0302957e0ad27edb6b9ffbc2_jumbo.jpg",
+   "bytes": 51623,
+   "sha256": "3b785700cf87c135d59be2c6a36c8ef6f99c077e08622dd2a2d2b1409c559a20"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Comminuted_fracture__Comminuted_fracture__-finding-comminuted-intertrochanteric-fracture-left-proximal-femur_34251-255.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Comminuted fracture/Comminuted fracture/-finding-comminuted-intertrochanteric-fracture-left-proximal-femur_34251-255.jpg",
+   "bytes": 49950,
+   "sha256": "526b509b1eaadf16d6d24139177258beca3e347af84a9806a327b5d98eb77ac5"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Comminuted_fracture__Comminuted_fracture__0._jumbo.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Comminuted fracture/Comminuted fracture/0._jumbo.jpeg",
+   "bytes": 56821,
+   "sha256": "a215c58ed7c97f02d7addcad4a2147b192eb7de69cc0320de82edd5e6391be19"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Compression-Crush_fracture__Compression-Crush_fracture__-l-vertebral-body-medical-image-concept-film-ray-l-s-spine-lateral-240451120.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Compression-Crush fracture/Compression-Crush fracture/-l-vertebral-body-medical-image-concept-film-ray-l-s-spine-lateral-240451120.jpg",
+   "bytes": 40258,
+   "sha256": "7b6b6a42a2db746d8bbb0dabde9af571fefe6cf3510efccdbbe3ec00623d7936"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Compression-Crush_fracture__Compression-Crush_fracture__1-s2.0-S0378603X16302182-gr2.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Compression-Crush fracture/Compression-Crush fracture/1-s2.0-S0378603X16302182-gr2.jpg",
+   "bytes": 98499,
+   "sha256": "063bf88d282007cad3ad6f4209939b7b40e8a895a66713f53205124ce106a7f2"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Fracture_Dislocation__Fracture_Dislocation__0._jumbo.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Fracture Dislocation/Fracture Dislocation/0._jumbo.jpeg",
+   "bytes": 160637,
+   "sha256": "9e2cc85ee17b7436b00dfa32d7c46a5965f55536be45fec58142c4b431fd9a80"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Fracture_Dislocation__Fracture_Dislocation__0b0927c9e289f1b59085553d3ad46cf08b9566b76aa840d0a17d33c6e626825d_gallery.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Fracture Dislocation/Fracture Dislocation/0b0927c9e289f1b59085553d3ad46cf08b9566b76aa840d0a17d33c6e626825d_gallery.jpeg",
+   "bytes": 19739,
+   "sha256": "04d6e568e7fa0fb256ca97045c28c99011c05cef2d4e89ef5ad80dec97dfaf29"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Greenstick_fracture__Greenstick_fracture__0._jumbo.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Greenstick fracture/Greenstick fracture/0._jumbo.jpeg",
+   "bytes": 171025,
+   "sha256": "fb645beb16687dcd64ae31846a82818af6b0968aace625809d2397c6ae354fda"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Greenstick_fracture__Greenstick_fracture__000001.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Greenstick fracture/Greenstick fracture/000001.jpg",
+   "bytes": 17346,
+   "sha256": "ed711a3b7ef913712661e42f1a87597b1eef03bce9a3513b246eba58cfc2bdc1"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Hairline_Fracture__Hairline_Fracture__0._jumbo.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Hairline Fracture/Hairline Fracture/0._jumbo.jpeg",
+   "bytes": 64956,
+   "sha256": "7543c1fec51ba23a7c2fb17981ae0e19494be9b290e8e6a5e34d281371cf8be8"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Hairline_Fracture__Hairline_Fracture__1-s2.0-S1067251616000430-gr1.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Hairline Fracture/Hairline Fracture/1-s2.0-S1067251616000430-gr1.jpg",
+   "bytes": 47720,
+   "sha256": "571bffa85d5efb0830fecb7df42384000e7666a924b0487e4ee98a303edacce1"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Impacted_fracture__Impacted_fracture__059ba7d36491f99746b604ce4caa16_gallery.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Impacted fracture/Impacted fracture/059ba7d36491f99746b604ce4caa16_gallery.jpeg",
+   "bytes": 12066,
+   "sha256": "f36228504e06119893890fce42a890fbb7ba4982e2a211aea411aec6a51dfe29"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Impacted_fracture__Impacted_fracture__0fd9c4957210d0c8324ccc00c39d243d.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Impacted fracture/Impacted fracture/0fd9c4957210d0c8324ccc00c39d243d.jpg",
+   "bytes": 77966,
+   "sha256": "c67845f70ff1974aa91f67135fea73b8c19edc695adb71a9164235d031c8fb48"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Intra-articular_fracture__Intra-articular_fracture__059ba7d36491f99746b604ce4caa16_gallery.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Intra-articular fracture/Intra-articular fracture/059ba7d36491f99746b604ce4caa16_gallery.jpeg",
+   "bytes": 12066,
+   "sha256": "f36228504e06119893890fce42a890fbb7ba4982e2a211aea411aec6a51dfe29"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Intra-articular_fracture__Intra-articular_fracture__059ba7d36491f99746b604ce4caa16_jumbo.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Intra-articular fracture/Intra-articular fracture/059ba7d36491f99746b604ce4caa16_jumbo.jpeg",
+   "bytes": 50557,
+   "sha256": "c11fc98af7d9f181fd702d4e6c9f79c00f6f4407b6ffbb4c14861be800b0e142"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Longitudinal_fracture__Longitudinal_fracture__000007.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Longitudinal fracture/Longitudinal fracture/000007.jpg",
+   "bytes": 119108,
+   "sha256": "85e95dc9663598311a944ca67632a1e1f09e21253145508a2625c44e896c0d49"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Longitudinal_fracture__Longitudinal_fracture__000008.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Longitudinal fracture/Longitudinal fracture/000008.jpg",
+   "bytes": 144474,
+   "sha256": "511dc22f88885f613352135eee3bcbfaffd2675ae0965c1c91c7dbcd56651345"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Oblique_fracture__Oblique_fracture__-view-with-finger-splint-for-diagnostic-fracture-and-gouty-arthritis-2C3N97K.jpg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Oblique fracture/Oblique fracture/-view-with-finger-splint-for-diagnostic-fracture-and-gouty-arthritis-2C3N97K.jpg",
+   "bytes": 80764,
+   "sha256": "e6fd47d185c586c865312fb525dcd3f126b266cedc9fe1b021e08e9acce7c3af"
+  },
+  {
+   "file": "datasets2026/BoneBreak/Oblique_fracture__Oblique_fracture__0._gallery.jpeg",
+   "kaggle": "amohankumar/bone-break-classifier-dataset",
+   "source_path": "Oblique fracture/Oblique fracture/0._gallery.jpeg",
+   "bytes": 21594,
+   "sha256": "c67b2d5f01ebe3258a0dca96fb020808e1690139f408a3f7594882c06020aef4"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__10_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/10 no.jpg",
+   "bytes": 3848,
+   "sha256": "3c3bdbcf86cd640b0efb1f4a95726f65664a2b760cf385302947c2549ac78eba"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__11_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/11 no.jpg",
+   "bytes": 3475,
+   "sha256": "ab01efa9ce7ad51de522ba8cafa0de7d46ce3332215227459fa9e5794b9ce053"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__12_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/12 no.jpg",
+   "bytes": 4142,
+   "sha256": "91eb18f61d813028c6de3d9a78b79f807712662d006287ddec80b945f6edeb51"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__13_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/13 no.jpg",
+   "bytes": 4570,
+   "sha256": "c8280173142dbe052a428603990c3124edc9700d71fc33ed07975f164e07db50"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__14_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/14 no.jpg",
+   "bytes": 6039,
+   "sha256": "111aeacdd05f0a5d85933516c514f1f9626b4ac9a81438c0609847a2efddfa99"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__15_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/15 no.jpg",
+   "bytes": 6924,
+   "sha256": "e615defa5c0de164da4b279d1c8d9102250cd5b5189de0f5ca4596e7dc90fca2"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__17_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/17 no.jpg",
+   "bytes": 5400,
+   "sha256": "2d07d5dc31a6f83f8119f83bb45d75666c3b905eafab47609e407daf9951fd4a"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__18_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/18 no.jpg",
+   "bytes": 5868,
+   "sha256": "173a41b949f0af0ea4e90b335de0e1885e92e9ad296cd59ab88646ac39e17fc7"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__19_no.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/19 no.jpg",
+   "bytes": 5843,
+   "sha256": "9b1014fc56b1e254bfc3e6cae29a522eae9071ff2d4e125160968da77661c6e4"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/no__1_no.jpeg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/no/1 no.jpeg",
+   "bytes": 54521,
+   "sha256": "e4d9d83f89339366f4f77137d440a4c3b62e799a482ebfa6c79c9209d47ffdc9"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y1.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y1.jpg",
+   "bytes": 5114,
+   "sha256": "27a43972bf6b6bb00fd071791c3925f422295c16f881ef8c395a9534f12cf0af"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y10.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y10.jpg",
+   "bytes": 8531,
+   "sha256": "3c09eb1b7864426759bb99fa4e4b3acd0973871cb67a9c85066431091aafad74"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y100.JPG",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y100.JPG",
+   "bytes": 20782,
+   "sha256": "00aa87e56bf59778ed1756c3cdf29d5c44b91252c278e85057b6112b8b849089"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y101.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y101.jpg",
+   "bytes": 55036,
+   "sha256": "91d3a5eb7904a8699a5e2c6cf54660dd777946a00629e7f216d16d18e652e927"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y102.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y102.jpg",
+   "bytes": 46412,
+   "sha256": "7c56acddf6dd78be158f2995afd04f9365b4fee88b07cd8bc37011e329f839ea"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y103.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y103.jpg",
+   "bytes": 131246,
+   "sha256": "f010698cbecf8c8540f3e633bdac03b51f5b12bd06f1296c372fba7aa19b96c8"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y104.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y104.jpg",
+   "bytes": 98251,
+   "sha256": "ae6296325b0ca772eceef61bb217df54df4d8c060e9f14575b38530c62856e5d"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y105.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y105.jpg",
+   "bytes": 7197,
+   "sha256": "e3cf525b6b42cbe32089de242ab5ea853e0f39daa747e86673ca1f6e78dc0069"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y106.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y106.jpg",
+   "bytes": 6155,
+   "sha256": "fa097654f17421e0fb99da75a11e5aadef93f67642bce6e9284224b7476e0576"
+  },
+  {
+   "file": "datasets2026/BrainMRI_Navoneel/yes__Y107.jpg",
+   "kaggle": "navoneel/brain-mri-images-for-brain-tumor-detection",
+   "source_path": "brain_tumor_dataset/yes/Y107.jpg",
+   "bytes": 87205,
+   "sha256": "dcc31f03c9b97631576f94a02a9783643ab2a29e3e72956dbf308cbfa4bfaa4b"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/glioma__Te-gl_1.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/glioma/Te-gl_1.jpg",
+   "bytes": 30302,
+   "sha256": "a629aadd24c31daa08d9e79dce6c1dfcfa77ac95775b4683ec29663c61cbf9dd"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/glioma__Te-gl_10.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/glioma/Te-gl_10.jpg",
+   "bytes": 16501,
+   "sha256": "5a743e10f894f426ba66ad637f38cd9246dae2ab6c5ad688316df12d45c0c5fc"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/glioma__Te-gl_100.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/glioma/Te-gl_100.jpg",
+   "bytes": 17353,
+   "sha256": "0090827701d28f35c51a3f54f7eea25d866d86909fa491aec8a12fb51c56eeb5"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/glioma__Te-gl_101.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/glioma/Te-gl_101.jpg",
+   "bytes": 25363,
+   "sha256": "9cd44bae45ad9ac2e91fefe9e9b4262e3285d28dc5237ea0b6f948991cf0e50c"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/glioma__Te-gl_102.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/glioma/Te-gl_102.jpg",
+   "bytes": 25052,
+   "sha256": "4813552c8ef708ff035ae325cc5c6086e3f33275677e785d7d66c6f36e94b63a"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/meningioma__Te-aug-me_1.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/meningioma/Te-aug-me_1.jpg",
+   "bytes": 18697,
+   "sha256": "19119b197100eb343eef9eb1899e80a111d35b63e51060c53967a54d3bfacfb8"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/meningioma__Te-aug-me_10.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/meningioma/Te-aug-me_10.jpg",
+   "bytes": 27636,
+   "sha256": "32731608a68560799cfe317e31dd84f6392c2f74df4748d8b680a535b348645d"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/meningioma__Te-aug-me_100.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/meningioma/Te-aug-me_100.jpg",
+   "bytes": 24646,
+   "sha256": "37530c613f63863babf9b3a728adc4f9c30e20bafaa4f2434a87de241923d892"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/meningioma__Te-aug-me_101.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/meningioma/Te-aug-me_101.jpg",
+   "bytes": 24605,
+   "sha256": "1c51a1110caf7112f7bf084401e96112cef04ac6f20cfa2db12e6cbc11d924dd"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/meningioma__Te-aug-me_102.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/meningioma/Te-aug-me_102.jpg",
+   "bytes": 23225,
+   "sha256": "a929c878a157ede326e77ceea993dec51a4b09d2b287bf5e38d27c8906fe6b06"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/notumor__Te-no_1.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/notumor/Te-no_1.jpg",
+   "bytes": 9447,
+   "sha256": "dc8a25950f072b9830140f60f08958ea8bea1716b96d5f8c7b09017bd4ad67e7"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/notumor__Te-no_10.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/notumor/Te-no_10.jpg",
+   "bytes": 9892,
+   "sha256": "24886192c0b8853b52660fe46f93f24fb12d3fe2b5a8cfa78d2f8d3e0102dd23"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/notumor__Te-no_100.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/notumor/Te-no_100.jpg",
+   "bytes": 17282,
+   "sha256": "c62ea2526aa74964a12d7faf2a4446e3adc01f2429c0a2439deb8de115447d7f"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/notumor__Te-no_101.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/notumor/Te-no_101.jpg",
+   "bytes": 8328,
+   "sha256": "11d37b7c3a723327a2e7414f575e9de4d2b7a03fdbb1a0d42e37615e73a3e404"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/notumor__Te-no_102.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/notumor/Te-no_102.jpg",
+   "bytes": 34539,
+   "sha256": "7d01bbb2636442ded3fb98c6419e9afcdf9437d1b29c41dada9a693eafa185a4"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/pituitary__Te-pi_1.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/pituitary/Te-pi_1.jpg",
+   "bytes": 26572,
+   "sha256": "79c20f70982dc8182457e7a5b5de051b0da59bc0277d27acefc06f7079531e2f"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/pituitary__Te-pi_10.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/pituitary/Te-pi_10.jpg",
+   "bytes": 25683,
+   "sha256": "9abb8d446e246cd53406031a122ad4730c1271d1c797bcf5037f1eb49cf95451"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/pituitary__Te-pi_100.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/pituitary/Te-pi_100.jpg",
+   "bytes": 28464,
+   "sha256": "111ae2cdb87f885332e54129f817ece8281ec023acfebed09e9cb0c239618b0b"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/pituitary__Te-pi_101.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/pituitary/Te-pi_101.jpg",
+   "bytes": 34026,
+   "sha256": "734b7a652fc0b92bfb7577176819feef5c8480ca5da3220f6d1c8e14ce614650"
+  },
+  {
+   "file": "datasets2026/BrainTumorMRI_Nickparvar/pituitary__Te-pi_102.jpg",
+   "kaggle": "masoudnickparvar/brain-tumor-mri-dataset",
+   "source_path": "Testing/pituitary/Te-pi_102.jpg",
+   "bytes": 35147,
+   "sha256": "aaf8e94255f24fe669ebc60638ac04d0917a49f08b08e0951b1071439de28235"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Cyst__Cyst-_(1).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Cyst/Cyst- (1).jpg",
+   "bytes": 165288,
+   "sha256": "24209e2154c67f2ce40b852b97d4a8ad3ced6380155f2fe089edf3978cefd548"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Cyst__Cyst-_(10).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Cyst/Cyst- (10).jpg",
+   "bytes": 110737,
+   "sha256": "0f46f75c8c8d74ae2aa67fd4e208f7bd8719d076decbfae16edd81024d24adb2"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Cyst__Cyst-_(100).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Cyst/Cyst- (100).jpg",
+   "bytes": 93884,
+   "sha256": "3d01d7d86fdd53626c8f5d1cf2af2d0bf795936edc6c94b2354e78d4e9e1861f"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Cyst__Cyst-_(1000).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Cyst/Cyst- (1000).jpg",
+   "bytes": 68586,
+   "sha256": "40945332accebd6f8dd02c296c921fbad87e3585e76df5cde6536aa9a831a6e9"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Cyst__Cyst-_(1001).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Cyst/Cyst- (1001).jpg",
+   "bytes": 68689,
+   "sha256": "95c0b541fef6140a665d087fa135cd175c2ac5eecbb939f572fedf0e2023c35f"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Normal__Normal-_(1).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Normal/Normal- (1).jpg",
+   "bytes": 124185,
+   "sha256": "131f10bace72b99b270ecdadb9ce02ebdc66746482617ed8d12b931c6c9633a8"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Normal__Normal-_(10).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Normal/Normal- (10).jpg",
+   "bytes": 124013,
+   "sha256": "15507886f6bcd6553ae165edc932879ec111cd30044456a0f30b7384e45b9dcd"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Normal__Normal-_(100).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Normal/Normal- (100).jpg",
+   "bytes": 118362,
+   "sha256": "4a1ced7489622af10a5433520126b3cdf921ef38d34af70f9072aa38b9df4a87"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Normal__Normal-_(1000).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Normal/Normal- (1000).jpg",
+   "bytes": 194232,
+   "sha256": "97d594d269a46babb3277bbff7d85eeccaa6a02fd03240655ba2690c7c1e4b90"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Normal__Normal-_(1001).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Normal/Normal- (1001).jpg",
+   "bytes": 193390,
+   "sha256": "c43e6b7722e044467908f3ebc62bf8c1e94c10371b627c31eca792049ed6e3b3"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Stone__Stone-_(1).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Stone/Stone- (1).jpg",
+   "bytes": 82342,
+   "sha256": "ca9d163b8ff306a2ad7b621be23dadca474e18ec896cc826086bfd73f026de93"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Stone__Stone-_(10).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Stone/Stone- (10).jpg",
+   "bytes": 82736,
+   "sha256": "22884a2dd3e7cdeffc69fb961e9d4ee04181074fcbc87e585c8bd7555ebac477"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Stone__Stone-_(100).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Stone/Stone- (100).jpg",
+   "bytes": 426479,
+   "sha256": "95b00eac6bc7b36639302e8e473be48f9bd7e8b16a1e18d5647c4ed0a5c2fb8e"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Stone__Stone-_(1000).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Stone/Stone- (1000).jpg",
+   "bytes": 95943,
+   "sha256": "e7f5e40e15e3258ab5d2374ec585a08a8ff2d61ce892f3f2032ef71d89ec6577"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Stone__Stone-_(1001).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Stone/Stone- (1001).jpg",
+   "bytes": 96079,
+   "sha256": "8b4944727b03bab6fce604ffedee5685d1d61e39fe5118bf14bc3995e7ac916f"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Tumor__Tumor-_(1).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Tumor/Tumor- (1).jpg",
+   "bytes": 84971,
+   "sha256": "9519aa935fe9893e80f1f74af83e3557d789892b744e4e723994186dcf057317"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Tumor__Tumor-_(10).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Tumor/Tumor- (10).jpg",
+   "bytes": 83315,
+   "sha256": "432707f06c05345168caa0380e182696d7075ce84586af8008b67093915dd058"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Tumor__Tumor-_(100).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Tumor/Tumor- (100).jpg",
+   "bytes": 79784,
+   "sha256": "6f66d19bed19655436ef134efbe2ece0033ef7b2e4b44d3db14ae2e218c500e3"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Tumor__Tumor-_(1000).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Tumor/Tumor- (1000).jpg",
+   "bytes": 81940,
+   "sha256": "8caf1b078483e931b7a62e63d50ac298f01fb2169b054ec61f5fc5258c240142"
+  },
+  {
+   "file": "datasets2026/CT_Kidney/Tumor__Tumor-_(1001).jpg",
+   "kaggle": "nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone",
+   "source_path": "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/Tumor/Tumor- (1001).jpg",
+   "bytes": 81657,
+   "sha256": "b18b4ca9852b8656a38e53859f79601764c5b11f5f3da637bd52c832193fc193"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb001.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb001.png",
+   "bytes": 145968,
+   "sha256": "322a22b8b164241e1b3bece5d11aa35b83a50557605786e8aeace730727099bd"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb002.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb002.png",
+   "bytes": 134361,
+   "sha256": "aaf2e1cb8736d69197afd3689eeac5d921c0b950a2b9508d4fa78a00d9d8bba3"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb003.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb003.png",
+   "bytes": 131270,
+   "sha256": "ad55146b04f244f2dc94243f1cd1a178a8ef0ad6952e631cfb3c4eb9c0a0f724"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb004.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb004.png",
+   "bytes": 140854,
+   "sha256": "09d63055e4be120307dd10cdeeb13508d1ea35797126da9b027f8edb0304da87"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb005.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb005.png",
+   "bytes": 161986,
+   "sha256": "a94e54e99cc8225c05e9b279d75726daa0e8ea1a415694009d639d017b3715d3"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb006.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb006.png",
+   "bytes": 162214,
+   "sha256": "098f7fa745056c0462a22a053bf61d447e398c3f4c3e46ae5ca22e03bb6fb7cc"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb007.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb007.png",
+   "bytes": 145660,
+   "sha256": "d669278f9e2e4b0a884861e2669f183fff1179d91a8d5421af1c671b37ad15d6"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb008.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb008.png",
+   "bytes": 158470,
+   "sha256": "69eb587089b373041ff00d3c45d6a4df7bd1f8211ad01df28dc43cc32695c5ea"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb009.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb009.png",
+   "bytes": 150900,
+   "sha256": "5ced86e7de5a2a667d25138fd2bcefcb5d9fa3eb711cf6a245169ec1946d0603"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb010.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb010.png",
+   "bytes": 153294,
+   "sha256": "f5604e04a3676e0f4af235fbb2a744b0883fd4dbb6add79a651f4e25199f5ae1"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb011.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb011.png",
+   "bytes": 152092,
+   "sha256": "f126d4d197c98765c086974bf2168d85e727ab47a752bcf17fad923f50a679a8"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb012.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb012.png",
+   "bytes": 151803,
+   "sha256": "499381a2e07fc3c693070e8eacc2b2c0e5cbe2b99704b3860c08ec1f9c965d0a"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb013.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb013.png",
+   "bytes": 143106,
+   "sha256": "fa769878c391b26ebe0164a4b9617554ab8932ad8a51b74050a1ea99f0bc5fc2"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb014.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb014.png",
+   "bytes": 142991,
+   "sha256": "121ac7aab740b386453f98bd42178bb9694aa429e30cabe836573bd4ad25b420"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb015.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb015.png",
+   "bytes": 154384,
+   "sha256": "31904d0a6b123c789305616bc42a5f269fd1f85d415736a5cb11f24ac3a25558"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb016.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb016.png",
+   "bytes": 158126,
+   "sha256": "86db63a1109b211e1206a472b0baf8368b331bd9d8151eea712ce210e2a8f898"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb017.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb017.png",
+   "bytes": 136684,
+   "sha256": "0c8ededdf1d7a43966a1d531788aa4d5580336eb312082997ba1c22bb76a1638"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb018.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb018.png",
+   "bytes": 138662,
+   "sha256": "af9f0ab0a42676f14408fdc0de30e2e257c165cca9fb8d5b65e3276d6077be42"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb019.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb019.png",
+   "bytes": 146022,
+   "sha256": "5ea977bc02f26be8fd81514c6f6570c8219e32a72e59320176686f56dff61d61"
+  },
+  {
+   "file": "datasets2026/MIAS/mdb020.png",
+   "kaggle": "nhanvi/mias-png",
+   "source_path": "mdb020.png",
+   "bytes": 156879,
+   "sha256": "59faa89c9e34ee4390397f099882e9a792a041c2a6e52a6502cec9c9ac7a1834"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/0.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/0.png",
+   "bytes": 317700,
+   "sha256": "70dbb51b573d07461aac39295d9eed55a6aa60909467493114751305aa13e0fa"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/1.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/1.png",
+   "bytes": 311659,
+   "sha256": "5deafe4efdb71707e3269b47dcf02b75ff8674c28f70bbd2c04d056ec8d22b25"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/10.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/10.png",
+   "bytes": 317530,
+   "sha256": "02c33635babfe7c46be8b2c5c16041b22b3b0b8bd28fe92d7a461ff0169b4444"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/11.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/11.png",
+   "bytes": 318352,
+   "sha256": "d58890ebb6c47f47060fa728fe00c00a31f91d025e0aa89f98ddf2451bdf6dc1"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/12.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/12.png",
+   "bytes": 313063,
+   "sha256": "ecf7646af9e46673c181661e3803367944ca1569520f985273f4a3489b623ab3"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/13.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/13.png",
+   "bytes": 321388,
+   "sha256": "5d29a8f459710d5ee77e3fc1c594d8ad415806383ce7391391db8c9533154147"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/14.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/14.png",
+   "bytes": 313194,
+   "sha256": "dfb42774ed991d60b67bed054f175f4d9c476075c637b3e475e7ad9553637949"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/15.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/15.png",
+   "bytes": 318453,
+   "sha256": "abd0bda56055b7668be860b7d7f1f5b7f4da499fc6258201afece53412bc1897"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/16.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/16.png",
+   "bytes": 315800,
+   "sha256": "fd2ef562dbc209481c7d5f1c44ec46bbce9aad0cb7b17f6ce5f11cf49f3a4cdc"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/17.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/17.png",
+   "bytes": 312904,
+   "sha256": "09d775e4ab7529b634a09b511bdad030c0bb4d1446ec8cc1328fbf602584ec8b"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/18.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/18.png",
+   "bytes": 312868,
+   "sha256": "ca1e61be3404efd7ff02b4a897324372b55d3f0a03b1ea2013a66a857db84150"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/19.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/19.png",
+   "bytes": 302095,
+   "sha256": "602b4508af2f2787e46b62db77e68d2c37ec8be445f7a5672603acbb13842937"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/2.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/2.png",
+   "bytes": 283176,
+   "sha256": "0aba8a4f39884769405093e941918c98f829dc21b6b9e82b56f841327d3e4c1a"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/3.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/3.png",
+   "bytes": 319797,
+   "sha256": "d22601c0dacf1f94f84c662e77e2d889892c36dda4ef70dadd06df0644ea68de"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/4.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/4.png",
+   "bytes": 304442,
+   "sha256": "1863986ff085dfc98a054b91cb064afa50f369a952a7a43c72a07dd729d16747"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/5.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/5.png",
+   "bytes": 307934,
+   "sha256": "6bdca1cd65b1d15bdce3ae5cb6db50abbe3dcc0d87d92512538cdd6966e24411"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/6.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/6.png",
+   "bytes": 314782,
+   "sha256": "ef118c39f9a9381707325462b10446567b10b5ecc4c4dcbfbd6ff38fb1febacd"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/7.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/7.png",
+   "bytes": 306301,
+   "sha256": "908f8635e22ba7a736019ba1d5b0ab838120c12119afaa4bb8f60181285dc1ce"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/8.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/8.png",
+   "bytes": 303014,
+   "sha256": "1557053cdf6c60a63a5ad80d09bb1f873f52a86790d2abae6af61f860e3ae0ac"
+  },
+  {
+   "file": "datasets2026/RetinaFundus/9.png",
+   "kaggle": "abdallahwagih/retina-blood-vessel",
+   "source_path": "Data/test/image/9.png",
+   "bytes": 307473,
+   "sha256": "c26ff6b048dc1ded4f11dcc57b2370e029e212cd4ef1bbacf65065fede9238b4"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_4941_19960909__TCGA_CS_4941_19960909_12.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_4941_19960909/TCGA_CS_4941_19960909_12.tif",
+   "bytes": 203102,
+   "sha256": "1081228a8daafa745c17540f1e4b3fb7e76cc63d2f866d82f530d4c4c9f074a7"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_4942_19970222__TCGA_CS_4942_19970222_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_4942_19970222/TCGA_CS_4942_19970222_11.tif",
+   "bytes": 203102,
+   "sha256": "05029376d975f513d16690594cee93097db66b50d3061adfc1bdbb115d340f76"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_4943_20000902__TCGA_CS_4943_20000902_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_4943_20000902/TCGA_CS_4943_20000902_11.tif",
+   "bytes": 203102,
+   "sha256": "d75bd2168743d75d984ea7ee6332e12885d05b31f51ca7ac3beaec4246c3263a"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_4944_20010208__TCGA_CS_4944_20010208_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_4944_20010208/TCGA_CS_4944_20010208_11.tif",
+   "bytes": 203102,
+   "sha256": "3a764203473818e54deb5cf4b0461e74cc1de1936a757ddebde739e67d0d4082"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_5393_19990606__TCGA_CS_5393_19990606_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_5393_19990606/TCGA_CS_5393_19990606_11.tif",
+   "bytes": 203102,
+   "sha256": "dd6bacbaf54f89e7d94e29b2cea30aab04d59ca09d0258595c692bbf57cb4461"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_5395_19981004__TCGA_CS_5395_19981004_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_5395_19981004/TCGA_CS_5395_19981004_11.tif",
+   "bytes": 203102,
+   "sha256": "ae0fa5e30f3377f7447439fd16b5c181b6e5937d867d5b66134664bb7d03ebbf"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_5396_20010302__TCGA_CS_5396_20010302_13.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_5396_20010302/TCGA_CS_5396_20010302_13.tif",
+   "bytes": 203102,
+   "sha256": "385b53ac7d5b2992aa3562ac4d081664d39dba78270df75319884fc0eb0db6b1"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_5397_20010315__TCGA_CS_5397_20010315_12.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_5397_20010315/TCGA_CS_5397_20010315_12.tif",
+   "bytes": 203102,
+   "sha256": "150f22f81e013c56c1d805766772795a08fc8164577ff9d9da463e0f98a8f946"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6186_20000601__TCGA_CS_6186_20000601_13.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6186_20000601/TCGA_CS_6186_20000601_13.tif",
+   "bytes": 203102,
+   "sha256": "131674d0709bbedc034b6ba4719f496862d86b6c56b3b543ebced6d30cebbbb8"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6188_20010812__TCGA_CS_6188_20010812_13.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6188_20010812/TCGA_CS_6188_20010812_13.tif",
+   "bytes": 203102,
+   "sha256": "b3f035728ce8a8fe91d26dcbfbe05407367c6dfb9716c359f14640163a026083"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6290_20000917__TCGA_CS_6290_20000917_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6290_20000917/TCGA_CS_6290_20000917_11.tif",
+   "bytes": 203102,
+   "sha256": "2adf3c522f2236317cdc812d8bc7e09d9b320f72044ff1ff94df2d8624224c53"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6665_20010817__TCGA_CS_6665_20010817_13.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6665_20010817/TCGA_CS_6665_20010817_13.tif",
+   "bytes": 203102,
+   "sha256": "7a6d15e57b81b0c3dc5878093b3ca1ca396bc3a8868b6cba85e04e3f3ad95049"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6666_20011109__TCGA_CS_6666_20011109_14.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6666_20011109/TCGA_CS_6666_20011109_14.tif",
+   "bytes": 203102,
+   "sha256": "578560cf8ad522b61e255837422a01f2423e6465e5fa7c2f07ad2269127571aa"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6667_20011105__TCGA_CS_6667_20011105_11.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6667_20011105/TCGA_CS_6667_20011105_11.tif",
+   "bytes": 203102,
+   "sha256": "509775a41d557e9ab40baf67ad621e1ae59a5de1a270f8c782625c4a176915e5"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6668_20011025__TCGA_CS_6668_20011025_15.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6668_20011025/TCGA_CS_6668_20011025_15.tif",
+   "bytes": 203102,
+   "sha256": "37fff2e3c472e86c40fe7793493a8ebdfddc503e7c936746b51e1e8409fded0c"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_CS_6669_20020102__TCGA_CS_6669_20020102_12.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_CS_6669_20020102/TCGA_CS_6669_20020102_12.tif",
+   "bytes": 203102,
+   "sha256": "e2115a0ed8911b09905bc7d95642b32f09d6e46fbbec5134b141f939cab104bb"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_DU_5849_19950405__TCGA_DU_5849_19950405_20.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_DU_5849_19950405/TCGA_DU_5849_19950405_20.tif",
+   "bytes": 203102,
+   "sha256": "1ef353fac694b2d3346f98cd6d7700c6ce147ce111ed52618aa95c60bc6def12"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_DU_5851_19950428__TCGA_DU_5851_19950428_21.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_DU_5851_19950428/TCGA_DU_5851_19950428_21.tif",
+   "bytes": 203102,
+   "sha256": "63e2fdc3db93e2201b45bc699758f6ad99f3c6e1623b37b316e64775f765a18c"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_DU_5852_19950709__TCGA_DU_5852_19950709_19.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_DU_5852_19950709/TCGA_DU_5852_19950709_19.tif",
+   "bytes": 203102,
+   "sha256": "e38948c0adb19eced2bd5ec8c5485c45159e2d6e271506bf9e816ee2e9c12da7"
+  },
+  {
+   "file": "datasets2026/TCGA_LGG_Buda/TCGA_DU_5853_19950823__TCGA_DU_5853_19950823_19.tif",
+   "kaggle": "mateuszbuda/lgg-mri-segmentation",
+   "source_path": "kaggle_3m/TCGA_DU_5853_19950823/TCGA_DU_5853_19950823_19.tif",
+   "bytes": 203102,
+   "sha256": "475bf243eada70a12d93b69798a362aa968f7ff3628bd74764d6e388a49aadd3"
+  }
+ ]
+}
