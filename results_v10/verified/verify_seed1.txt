@@ -1,0 +1,3 @@
+freeze record in output: 801fd0cf48dd
+{"brats": {"N": 842, "M": 708122, "same_patient_pairs": 0, "configs": 18}, "nih": {"N": 1000, "M": 999000, "same_patient_pairs": 42, "configs": 12}, "isic": {"N": 1557, "M": 2422692, "same_patient_pairs": 0, "configs": 15}}
+FAILURES: none

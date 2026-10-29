@@ -1,0 +1,253 @@
+{
+ "brats100|HRS64": {
+  "cfg": {
+   "fam": "HRS64",
+   "q": 1.0,
+   "il": false,
+   "m": 6,
+   "nblk": 1,
+   "nc": 63,
+   "k": 24,
+   "s": 4,
+   "payload": 144
+  },
+  "content_bits": 112,
+  "genuine": {
+   "cond": 2152,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 2,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2152,
+    "reject_fail": 248
+   },
+   "imp": {
+    "reject_fail": 9898,
+    "accept_genuine": 2
+   }
+  },
+  "ms_per_genuine": 0.9412575761477152,
+  "ms_per_impostor": 0.6239789182489569
+ },
+ "brats100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 0.8,
+   "il": true,
+   "m": 3,
+   "nblk": 19,
+   "nc": 7,
+   "k": 4,
+   "s": 2,
+   "payload": 228
+  },
+  "content_bits": 196,
+  "genuine": {
+   "cond": 2060,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2060,
+    "reject_fail": 340
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 1.0246230165163677,
+  "ms_per_impostor": 0.08986624804410068
+ },
+ "brats100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.8,
+   "il": true,
+   "m": 2,
+   "nblk": 68,
+   "nc": 3,
+   "k": 1,
+   "s": 1,
+   "payload": 136
+  },
+  "content_bits": 104,
+  "genuine": {
+   "cond": 2048,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2048,
+    "reject_fail": 351,
+    "reject_tag": 1
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 2.1897817651430764,
+  "ms_per_impostor": 0.09307858919856524
+ },
+ "nih100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 1.0,
+   "il": false,
+   "m": 3,
+   "nblk": 24,
+   "nc": 7,
+   "k": 3,
+   "s": 3,
+   "payload": 216
+  },
+  "content_bits": 184,
+  "genuine": {
+   "cond": 1961,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 2,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1961,
+    "reject_fail": 437,
+    "reject_tag": 2
+   },
+   "imp": {
+    "reject_fail": 9898,
+    "accept_genuine": 2
+   }
+  },
+  "ms_per_genuine": 1.263647476832072,
+  "ms_per_impostor": 0.09407823736017401
+ },
+ "nih100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.9,
+   "il": false,
+   "m": 2,
+   "nblk": 76,
+   "nc": 3,
+   "k": 2,
+   "s": 0,
+   "payload": 304
+  },
+  "content_bits": 272,
+  "genuine": {
+   "cond": 1930,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1930,
+    "reject_fail": 461,
+    "reject_tag": 9
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 1.0623860359191895,
+  "ms_per_impostor": 0.025015720213302457
+ },
+ "isic100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 0.9,
+   "il": true,
+   "m": 3,
+   "nblk": 21,
+   "nc": 7,
+   "k": 4,
+   "s": 2,
+   "payload": 252
+  },
+  "content_bits": 220,
+  "genuine": {
+   "cond": 2045,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2045,
+    "reject_fail": 355
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 0.8335912227630615,
+  "ms_per_impostor": 0.06507259426694928
+ },
+ "isic100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.8,
+   "il": false,
+   "m": 2,
+   "nblk": 68,
+   "nc": 3,
+   "k": 2,
+   "s": 0,
+   "payload": 272
+  },
+  "content_bits": 240,
+  "genuine": {
+   "cond": 1989,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1989,
+    "reject_fail": 392,
+    "reject_tag": 19
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 0.8661234378814697,
+  "ms_per_impostor": 0.02501504589812924
+ }
+}

@@ -1,0 +1,27 @@
+nih HRS64|T32|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10492, 'accept_genuine': 14} | FA 8 same-patient acc 6 M1 6.09e-02 | 122s/2s
+nih HRS64|T32|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 154s/2s
+nih HRS64|T64|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10492, 'accept_genuine': 14} | FA 8 same-patient acc 6 M1 6.09e-02 | 120s/1s
+nih HRS64|T64|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 154s/2s
+nih HRS64|T128|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10492, 'accept_genuine': 14} | FA 8 same-patient acc 6 M1 6.09e-02 | 122s/1s
+nih HRS64|T128|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 174s/2s
+nih HRS8|T32|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10496, 'accept_genuine': 10} | FA 4 same-patient acc 6 M1 5.92e-02 | 253s/2s
+nih HRS8|T32|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 299s/1s
+nih HRS8|T64|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10496, 'accept_genuine': 10} | FA 4 same-patient acc 6 M1 5.92e-02 | 239s/2s
+nih HRS8|T64|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 258s/1s
+nih HRS8|T128|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10462, 'accept_genuine': 12, 'reject_tag': 32} | FA 6 same-patient acc 6 M1 6.01e-02 | 598s/3s
+nih HRS8|T128|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 284s/2s
+nih DNA4|T32|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10486, 'accept_genuine': 13, 'reject_tag': 7} | FA 7 same-patient acc 6 M1 6.05e-02 | 1251s/2s
+nih DNA4|T32|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 771s/2s
+nih DNA4|T64|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10486, 'accept_genuine': 13, 'reject_tag': 7} | FA 7 same-patient acc 6 M1 6.05e-02 | 991s/2s
+nih DNA4|T64|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 506s/2s
+nih DNA4|T128|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10493, 'accept_genuine': 10, 'reject_tag': 3} | FA 4 same-patient acc 6 M1 5.92e-02 | 513s/1s
+nih DNA4|T128|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 389s/1s
+nih BCH|T32|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10492, 'accept_genuine': 14} | FA 8 same-patient acc 6 M1 6.09e-02 | 2498s/11s
+nih BCH|T32|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 913s/2s
+nih BCH|T64|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10492, 'accept_genuine': 14} | FA 8 same-patient acc 6 M1 6.09e-02 | 1058s/13s
+nih BCH|T64|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 695s/2s
+nih BCH|T128|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10492, 'accept_genuine': 14} | FA 8 same-patient acc 6 M1 6.09e-02 | 1587s/11s
+nih BCH|T128|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 10506 count-check True {'reject_fail': 10500, 'accept_genuine': 6} | FA 0 same-patient acc 6 M1 5.70e-02 | 1509s/2s
+nih NC {'uncalibrated': (1.0, 8, 0.8517), 'OP-A': (0.988, 12, 0.8909)}
+nih selection 152s; selected 24; none: []
+total 15739s

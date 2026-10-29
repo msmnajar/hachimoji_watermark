@@ -1,0 +1,2420 @@
+{
+ "grs_selftest": {
+  "m6_n63_K20": 1.0,
+  "m6_n59_K28": 1.0,
+  "m6_n51_K16": 1.0,
+  "m6_n63_K44": 1.0,
+  "m3_n7_K1": 1.0,
+  "m3_n7_K4": 1.0,
+  "m2_n3_K1": 1.0,
+  "m2_n3_K2": 1.0
+ },
+ "interleave": {
+  "n": 400,
+  "mismatches": 0
+ },
+ "configs": [
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 20,
+    "s": 0,
+    "msg_bits": 120
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 8.660476922988892,
+   "pipe_seconds": 0.13387751579284668
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 0,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 133,
+    "reject_fail": 605
+   },
+   "ref_seconds": 9.070091485977173,
+   "pipe_seconds": 0.0871572494506836
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.6,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 51,
+    "k": 36,
+    "s": 0,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 143,
+    "reject_fail": 595
+   },
+   "ref_seconds": 7.618767261505127,
+   "pipe_seconds": 0.044283151626586914
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 24,
+    "s": 36,
+    "msg_bits": 144
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 137,
+    "reject_fail": 600,
+    "reject_tag": 1
+   },
+   "ref_seconds": 4.134420871734619,
+   "pipe_seconds": 0.1980152130126953
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 12,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 117,
+    "reject_fail": 621
+   },
+   "ref_seconds": 7.165827989578247,
+   "pipe_seconds": 0.09067058563232422
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 24,
+    "s": 4,
+    "msg_bits": 144
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 121,
+    "reject_fail": 617
+   },
+   "ref_seconds": 8.556737661361694,
+   "pipe_seconds": 0.16585135459899902
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": false,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 228
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 121,
+    "reject_fail": 617
+   },
+   "ref_seconds": 14.837446451187134,
+   "pipe_seconds": 0.04846620559692383
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 144
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 116,
+    "reject_fail": 622
+   },
+   "ref_seconds": 18.75760054588318,
+   "pipe_seconds": 0.060791969299316406
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 0,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 104,
+    "reject_fail": 631,
+    "reject_tag": 3
+   },
+   "ref_seconds": 21.220338582992554,
+   "pipe_seconds": 0.06676697731018066
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": true,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 2,
+    "s": 2,
+    "msg_bits": 114
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 136,
+    "reject_fail": 602
+   },
+   "ref_seconds": 15.41995120048523,
+   "pipe_seconds": 0.10198593139648438
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.9,
+    "il": true,
+    "m": 3,
+    "nblk": 21,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 189
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 123,
+    "reject_fail": 615
+   },
+   "ref_seconds": 15.1002037525177,
+   "pipe_seconds": 0.11063766479492188
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": true,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 130,
+    "reject_fail": 608
+   },
+   "ref_seconds": 14.721213340759277,
+   "pipe_seconds": 0.09993219375610352
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": true,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 1,
+    "s": 0,
+    "msg_bits": 170
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 92,
+    "reject_fail": 643,
+    "reject_tag": 3
+   },
+   "ref_seconds": 70.97683763504028,
+   "pipe_seconds": 0.17971348762512207
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": true,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 1,
+    "s": 0,
+    "msg_bits": 118
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 133,
+    "reject_fail": 601,
+    "reject_tag": 4
+   },
+   "ref_seconds": 70.55584025382996,
+   "pipe_seconds": 0.13877129554748535
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": false,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 1,
+    "s": 0,
+    "msg_bits": 170
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 89,
+    "reject_fail": 646,
+    "reject_tag": 3
+   },
+   "ref_seconds": 70.4733157157898,
+   "pipe_seconds": 0.14153027534484863
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 118
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 127,
+    "reject_fail": 610,
+    "reject_tag": 1
+   },
+   "ref_seconds": 48.601361989974976,
+   "pipe_seconds": 0.225571870803833
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": false,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 136
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 125,
+    "reject_fail": 613
+   },
+   "ref_seconds": 53.00250506401062,
+   "pipe_seconds": 0.25719523429870605
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": true,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 170
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 87,
+    "reject_fail": 651
+   },
+   "ref_seconds": 47.14540386199951,
+   "pipe_seconds": 0.2168259620666504
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.7,
+    "il": false,
+    "m": 1,
+    "nblk": 5,
+    "nc": 63,
+    "k": 36,
+    "s": 0,
+    "t": 5,
+    "msg_bits": 180
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 6.21227765083313,
+   "pipe_seconds": 0.12641572952270508
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 24,
+    "s": 0,
+    "t": 7,
+    "msg_bits": 192
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 128,
+    "reject_fail": 610
+   },
+   "ref_seconds": 136.67438435554504,
+   "pipe_seconds": 0.18665671348571777
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.8,
+    "il": false,
+    "m": 1,
+    "nblk": 6,
+    "nc": 63,
+    "k": 16,
+    "s": 0,
+    "t": 11,
+    "msg_bits": 96
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 153,
+    "reject_fail": 585
+   },
+   "ref_seconds": 3.983325242996216,
+   "pipe_seconds": 0.37105798721313477
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 115,
+    "s": 0,
+    "t": 21,
+    "msg_bits": 230
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 128,
+    "reject_fail": 610
+   },
+   "ref_seconds": 13.486697435379028,
+   "pipe_seconds": 0.6516716480255127
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 115,
+    "s": 0,
+    "t": 21,
+    "msg_bits": 230
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 129,
+    "reject_fail": 609
+   },
+   "ref_seconds": 447.46439814567566,
+   "pipe_seconds": 0.6903982162475586
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 71,
+    "s": 0,
+    "t": 29,
+    "msg_bits": 142
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 137,
+    "reject_fail": 601
+   },
+   "ref_seconds": 732.1253731250763,
+   "pipe_seconds": 1.2166764736175537
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": false,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 18,
+    "s": 6,
+    "t": 10,
+    "msg_bits": 126
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 139,
+    "reject_fail": 599
+   },
+   "ref_seconds": 5.239131212234497,
+   "pipe_seconds": 0.39605116844177246
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 30,
+    "s": 4,
+    "t": 6,
+    "msg_bits": 240
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 126,
+    "reject_fail": 612
+   },
+   "ref_seconds": 614.8237767219543,
+   "pipe_seconds": 0.24247312545776367
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.7,
+    "il": false,
+    "m": 1,
+    "nblk": 5,
+    "nc": 63,
+    "k": 36,
+    "s": 2,
+    "t": 5,
+    "msg_bits": 180
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 38.27360773086548,
+   "pipe_seconds": 0.1814887523651123
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 230,
+    "k": 90,
+    "s": 16,
+    "t": 21,
+    "msg_bits": 180
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 139,
+    "reject_fail": 599
+   },
+   "ref_seconds": 22.906702995300293,
+   "pipe_seconds": 0.7834129333496094
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.8,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 205,
+    "k": 65,
+    "s": 4,
+    "t": 21,
+    "msg_bits": 130
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 63.67823147773743,
+   "pipe_seconds": 0.8313469886779785
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 8,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 32,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 131,
+    "reject_fail": 607
+   },
+   "ref_seconds": 1663.731665611267,
+   "pipe_seconds": 1.0839784145355225
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.6,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 51,
+    "k": 40,
+    "s": 0,
+    "msg_bits": 240
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 10.546886682510376,
+   "pipe_seconds": 0.042505741119384766
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 0,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 118,
+    "reject_fail": 620
+   },
+   "ref_seconds": 13.294427156448364,
+   "pipe_seconds": 0.11577916145324707
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 24,
+    "s": 0,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 121,
+    "reject_fail": 617
+   },
+   "ref_seconds": 13.06265139579773,
+   "pipe_seconds": 0.1657412052154541
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 24,
+    "msg_bits": 192
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 138,
+    "reject_fail": 600
+   },
+   "ref_seconds": 8.130280494689941,
+   "pipe_seconds": 0.13686847686767578
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 28,
+    "s": 32,
+    "msg_bits": 168
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 126,
+    "reject_fail": 605,
+    "reject_tag": 7
+   },
+   "ref_seconds": 7.159828186035156,
+   "pipe_seconds": 0.2520332336425781
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 24,
+    "msg_bits": 192
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 126,
+    "reject_fail": 611,
+    "reject_tag": 1
+   },
+   "ref_seconds": 7.861731290817261,
+   "pipe_seconds": 0.11358261108398438
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": false,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 204
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 124,
+    "reject_tag": 1,
+    "reject_fail": 613
+   },
+   "ref_seconds": 33.63313579559326,
+   "pipe_seconds": 0.05312156677246094
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.9,
+    "il": false,
+    "m": 3,
+    "nblk": 21,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 252
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 117,
+    "reject_fail": 621
+   },
+   "ref_seconds": 38.05785799026489,
+   "pipe_seconds": 0.061585426330566406
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.9,
+    "il": true,
+    "m": 3,
+    "nblk": 21,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 252
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 119,
+    "reject_fail": 619
+   },
+   "ref_seconds": 39.367488622665405,
+   "pipe_seconds": 0.06829261779785156
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": true,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 3,
+    "s": 2,
+    "msg_bits": 171
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 136,
+    "reject_fail": 599,
+    "reject_tag": 3
+   },
+   "ref_seconds": 52.6194634437561,
+   "pipe_seconds": 0.18799757957458496
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 2,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 121,
+    "reject_fail": 617
+   },
+   "ref_seconds": 48.3001868724823,
+   "pipe_seconds": 0.21921133995056152
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 107,
+    "reject_fail": 631
+   },
+   "ref_seconds": 44.60839533805847,
+   "pipe_seconds": 0.145766019821167
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": true,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 1,
+    "s": 0,
+    "msg_bits": 136
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 133,
+    "reject_tag": 3,
+    "reject_fail": 602
+   },
+   "ref_seconds": 123.17463421821594,
+   "pipe_seconds": 0.15647482872009277
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 1,
+    "s": 0,
+    "msg_bits": 152
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 117,
+    "reject_tag": 6,
+    "reject_fail": 615
+   },
+   "ref_seconds": 148.83605980873108,
+   "pipe_seconds": 0.24276423454284668
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": true,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 272
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 117,
+    "reject_fail": 621
+   },
+   "ref_seconds": 108.57838869094849,
+   "pipe_seconds": 0.12247133255004883
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": true,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 152
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 113,
+    "reject_fail": 625
+   },
+   "ref_seconds": 103.34745478630066,
+   "pipe_seconds": 0.27208447456359863
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": false,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 170
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 104,
+    "reject_fail": 634
+   },
+   "ref_seconds": 92.98268556594849,
+   "pipe_seconds": 0.21490788459777832
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 152
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 112,
+    "reject_fail": 626
+   },
+   "ref_seconds": 132.4889407157898,
+   "pipe_seconds": 0.3195798397064209
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.6,
+    "il": true,
+    "m": 1,
+    "nblk": 4,
+    "nc": 63,
+    "k": 36,
+    "s": 0,
+    "t": 5,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 146,
+    "reject_fail": 592
+   },
+   "ref_seconds": 575.7649040222168,
+   "pipe_seconds": 0.13004827499389648
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 24,
+    "s": 0,
+    "t": 7,
+    "msg_bits": 192
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 128,
+    "reject_fail": 610
+   },
+   "ref_seconds": 579.9942891597748,
+   "pipe_seconds": 0.17793011665344238
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 24,
+    "s": 0,
+    "t": 7,
+    "msg_bits": 168
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 568.9254701137543,
+   "pipe_seconds": 0.268218994140625
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.8,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 205,
+    "k": 81,
+    "s": 0,
+    "t": 18,
+    "msg_bits": 162
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 140,
+    "reject_fail": 598
+   },
+   "ref_seconds": 151.37207555770874,
+   "pipe_seconds": 0.4635341167449951
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.8,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 205,
+    "k": 81,
+    "s": 0,
+    "t": 18,
+    "msg_bits": 162
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 145,
+    "reject_fail": 593
+   },
+   "ref_seconds": 852.8175513744354,
+   "pipe_seconds": 0.5742578506469727
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 0,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 126,
+    "reject_fail": 612
+   },
+   "ref_seconds": 961.5394244194031,
+   "pipe_seconds": 0.6690454483032227
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 18,
+    "s": 6,
+    "t": 10,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 137,
+    "reject_fail": 601
+   },
+   "ref_seconds": 1771.8915305137634,
+   "pipe_seconds": 0.316204309463501
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.6,
+    "il": false,
+    "m": 1,
+    "nblk": 4,
+    "nc": 63,
+    "k": 36,
+    "s": 2,
+    "t": 5,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 141,
+    "reject_fail": 597
+   },
+   "ref_seconds": 476.4615378379822,
+   "pipe_seconds": 0.11214184761047363
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 18,
+    "s": 2,
+    "t": 10,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 138,
+    "reject_fail": 600
+   },
+   "ref_seconds": 1885.5215179920197,
+   "pipe_seconds": 0.37368154525756836
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 131,
+    "s": 16,
+    "t": 18,
+    "msg_bits": 262
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 121,
+    "reject_fail": 617
+   },
+   "ref_seconds": 1124.8420808315277,
+   "pipe_seconds": 0.5208864212036133
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 131,
+    "s": 12,
+    "t": 18,
+    "msg_bits": 262
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 124,
+    "reject_fail": 614
+   },
+   "ref_seconds": 1133.3749010562897,
+   "pipe_seconds": 0.5416920185089111
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 230,
+    "k": 106,
+    "s": 16,
+    "t": 18,
+    "msg_bits": 212
+   },
+   "T": 64,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 137,
+    "reject_fail": 601
+   },
+   "ref_seconds": 1327.39133477211,
+   "pipe_seconds": 0.5914421081542969
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 0,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 139,
+    "reject_fail": 599
+   },
+   "ref_seconds": 13.470414161682129,
+   "pipe_seconds": 0.12714028358459473
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.6,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 51,
+    "k": 32,
+    "s": 0,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 133,
+    "reject_fail": 605
+   },
+   "ref_seconds": 10.394294738769531,
+   "pipe_seconds": 0.05255484580993652
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.7,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 59,
+    "k": 32,
+    "s": 0,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 140,
+    "reject_fail": 598
+   },
+   "ref_seconds": 13.253408432006836,
+   "pipe_seconds": 0.08960652351379395
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 8,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 123,
+    "reject_fail": 615
+   },
+   "ref_seconds": 10.77710247039795,
+   "pipe_seconds": 0.1349027156829834
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 4,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 147,
+    "reject_fail": 591
+   },
+   "ref_seconds": 11.735901594161987,
+   "pipe_seconds": 0.11818170547485352
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 24,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 143,
+    "reject_fail": 594,
+    "reject_tag": 1
+   },
+   "ref_seconds": 8.15664267539978,
+   "pipe_seconds": 0.11805319786071777
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": false,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 228
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 121,
+    "reject_fail": 617
+   },
+   "ref_seconds": 45.77301049232483,
+   "pipe_seconds": 0.05982351303100586
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 0,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 116,
+    "reject_fail": 621,
+    "reject_tag": 1
+   },
+   "ref_seconds": 53.753902196884155,
+   "pipe_seconds": 0.08208131790161133
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 288
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 80,
+    "reject_fail": 658
+   },
+   "ref_seconds": 39.885470390319824,
+   "pipe_seconds": 0.047411441802978516
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": true,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 1,
+    "msg_bits": 204
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 137,
+    "reject_fail": 595,
+    "reject_tag": 6
+   },
+   "ref_seconds": 61.775312662124634,
+   "pipe_seconds": 0.16602826118469238
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.9,
+    "il": true,
+    "m": 3,
+    "nblk": 21,
+    "nc": 7,
+    "k": 4,
+    "s": 1,
+    "msg_bits": 252
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 125,
+    "reject_fail": 609,
+    "reject_tag": 4
+   },
+   "ref_seconds": 67.33308458328247,
+   "pipe_seconds": 0.1526191234588623
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 288
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 97,
+    "reject_fail": 641
+   },
+   "ref_seconds": 44.055827617645264,
+   "pipe_seconds": 0.12039828300476074
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": true,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 92,
+    "reject_fail": 646
+   },
+   "ref_seconds": 124.16946315765381,
+   "pipe_seconds": 0.09626388549804688
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.6,
+    "il": true,
+    "m": 2,
+    "nblk": 51,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 204
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 123,
+    "reject_fail": 615
+   },
+   "ref_seconds": 108.21575379371643,
+   "pipe_seconds": 0.07963418960571289
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": false,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 272
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 36,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 117,
+    "reject_fail": 621
+   },
+   "ref_seconds": 140.8462836742401,
+   "pipe_seconds": 0.12535691261291504
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 24,
+    "s": 0,
+    "t": 7,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 117,
+    "reject_fail": 621
+   },
+   "ref_seconds": 367.2766704559326,
+   "pipe_seconds": 0.26980018615722656
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 36,
+    "s": 0,
+    "t": 5,
+    "msg_bits": 252
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 132,
+    "reject_fail": 606
+   },
+   "ref_seconds": 756.8073661327362,
+   "pipe_seconds": 0.14166593551635742
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.8,
+    "il": true,
+    "m": 1,
+    "nblk": 6,
+    "nc": 63,
+    "k": 36,
+    "s": 0,
+    "t": 5,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 139,
+    "reject_fail": 599
+   },
+   "ref_seconds": 618.5756623744965,
+   "pipe_seconds": 0.1573629379272461
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 131,
+    "s": 0,
+    "t": 18,
+    "msg_bits": 262
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 122,
+    "reject_fail": 616
+   },
+   "ref_seconds": 1547.8306498527527,
+   "pipe_seconds": 0.6115322113037109
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 115,
+    "s": 0,
+    "t": 21,
+    "msg_bits": 230
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 129,
+    "reject_fail": 609
+   },
+   "ref_seconds": 1500.8162915706635,
+   "pipe_seconds": 0.6098618507385254
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 0,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 126,
+    "reject_fail": 612
+   },
+   "ref_seconds": 1638.1168568134308,
+   "pipe_seconds": 0.8348586559295654
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 36,
+    "s": 4,
+    "t": 5,
+    "msg_bits": 252
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 130,
+    "reject_fail": 608
+   },
+   "ref_seconds": 634.175324678421,
+   "pipe_seconds": 0.1669609546661377
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 24,
+    "s": 6,
+    "t": 7,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 128,
+    "reject_fail": 610
+   },
+   "ref_seconds": 960.4553399085999,
+   "pipe_seconds": 0.23848271369934082
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 36,
+    "s": 2,
+    "t": 5,
+    "msg_bits": 288
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 106,
+    "reject_fail": 631,
+    "reject_tag": 1
+   },
+   "ref_seconds": 494.34567403793335,
+   "pipe_seconds": 0.23328185081481934
+  },
+  {
+   "set": "brats100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 4,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 134,
+    "reject_fail": 604
+   },
+   "ref_seconds": 1593.9055070877075,
+   "pipe_seconds": 0.7856030464172363
+  },
+  {
+   "set": "nih100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 230,
+    "k": 106,
+    "s": 8,
+    "t": 18,
+    "msg_bits": 212
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 135,
+    "reject_fail": 603
+   },
+   "ref_seconds": 219.3634717464447,
+   "pipe_seconds": 0.7513885498046875
+  },
+  {
+   "set": "isic100",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 115,
+    "s": 4,
+    "t": 21,
+    "msg_bits": 230
+   },
+   "T": 128,
+   "n_attempts": 738,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "accept_genuine": 127,
+    "reject_fail": 611
+   },
+   "ref_seconds": 221.37342190742493,
+   "pipe_seconds": 1.0384352207183838
+  }
+ ]
+}

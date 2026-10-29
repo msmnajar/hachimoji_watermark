@@ -1,0 +1,4807 @@
+{
+ "0": {
+  "brats": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 3,
+     "GAR_C": 0.9308333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 99,
+      "m": 1,
+      "msg_bits": 198,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 4,
+      "t": 23
+     },
+     "cfg_index": 1222,
+     "content_bits": 70,
+     "full": {
+      "FA_full": 3,
+      "GAR_full": 0.9308333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2234,
+        "reject_fail": 166
+       },
+       "imp": {
+        "accept_genuine": 3,
+        "reject_fail": 89697
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9170833333333334,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 115,
+      "m": 1,
+      "msg_bits": 230,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 0,
+      "t": 21
+     },
+     "cfg_index": 1216,
+     "content_bits": 102,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9170833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2201,
+        "reject_fail": 199
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 3,
+     "GAR_C": 0.9308333333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 99,
+      "m": 1,
+      "msg_bits": 198,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 4,
+      "t": 23
+     },
+     "cfg_index": 1222,
+     "content_bits": 166,
+     "full": {
+      "FA_full": 3,
+      "GAR_full": 0.9308333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2234,
+        "reject_fail": 166
+       },
+       "imp": {
+        "accept_genuine": 3,
+        "reject_fail": 89697
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9170833333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 115,
+      "m": 1,
+      "msg_bits": 230,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 0,
+      "t": 21
+     },
+     "cfg_index": 1216,
+     "content_bits": 198,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9170833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2201,
+        "reject_fail": 199
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 3,
+     "GAR_C": 0.9308333333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 99,
+      "m": 1,
+      "msg_bits": 198,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 4,
+      "t": 23
+     },
+     "cfg_index": 1222,
+     "content_bits": 134,
+     "full": {
+      "FA_full": 3,
+      "GAR_full": 0.9308333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2234,
+        "reject_fail": 166
+       },
+       "imp": {
+        "accept_genuine": 3,
+        "reject_fail": 89697
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9170833333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 115,
+      "m": 1,
+      "msg_bits": 230,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 0,
+      "t": 21
+     },
+     "cfg_index": 1216,
+     "content_bits": 166,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9170833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2201,
+        "reject_fail": 199
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.87375,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 204,
+      "nblk": 51,
+      "nc": 3,
+      "q": 0.6,
+      "s": 0
+     },
+     "cfg_index": 64,
+     "content_bits": 76,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.87375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2097,
+        "reject_fail": 278,
+        "reject_tag": 25
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89695,
+        "reject_tag": 4
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8404166666666667,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 108,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8404166666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2017,
+        "reject_fail": 344,
+        "reject_tag": 39
+       },
+       "imp": {
+        "reject_fail": 89697,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88625,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 136,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 1
+     },
+     "cfg_index": 653,
+     "content_bits": 104,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88625,
+      "status": {
+       "gen": {
+        "accept_genuine": 2127,
+        "reject_fail": 272,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88625,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 136,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 1
+     },
+     "cfg_index": 653,
+     "content_bits": 104,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88625,
+      "status": {
+       "gen": {
+        "accept_genuine": 2127,
+        "reject_fail": 272,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88625,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 136,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 1
+     },
+     "cfg_index": 653,
+     "content_bits": 72,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88625,
+      "status": {
+       "gen": {
+        "accept_genuine": 2127,
+        "reject_fail": 272,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88625,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 136,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 1
+     },
+     "cfg_index": 653,
+     "content_bits": 72,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88625,
+      "status": {
+       "gen": {
+        "accept_genuine": 2127,
+        "reject_fail": 272,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 4,
+     "GAR_C": 0.9291666666666667,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.8,
+      "s": 4
+     },
+     "cfg_index": 630,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 4,
+      "GAR_full": 0.9291666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2230,
+        "reject_fail": 170
+       },
+       "imp": {
+        "accept_genuine": 4,
+        "reject_fail": 89696
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9054166666666666,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 884,
+     "content_bits": 88,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9054166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2173,
+        "reject_fail": 227
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.9320833333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 28,
+      "m": 6,
+      "msg_bits": 168,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 20
+     },
+     "cfg_index": 872,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.9320833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2237,
+        "reject_fail": 163
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9054166666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 884,
+     "content_bits": 184,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9054166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2173,
+        "reject_fail": 227
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.9320833333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 28,
+      "m": 6,
+      "msg_bits": 168,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 20
+     },
+     "cfg_index": 872,
+     "content_bits": 104,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.9320833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2237,
+        "reject_fail": 163
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9054166666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 884,
+     "content_bits": 152,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9054166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2173,
+        "reject_fail": 227
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": {
+     "FA": 5,
+     "GAR": 0.91,
+     "tau": 0.987
+    },
+    "OP-B": {
+     "FA": 0,
+     "GAR": 0.86375,
+     "tau": 0.994
+    }
+   }
+  },
+  "isic": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.78125,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.78125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1875,
+        "reject_fail": 525
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": "none",
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.78125,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.78125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1875,
+        "reject_fail": 525
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": "none",
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.78125,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.78125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1875,
+        "reject_fail": 525
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": "none",
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 5,
+     "GAR_C": 0.8070833333333334,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 144,
+     "full": {
+      "FA_full": 5,
+      "GAR_full": 0.8070833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1937,
+        "reject_fail": 442,
+        "reject_tag": 21
+       },
+       "imp": {
+        "accept_genuine": 5,
+        "reject_fail": 89694,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.315,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 340,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 0
+     },
+     "cfg_index": 1190,
+     "content_bits": 212,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.315,
+      "status": {
+       "gen": {
+        "accept_genuine": 756,
+        "reject_fail": 1644
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 5,
+     "GAR_C": 0.8070833333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 5,
+      "GAR_full": 0.8070833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1937,
+        "reject_fail": 442,
+        "reject_tag": 21
+       },
+       "imp": {
+        "accept_genuine": 5,
+        "reject_fail": 89694,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.5745833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 170,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 1
+     },
+     "cfg_index": 1055,
+     "content_bits": 138,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.5745833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1379,
+        "reject_fail": 1020,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 5,
+     "GAR_C": 0.8070833333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 5,
+      "GAR_full": 0.8070833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1937,
+        "reject_fail": 442,
+        "reject_tag": 21
+       },
+       "imp": {
+        "accept_genuine": 5,
+        "reject_fail": 89694,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.5745833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 170,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 1
+     },
+     "cfg_index": 1055,
+     "content_bits": 106,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.5745833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1379,
+        "reject_fail": 1020,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8329166666666666,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 252,
+      "nblk": 21,
+      "nc": 7,
+      "q": 0.9,
+      "s": 2
+     },
+     "cfg_index": 919,
+     "content_bits": 124,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8329166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1999,
+        "reject_fail": 397,
+        "reject_tag": 4
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7641666666666667,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 16
+     },
+     "cfg_index": 1035,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7641666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1834,
+        "reject_fail": 559,
+        "reject_tag": 7
+       },
+       "imp": {
+        "reject_fail": 88675,
+        "reject_tag": 1025
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8329166666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 252,
+      "nblk": 21,
+      "nc": 7,
+      "q": 0.9,
+      "s": 2
+     },
+     "cfg_index": 919,
+     "content_bits": 220,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8329166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1999,
+        "reject_fail": 397,
+        "reject_tag": 4
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7641666666666667,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 16
+     },
+     "cfg_index": 1035,
+     "content_bits": 232,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7641666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1834,
+        "reject_fail": 559,
+        "reject_tag": 7
+       },
+       "imp": {
+        "reject_fail": 88675,
+        "reject_tag": 1025
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8329166666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 252,
+      "nblk": 21,
+      "nc": 7,
+      "q": 0.9,
+      "s": 2
+     },
+     "cfg_index": 919,
+     "content_bits": 188,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8329166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1999,
+        "reject_fail": 397,
+        "reject_tag": 4
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7641666666666667,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 16
+     },
+     "cfg_index": 1035,
+     "content_bits": 200,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7641666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1834,
+        "reject_fail": 559,
+        "reject_tag": 7
+       },
+       "imp": {
+        "reject_fail": 88675,
+        "reject_tag": 1025
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": "none",
+    "OP-B": "none"
+   }
+  },
+  "nih": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.80625,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 5
+     },
+     "cfg_index": 1060,
+     "content_bits": 160,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.80625,
+      "status": {
+       "gen": {
+        "accept_genuine": 1935,
+        "reject_fail": 465
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": "none",
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.80625,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 5
+     },
+     "cfg_index": 1060,
+     "content_bits": 256,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.80625,
+      "status": {
+       "gen": {
+        "accept_genuine": 1935,
+        "reject_fail": 465
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": "none",
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.80625,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 5
+     },
+     "cfg_index": 1060,
+     "content_bits": 224,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.80625,
+      "status": {
+       "gen": {
+        "accept_genuine": 1935,
+        "reject_fail": 465
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": "none",
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.7866666666666666,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.7866666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1888,
+        "reject_fail": 495,
+        "reject_tag": 17
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89699
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.44208333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 340,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 0
+     },
+     "cfg_index": 1056,
+     "content_bits": 212,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.44208333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1061,
+        "reject_fail": 1335,
+        "reject_tag": 4
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.8170833333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 152,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 1
+     },
+     "cfg_index": 787,
+     "content_bits": 120,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.8170833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1961,
+        "reject_fail": 426,
+        "reject_tag": 13
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89689,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7379166666666667,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 170,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 1
+     },
+     "cfg_index": 1189,
+     "content_bits": 138,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7379166666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1771,
+        "reject_fail": 629
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.8170833333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 152,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 1
+     },
+     "cfg_index": 787,
+     "content_bits": 88,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.8170833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1961,
+        "reject_fail": 426,
+        "reject_tag": 13
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89689,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7379166666666667,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 170,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 1
+     },
+     "cfg_index": 1189,
+     "content_bits": 106,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7379166666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1771,
+        "reject_fail": 629
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 6,
+     "GAR_C": 0.8379166666666666,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 8
+     },
+     "cfg_index": 1033,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 6,
+      "GAR_full": 0.8379166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2011,
+        "reject_fail": 389
+       },
+       "imp": {
+        "accept_genuine": 6,
+        "reject_fail": 89688,
+        "reject_tag": 6
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7520833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 288,
+      "nblk": 24,
+      "nc": 7,
+      "q": 1.0,
+      "s": 2
+     },
+     "cfg_index": 1187,
+     "content_bits": 160,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7520833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1805,
+        "reject_fail": 593,
+        "reject_tag": 2
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 6,
+     "GAR_C": 0.8379166666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 8
+     },
+     "cfg_index": 1033,
+     "content_bits": 232,
+     "full": {
+      "FA_full": 6,
+      "GAR_full": 0.8379166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2011,
+        "reject_fail": 389
+       },
+       "imp": {
+        "accept_genuine": 6,
+        "reject_fail": 89688,
+        "reject_tag": 6
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7520833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 288,
+      "nblk": 24,
+      "nc": 7,
+      "q": 1.0,
+      "s": 2
+     },
+     "cfg_index": 1187,
+     "content_bits": 256,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7520833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1805,
+        "reject_fail": 593,
+        "reject_tag": 2
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 6,
+     "GAR_C": 0.8379166666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 8
+     },
+     "cfg_index": 1033,
+     "content_bits": 200,
+     "full": {
+      "FA_full": 6,
+      "GAR_full": 0.8379166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2011,
+        "reject_fail": 389
+       },
+       "imp": {
+        "accept_genuine": 6,
+        "reject_fail": 89688,
+        "reject_tag": 6
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7520833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 288,
+      "nblk": 24,
+      "nc": 7,
+      "q": 1.0,
+      "s": 2
+     },
+     "cfg_index": 1187,
+     "content_bits": 224,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7520833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1805,
+        "reject_fail": 593,
+        "reject_tag": 2
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": "none",
+    "OP-B": "none"
+   }
+  }
+ },
+ "1": {
+  "brats": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.93625,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 210,
+      "nblk": 7,
+      "nc": 63,
+      "q": 0.9,
+      "s": 0,
+      "t": 6
+     },
+     "cfg_index": 927,
+     "content_bits": 82,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.93625,
+      "status": {
+       "gen": {
+        "accept_genuine": 2247,
+        "reject_fail": 153
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88375,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 252,
+      "nblk": 7,
+      "nc": 63,
+      "q": 0.9,
+      "s": 2,
+      "t": 5
+     },
+     "cfg_index": 790,
+     "content_bits": 124,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 279
+       },
+       "imp": {
+        "reject_fail": 89699,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.9366666666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 87,
+      "m": 1,
+      "msg_bits": 174,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 4,
+      "t": 26
+     },
+     "cfg_index": 1227,
+     "content_bits": 142,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.9366666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2248,
+        "reject_fail": 152
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88375,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 252,
+      "nblk": 7,
+      "nc": 63,
+      "q": 0.9,
+      "s": 2,
+      "t": 5
+     },
+     "cfg_index": 790,
+     "content_bits": 220,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 279
+       },
+       "imp": {
+        "reject_fail": 89699,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.9366666666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 87,
+      "m": 1,
+      "msg_bits": 174,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 4,
+      "t": 26
+     },
+     "cfg_index": 1227,
+     "content_bits": 110,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.9366666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2248,
+        "reject_fail": 152
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88375,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 252,
+      "nblk": 7,
+      "nc": 63,
+      "q": 0.9,
+      "s": 2,
+      "t": 5
+     },
+     "cfg_index": 790,
+     "content_bits": 188,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 279
+       },
+       "imp": {
+        "reject_fail": 89699,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.8783333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 204,
+      "nblk": 51,
+      "nc": 3,
+      "q": 0.6,
+      "s": 0
+     },
+     "cfg_index": 159,
+     "content_bits": 76,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.8783333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2108,
+        "reject_fail": 292
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89699
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8483333333333334,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 108,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8483333333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2036,
+        "reject_fail": 343,
+        "reject_tag": 21
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.9229166666666667,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 118,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 1
+     },
+     "cfg_index": 390,
+     "content_bits": 86,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.9229166666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2215,
+        "reject_fail": 185
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8483333333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 204,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8483333333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2036,
+        "reject_fail": 343,
+        "reject_tag": 21
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.8795833333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 136,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 1
+     },
+     "cfg_index": 653,
+     "content_bits": 72,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.8795833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2111,
+        "reject_fail": 288,
+        "reject_tag": 1
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89699
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8483333333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 172,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8483333333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 2036,
+        "reject_fail": 343,
+        "reject_tag": 21
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.9408333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.8,
+      "s": 12
+     },
+     "cfg_index": 619,
+     "content_bits": 88,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.9408333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2258,
+        "reject_fail": 142
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88375,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 228,
+      "nblk": 19,
+      "nc": 7,
+      "q": 0.8,
+      "s": 2
+     },
+     "cfg_index": 651,
+     "content_bits": 100,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 279
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.94125,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 24,
+      "m": 6,
+      "msg_bits": 144,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 4
+     },
+     "cfg_index": 858,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.94125,
+      "status": {
+       "gen": {
+        "accept_genuine": 2259,
+        "reject_fail": 141
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8954166666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 20,
+      "m": 6,
+      "msg_bits": 120,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1117,
+     "content_bits": 88,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8954166666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2149,
+        "reject_fail": 251
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.94125,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 24,
+      "m": 6,
+      "msg_bits": 144,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 4
+     },
+     "cfg_index": 858,
+     "content_bits": 80,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.94125,
+      "status": {
+       "gen": {
+        "accept_genuine": 2259,
+        "reject_fail": 141
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.88375,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 228,
+      "nblk": 19,
+      "nc": 7,
+      "q": 0.8,
+      "s": 2
+     },
+     "cfg_index": 651,
+     "content_bits": 164,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 279
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": {
+     "FA": 8,
+     "GAR": 0.9370833333333334,
+     "tau": 0.979
+    },
+    "OP-B": {
+     "FA": 0,
+     "GAR": 0.8754166666666666,
+     "tau": 0.995
+    }
+   }
+  },
+  "isic": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8145833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8145833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1955,
+        "reject_fail": 445
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": "none",
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8145833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8145833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1955,
+        "reject_fail": 445
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": "none",
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8145833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8145833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1955,
+        "reject_fail": 445
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": "none",
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 3,
+     "GAR_C": 0.8233333333333334,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 144,
+     "full": {
+      "FA_full": 3,
+      "GAR_full": 0.8233333333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1976,
+        "reject_fail": 411,
+        "reject_tag": 13
+       },
+       "imp": {
+        "accept_genuine": 3,
+        "reject_fail": 89697
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7333333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7333333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1760,
+        "reject_fail": 632,
+        "reject_tag": 8
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 3,
+     "GAR_C": 0.8233333333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 3,
+      "GAR_full": 0.8233333333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1976,
+        "reject_fail": 411,
+        "reject_tag": 13
+       },
+       "imp": {
+        "accept_genuine": 3,
+        "reject_fail": 89697
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7333333333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 272,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7333333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1760,
+        "reject_fail": 632,
+        "reject_tag": 8
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 3,
+     "GAR_C": 0.8233333333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 3,
+      "GAR_full": 0.8233333333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1976,
+        "reject_fail": 411,
+        "reject_tag": 13
+       },
+       "imp": {
+        "accept_genuine": 3,
+        "reject_fail": 89697
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7333333333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7333333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1760,
+        "reject_fail": 632,
+        "reject_tag": 8
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8320833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 32,
+      "m": 6,
+      "msg_bits": 192,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 24
+     },
+     "cfg_index": 1150,
+     "content_bits": 64,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8320833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1997,
+        "reject_fail": 403
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89640,
+        "reject_tag": 53
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7666666666666667,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 16
+     },
+     "cfg_index": 1163,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7666666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1840,
+        "reject_fail": 560
+       },
+       "imp": {
+        "reject_fail": 89614,
+        "reject_tag": 86
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8320833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 32,
+      "m": 6,
+      "msg_bits": 192,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 24
+     },
+     "cfg_index": 1150,
+     "content_bits": 160,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8320833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1997,
+        "reject_fail": 403
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89640,
+        "reject_tag": 53
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7666666666666667,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 16
+     },
+     "cfg_index": 1163,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7666666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1840,
+        "reject_fail": 560
+       },
+       "imp": {
+        "reject_fail": 89614,
+        "reject_tag": 86
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8320833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 32,
+      "m": 6,
+      "msg_bits": 192,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 24
+     },
+     "cfg_index": 1150,
+     "content_bits": 128,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8320833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1997,
+        "reject_fail": 403
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89640,
+        "reject_tag": 53
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7666666666666667,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 16
+     },
+     "cfg_index": 1163,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7666666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 1840,
+        "reject_fail": 560
+       },
+       "imp": {
+        "reject_fail": 89614,
+        "reject_tag": 86
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": "none",
+    "OP-B": "none"
+   }
+  },
+  "nih": {
+   "codes": {
+    "BCH|T128|OP-A": "none",
+    "BCH|T128|OP-B": "none",
+    "BCH|T32|OP-A": "none",
+    "BCH|T32|OP-B": "none",
+    "BCH|T64|OP-A": "none",
+    "BCH|T64|OP-B": "none",
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.7983333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.7983333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1916,
+        "reject_fail": 474,
+        "reject_tag": 10
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89698,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.4558333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 340,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 0
+     },
+     "cfg_index": 1056,
+     "content_bits": 212,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.4558333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1094,
+        "reject_fail": 1304,
+        "reject_tag": 2
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.7983333333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 272,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.7983333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1916,
+        "reject_fail": 474,
+        "reject_tag": 10
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89698,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7441666666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 170,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 1
+     },
+     "cfg_index": 1189,
+     "content_bits": 138,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7441666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1786,
+        "reject_fail": 614
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.7983333333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.7983333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1916,
+        "reject_fail": 474,
+        "reject_tag": 10
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89698,
+        "reject_tag": 1
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7441666666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 170,
+      "nblk": 85,
+      "nc": 3,
+      "q": 1.0,
+      "s": 1
+     },
+     "cfg_index": 1189,
+     "content_bits": 106,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7441666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1786,
+        "reject_fail": 614
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8295833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1162,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8295833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1991,
+        "reject_fail": 409
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89690,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8116666666666666,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 0
+     },
+     "cfg_index": 1165,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8116666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1948,
+        "reject_fail": 452
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8295833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1162,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8295833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1991,
+        "reject_fail": 409
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89690,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8116666666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 0
+     },
+     "cfg_index": 1165,
+     "content_bits": 232,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8116666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1948,
+        "reject_fail": 452
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8295833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1162,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8295833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1991,
+        "reject_fail": 409
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89690,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8116666666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 0
+     },
+     "cfg_index": 1165,
+     "content_bits": 200,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8116666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 1948,
+        "reject_fail": 452
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": "none",
+    "OP-B": "none"
+   }
+  }
+ },
+ "2": {
+  "brats": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 4,
+     "GAR_C": 0.9391666666666667,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 106,
+      "m": 1,
+      "msg_bits": 212,
+      "nblk": 2,
+      "nc": 230,
+      "q": 0.9,
+      "s": 16,
+      "t": 18
+     },
+     "cfg_index": 947,
+     "content_bits": 84,
+     "full": {
+      "FA_full": 4,
+      "GAR_full": 0.9391666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2254,
+        "reject_fail": 146
+       },
+       "imp": {
+        "accept_genuine": 4,
+        "reject_fail": 89696
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9045833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 99,
+      "m": 1,
+      "msg_bits": 198,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 16,
+      "t": 23
+     },
+     "cfg_index": 1225,
+     "content_bits": 70,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9045833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2171,
+        "reject_fail": 229
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 4,
+     "GAR_C": 0.9391666666666667,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 106,
+      "m": 1,
+      "msg_bits": 212,
+      "nblk": 2,
+      "nc": 230,
+      "q": 0.9,
+      "s": 16,
+      "t": 18
+     },
+     "cfg_index": 947,
+     "content_bits": 180,
+     "full": {
+      "FA_full": 4,
+      "GAR_full": 0.9391666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2254,
+        "reject_fail": 146
+       },
+       "imp": {
+        "accept_genuine": 4,
+        "reject_fail": 89696
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9045833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 99,
+      "m": 1,
+      "msg_bits": 198,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 16,
+      "t": 23
+     },
+     "cfg_index": 1225,
+     "content_bits": 166,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9045833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2171,
+        "reject_fail": 229
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 4,
+     "GAR_C": 0.9391666666666667,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 106,
+      "m": 1,
+      "msg_bits": 212,
+      "nblk": 2,
+      "nc": 230,
+      "q": 0.9,
+      "s": 16,
+      "t": 18
+     },
+     "cfg_index": 947,
+     "content_bits": 148,
+     "full": {
+      "FA_full": 4,
+      "GAR_full": 0.9391666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2254,
+        "reject_fail": 146
+       },
+       "imp": {
+        "accept_genuine": 4,
+        "reject_fail": 89696
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9045833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": true,
+      "k": 99,
+      "m": 1,
+      "msg_bits": 198,
+      "nblk": 2,
+      "nc": 255,
+      "q": 1.0,
+      "s": 16,
+      "t": 23
+     },
+     "cfg_index": 1225,
+     "content_bits": 134,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9045833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2171,
+        "reject_fail": 229
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.88375,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 204,
+      "nblk": 51,
+      "nc": 3,
+      "q": 0.6,
+      "s": 0
+     },
+     "cfg_index": 64,
+     "content_bits": 76,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 248,
+        "reject_tag": 31
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89696,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8420833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 108,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8420833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2021,
+        "reject_fail": 345,
+        "reject_tag": 34
+       },
+       "imp": {
+        "reject_fail": 89698,
+        "reject_tag": 2
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 4,
+     "GAR_C": 0.9141666666666667,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 118,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 1
+     },
+     "cfg_index": 390,
+     "content_bits": 86,
+     "full": {
+      "FA_full": 4,
+      "GAR_full": 0.9141666666666667,
+      "status": {
+       "gen": {
+        "accept_genuine": 2194,
+        "reject_fail": 206
+       },
+       "imp": {
+        "accept_genuine": 4,
+        "reject_fail": 89696
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8420833333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 204,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8420833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2021,
+        "reject_fail": 345,
+        "reject_tag": 34
+       },
+       "imp": {
+        "reject_fail": 89698,
+        "reject_tag": 2
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 1,
+     "GAR_C": 0.88375,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 204,
+      "nblk": 51,
+      "nc": 3,
+      "q": 0.6,
+      "s": 0
+     },
+     "cfg_index": 64,
+     "content_bits": 140,
+     "full": {
+      "FA_full": 1,
+      "GAR_full": 0.88375,
+      "status": {
+       "gen": {
+        "accept_genuine": 2121,
+        "reject_fail": 248,
+        "reject_tag": 31
+       },
+       "imp": {
+        "accept_genuine": 1,
+        "reject_fail": 89696,
+        "reject_tag": 3
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8420833333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 236,
+      "nblk": 59,
+      "nc": 3,
+      "q": 0.7,
+      "s": 0
+     },
+     "cfg_index": 270,
+     "content_bits": 172,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8420833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2021,
+        "reject_fail": 345,
+        "reject_tag": 34
+       },
+       "imp": {
+        "reject_fail": 89698,
+        "reject_tag": 2
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.93875,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.8,
+      "s": 8
+     },
+     "cfg_index": 618,
+     "content_bits": 88,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.93875,
+      "status": {
+       "gen": {
+        "accept_genuine": 2253,
+        "reject_fail": 147
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9145833333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.8,
+      "s": 8
+     },
+     "cfg_index": 631,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9145833333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2195,
+        "reject_fail": 205
+       },
+       "imp": {
+        "reject_fail": 89696,
+        "reject_tag": 4
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.93875,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.8,
+      "s": 8
+     },
+     "cfg_index": 618,
+     "content_bits": 184,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.93875,
+      "status": {
+       "gen": {
+        "accept_genuine": 2253,
+        "reject_fail": 147
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9266666666666666,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 28,
+      "m": 6,
+      "msg_bits": 168,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 12
+     },
+     "cfg_index": 870,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9266666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2224,
+        "reject_fail": 176
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.93875,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 36,
+      "m": 6,
+      "msg_bits": 216,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.8,
+      "s": 8
+     },
+     "cfg_index": 618,
+     "content_bits": 152,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.93875,
+      "status": {
+       "gen": {
+        "accept_genuine": 2253,
+        "reject_fail": 147
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.9266666666666666,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 28,
+      "m": 6,
+      "msg_bits": 168,
+      "nblk": 1,
+      "nc": 63,
+      "q": 0.9,
+      "s": 12
+     },
+     "cfg_index": 870,
+     "content_bits": 104,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.9266666666666666,
+      "status": {
+       "gen": {
+        "accept_genuine": 2224,
+        "reject_fail": 176
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": {
+     "FA": 7,
+     "GAR": 0.9316666666666666,
+     "tau": 0.978
+    },
+    "OP-B": {
+     "FA": 0,
+     "GAR": 0.8875,
+     "tau": 0.99
+    }
+   }
+  },
+  "isic": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 5,
+     "GAR_C": 0.8125,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 5,
+      "GAR_full": 0.8125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1950,
+        "reject_fail": 450
+       },
+       "imp": {
+        "accept_genuine": 5,
+        "reject_fail": 89695
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7920833333333334,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 0,
+      "t": 5
+     },
+     "cfg_index": 1057,
+     "content_bits": 160,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7920833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1901,
+        "reject_fail": 491,
+        "reject_tag": 8
+       },
+       "imp": {
+        "reject_fail": 89694,
+        "reject_tag": 6
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 5,
+     "GAR_C": 0.8125,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 5,
+      "GAR_full": 0.8125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1950,
+        "reject_fail": 450
+       },
+       "imp": {
+        "accept_genuine": 5,
+        "reject_fail": 89695
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7920833333333334,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 0,
+      "t": 5
+     },
+     "cfg_index": 1057,
+     "content_bits": 256,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7920833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1901,
+        "reject_fail": 491,
+        "reject_tag": 8
+       },
+       "imp": {
+        "reject_fail": 89694,
+        "reject_tag": 6
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 5,
+     "GAR_C": 0.8125,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 30,
+      "m": 1,
+      "msg_bits": 240,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 6
+     },
+     "cfg_index": 1064,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 5,
+      "GAR_full": 0.8125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1950,
+        "reject_fail": 450
+       },
+       "imp": {
+        "accept_genuine": 5,
+        "reject_fail": 89695
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.7920833333333334,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 0,
+      "t": 5
+     },
+     "cfg_index": 1057,
+     "content_bits": 224,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.7920833333333334,
+      "status": {
+       "gen": {
+        "accept_genuine": 1901,
+        "reject_fail": 491,
+        "reject_tag": 8
+       },
+       "imp": {
+        "reject_fail": 89694,
+        "reject_tag": 6
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 2,
+     "GAR_C": 0.83625,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 272,
+      "nblk": 68,
+      "nc": 3,
+      "q": 0.8,
+      "s": 0
+     },
+     "cfg_index": 520,
+     "content_bits": 144,
+     "full": {
+      "FA_full": 2,
+      "GAR_full": 0.83625,
+      "status": {
+       "gen": {
+        "accept_genuine": 2007,
+        "reject_fail": 372,
+        "reject_tag": 21
+       },
+       "imp": {
+        "accept_genuine": 2,
+        "reject_fail": 89694,
+        "reject_tag": 4
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.75375,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.75375,
+      "status": {
+       "gen": {
+        "accept_genuine": 1809,
+        "reject_fail": 566,
+        "reject_tag": 25
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.845,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 152,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 1
+     },
+     "cfg_index": 921,
+     "content_bits": 120,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.845,
+      "status": {
+       "gen": {
+        "accept_genuine": 2028,
+        "reject_fail": 372
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.75375,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 272,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.75375,
+      "status": {
+       "gen": {
+        "accept_genuine": 1809,
+        "reject_fail": 566,
+        "reject_tag": 25
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.845,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": true,
+      "k": 1,
+      "m": 2,
+      "msg_bits": 152,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 1
+     },
+     "cfg_index": 921,
+     "content_bits": 88,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.845,
+      "status": {
+       "gen": {
+        "accept_genuine": 2028,
+        "reject_fail": 372
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.75375,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.75375,
+      "status": {
+       "gen": {
+        "accept_genuine": 1809,
+        "reject_fail": 566,
+        "reject_tag": 25
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8583333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 252,
+      "nblk": 21,
+      "nc": 7,
+      "q": 0.9,
+      "s": 2
+     },
+     "cfg_index": 919,
+     "content_bits": 124,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8583333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2060,
+        "reject_fail": 339,
+        "reject_tag": 1
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8108333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 32,
+      "m": 6,
+      "msg_bits": 192,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 28
+     },
+     "cfg_index": 1151,
+     "content_bits": 64,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8108333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1946,
+        "reject_fail": 453,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 88966,
+        "reject_tag": 734
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8583333333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 252,
+      "nblk": 21,
+      "nc": 7,
+      "q": 0.9,
+      "s": 2
+     },
+     "cfg_index": 919,
+     "content_bits": 220,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8583333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2060,
+        "reject_fail": 339,
+        "reject_tag": 1
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8108333333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 32,
+      "m": 6,
+      "msg_bits": 192,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 28
+     },
+     "cfg_index": 1151,
+     "content_bits": 160,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8108333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1946,
+        "reject_fail": 453,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 88966,
+        "reject_tag": 734
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 7,
+     "GAR_C": 0.8583333333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS8",
+      "il": true,
+      "k": 4,
+      "m": 3,
+      "msg_bits": 252,
+      "nblk": 21,
+      "nc": 7,
+      "q": 0.9,
+      "s": 2
+     },
+     "cfg_index": 919,
+     "content_bits": 188,
+     "full": {
+      "FA_full": 7,
+      "GAR_full": 0.8583333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 2060,
+        "reject_fail": 339,
+        "reject_tag": 1
+       },
+       "imp": {
+        "accept_genuine": 7,
+        "reject_fail": 89693
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8108333333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 32,
+      "m": 6,
+      "msg_bits": 192,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 28
+     },
+     "cfg_index": 1151,
+     "content_bits": 128,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8108333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1946,
+        "reject_fail": 453,
+        "reject_tag": 1
+       },
+       "imp": {
+        "reject_fail": 88966,
+        "reject_tag": 734
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": "none",
+    "OP-B": "none"
+   }
+  },
+  "nih": {
+   "codes": {
+    "BCH|T128|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.825,
+     "T": 128,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 5
+     },
+     "cfg_index": 1060,
+     "content_bits": 160,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.825,
+      "status": {
+       "gen": {
+        "accept_genuine": 1980,
+        "reject_fail": 420
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "BCH|T128|OP-B": "none",
+    "BCH|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.825,
+     "T": 32,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 5
+     },
+     "cfg_index": 1060,
+     "content_bits": 256,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.825,
+      "status": {
+       "gen": {
+        "accept_genuine": 1980,
+        "reject_fail": 420
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "BCH|T32|OP-B": "none",
+    "BCH|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.825,
+     "T": 64,
+     "cfg": {
+      "fam": "BCH",
+      "il": false,
+      "k": 36,
+      "m": 1,
+      "msg_bits": 288,
+      "nblk": 8,
+      "nc": 63,
+      "q": 1.0,
+      "s": 6,
+      "t": 5
+     },
+     "cfg_index": 1060,
+     "content_bits": 224,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.825,
+      "status": {
+       "gen": {
+        "accept_genuine": 1980,
+        "reject_fail": 420
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89692
+       }
+      }
+     }
+    },
+    "BCH|T64|OP-B": "none",
+    "DNA4|T128|OP-A": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.81125,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.81125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1947,
+        "reject_fail": 434,
+        "reject_tag": 19
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.81125,
+     "T": 128,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.81125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1947,
+        "reject_fail": 434,
+        "reject_tag": 19
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-A": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.81125,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 272,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.81125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1947,
+        "reject_fail": 434,
+        "reject_tag": 19
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.81125,
+     "T": 32,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 272,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.81125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1947,
+        "reject_fail": 434,
+        "reject_tag": 19
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-A": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.81125,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.81125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1947,
+        "reject_fail": 434,
+        "reject_tag": 19
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "DNA4|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.81125,
+     "T": 64,
+     "cfg": {
+      "fam": "DNA4",
+      "il": false,
+      "k": 2,
+      "m": 2,
+      "msg_bits": 304,
+      "nblk": 76,
+      "nc": 3,
+      "q": 0.9,
+      "s": 0
+     },
+     "cfg_index": 788,
+     "content_bits": 240,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.81125,
+      "status": {
+       "gen": {
+        "accept_genuine": 1947,
+        "reject_fail": 434,
+        "reject_tag": 19
+       },
+       "imp": {
+        "reject_fail": 89700
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.85,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1034,
+     "content_bits": 136,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.85,
+      "status": {
+       "gen": {
+        "accept_genuine": 2040,
+        "reject_fail": 360
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89574,
+        "reject_tag": 118
+       }
+      }
+     }
+    },
+    "Hachimoji|T128|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8033333333333333,
+     "T": 128,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 20
+     },
+     "cfg_index": 1164,
+     "content_bits": 112,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8033333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1928,
+        "reject_fail": 466,
+        "reject_tag": 6
+       },
+       "imp": {
+        "reject_fail": 88797,
+        "reject_tag": 903
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.85,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1034,
+     "content_bits": 232,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.85,
+      "status": {
+       "gen": {
+        "accept_genuine": 2040,
+        "reject_fail": 360
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89574,
+        "reject_tag": 118
+       }
+      }
+     }
+    },
+    "Hachimoji|T32|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8033333333333333,
+     "T": 32,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 20
+     },
+     "cfg_index": 1164,
+     "content_bits": 208,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8033333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1928,
+        "reject_fail": 466,
+        "reject_tag": 6
+       },
+       "imp": {
+        "reject_fail": 88797,
+        "reject_tag": 903
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-A": {
+     "FA_C_condition": 8,
+     "GAR_C": 0.85,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": false,
+      "k": 44,
+      "m": 6,
+      "msg_bits": 264,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 12
+     },
+     "cfg_index": 1034,
+     "content_bits": 200,
+     "full": {
+      "FA_full": 8,
+      "GAR_full": 0.85,
+      "status": {
+       "gen": {
+        "accept_genuine": 2040,
+        "reject_fail": 360
+       },
+       "imp": {
+        "accept_genuine": 8,
+        "reject_fail": 89574,
+        "reject_tag": 118
+       }
+      }
+     }
+    },
+    "Hachimoji|T64|OP-B": {
+     "FA_C_condition": 0,
+     "GAR_C": 0.8033333333333333,
+     "T": 64,
+     "cfg": {
+      "fam": "HRS64",
+      "il": true,
+      "k": 40,
+      "m": 6,
+      "msg_bits": 240,
+      "nblk": 1,
+      "nc": 63,
+      "q": 1.0,
+      "s": 20
+     },
+     "cfg_index": 1164,
+     "content_bits": 176,
+     "full": {
+      "FA_full": 0,
+      "GAR_full": 0.8033333333333333,
+      "status": {
+       "gen": {
+        "accept_genuine": 1928,
+        "reject_fail": 466,
+        "reject_tag": 6
+       },
+       "imp": {
+        "reject_fail": 88797,
+        "reject_tag": 903
+       }
+      }
+     }
+    }
+   },
+   "nc": {
+    "OP-A": "none",
+    "OP-B": "none"
+   }
+  }
+ }
+}

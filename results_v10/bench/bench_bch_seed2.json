@@ -1,0 +1,75 @@
+{
+ "brats100|BCH": {
+  "cfg": {
+   "fam": "BCH",
+   "q": 1.0,
+   "il": true,
+   "m": 1,
+   "nblk": 8,
+   "nc": 63,
+   "k": 30,
+   "s": 2,
+   "payload": 240,
+   "t": 6
+  },
+  "content_bits": 208,
+  "genuine": {
+   "cond": 2024,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2024,
+    "reject_fail": 376
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 1.405272384484609,
+  "ms_per_impostor": 0.17324447631835938
+ },
+ "isic100|BCH": {
+  "cfg": {
+   "fam": "BCH",
+   "q": 1.0,
+   "il": false,
+   "m": 1,
+   "nblk": 8,
+   "nc": 63,
+   "k": 30,
+   "s": 2,
+   "payload": 240,
+   "t": 6
+  },
+  "content_bits": 208,
+  "genuine": {
+   "cond": 1996,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 1,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1996,
+    "reject_fail": 404
+   },
+   "imp": {
+    "reject_fail": 9899,
+    "accept_genuine": 1
+   }
+  },
+  "ms_per_genuine": 1.3077921668688457,
+  "ms_per_impostor": 0.185673814831358
+ }
+}

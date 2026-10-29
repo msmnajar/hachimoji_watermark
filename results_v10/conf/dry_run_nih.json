@@ -1,0 +1,1848 @@
+{
+ "nih": {
+  "select_seconds": 152.40022325515747,
+  "n_selected": 24,
+  "none": [],
+  "hachimoji": [
+   [
+    "Hachimoji|T32|OP-A",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T32|OP-B",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T64|OP-A",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T64|OP-B",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T128|OP-A",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T128|OP-B",
+    "HRS64"
+   ]
+  ],
+  "nc_selection": {
+   "OP-A": {
+    "tau": 0.988,
+    "GAR": 0.8909313725490197,
+    "FA": 6
+   },
+   "OP-B": "none"
+  },
+  "conformance": [
+   {
+    "label": "HRS64|T32|OP-A",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 0.9,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 36,
+     "s": 16,
+     "msg_bits": 216
+    },
+    "T": 32,
+    "seconds": 121.53963828086853,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T32|OP-B",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 1.0,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 28,
+     "s": 4,
+     "msg_bits": 168
+    },
+    "T": 32,
+    "seconds": 154.24526810646057,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T64|OP-A",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 0.9,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 36,
+     "s": 16,
+     "msg_bits": 216
+    },
+    "T": 64,
+    "seconds": 119.99603414535522,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T64|OP-B",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 1.0,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 28,
+     "s": 4,
+     "msg_bits": 168
+    },
+    "T": 64,
+    "seconds": 153.87676000595093,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T128|OP-A",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 0.9,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 36,
+     "s": 16,
+     "msg_bits": 216
+    },
+    "T": 128,
+    "seconds": 121.61457085609436,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T128|OP-B",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 1.0,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 32,
+     "s": 8,
+     "msg_bits": 192
+    },
+    "T": 128,
+    "seconds": 173.80799317359924,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T32|OP-A",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": false,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 3,
+     "s": 3,
+     "msg_bits": 189
+    },
+    "T": 32,
+    "seconds": 253.45902061462402,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T32|OP-B",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 252
+    },
+    "T": 32,
+    "seconds": 298.76165437698364,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T64|OP-A",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": false,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 3,
+     "s": 3,
+     "msg_bits": 189
+    },
+    "T": 64,
+    "seconds": 239.04831647872925,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T64|OP-B",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 252
+    },
+    "T": 64,
+    "seconds": 257.964346408844,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T128|OP-A",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 1,
+     "msg_bits": 252
+    },
+    "T": 128,
+    "seconds": 597.7808604240417,
+    "n_attempts": 10253,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T128|OP-B",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 252
+    },
+    "T": 128,
+    "seconds": 283.7431445121765,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T32|OP-A",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.9,
+     "il": true,
+     "m": 2,
+     "nblk": 76,
+     "nc": 3,
+     "k": 1,
+     "s": 0,
+     "msg_bits": 152
+    },
+    "T": 32,
+    "seconds": 1250.6551525592804,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T32|OP-B",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.9,
+     "il": true,
+     "m": 2,
+     "nblk": 76,
+     "nc": 3,
+     "k": 1,
+     "s": 1,
+     "msg_bits": 152
+    },
+    "T": 32,
+    "seconds": 771.4549419879913,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T64|OP-A",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.9,
+     "il": true,
+     "m": 2,
+     "nblk": 76,
+     "nc": 3,
+     "k": 1,
+     "s": 0,
+     "msg_bits": 152
+    },
+    "T": 64,
+    "seconds": 990.8813917636871,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T64|OP-B",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.9,
+     "il": true,
+     "m": 2,
+     "nblk": 76,
+     "nc": 3,
+     "k": 1,
+     "s": 1,
+     "msg_bits": 152
+    },
+    "T": 64,
+    "seconds": 505.84530115127563,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T128|OP-A",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.6,
+     "il": false,
+     "m": 2,
+     "nblk": 51,
+     "nc": 3,
+     "k": 2,
+     "s": 0,
+     "msg_bits": 204
+    },
+    "T": 128,
+    "seconds": 513.3882281780243,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T128|OP-B",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.9,
+     "il": false,
+     "m": 2,
+     "nblk": 76,
+     "nc": 3,
+     "k": 2,
+     "s": 0,
+     "msg_bits": 304
+    },
+    "T": 128,
+    "seconds": 389.4293279647827,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T32|OP-A",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 32,
+    "seconds": 2498.3119852542877,
+    "n_attempts": 2823,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T32|OP-B",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 8,
+     "nc": 63,
+     "k": 36,
+     "s": 6,
+     "t": 5,
+     "msg_bits": 288
+    },
+    "T": 32,
+    "seconds": 913.3560557365417,
+    "n_attempts": 2816,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T64|OP-A",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 64,
+    "seconds": 1058.3379685878754,
+    "n_attempts": 2823,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T64|OP-B",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 8,
+     "nc": 63,
+     "k": 36,
+     "s": 6,
+     "t": 5,
+     "msg_bits": 288
+    },
+    "T": 64,
+    "seconds": 695.2124755382538,
+    "n_attempts": 2816,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T128|OP-A",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 128,
+    "seconds": 1587.05935049057,
+    "n_attempts": 2823,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T128|OP-B",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 8,
+     "nc": 63,
+     "k": 36,
+     "s": 6,
+     "t": 5,
+     "msg_bits": 288
+    },
+    "T": 128,
+    "seconds": 1508.65429520607,
+    "n_attempts": 2816,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   }
+  ],
+  "evaluation": [
+   {
+    "label": "HRS64|T32|OP-A",
+    "seconds": 1.54205322265625,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10492,
+     "accept_genuine": 14
+    },
+    "FA": 14,
+    "FA_a": 14,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9093137254901961,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0007614696363982486,
+     "FA_rate_among_distinct_patient_pairs": 0.0007619047619047619,
+     "M1_upper": 0.06094956901475352,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0022085653927405415
+      ],
+      "upper": 0.0019212480460976962,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.3807182006411375e-07,
+      "n_eff": 3196.051511624439
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 10,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06156522122702376,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS64|T32|OP-B",
+    "seconds": 2.2062830924987793,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8774509803921569,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS64|T64|OP-A",
+    "seconds": 1.329073429107666,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10492,
+     "accept_genuine": 14
+    },
+    "FA": 14,
+    "FA_a": 14,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9093137254901961,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0007614696363982486,
+     "FA_rate_among_distinct_patient_pairs": 0.0007619047619047619,
+     "M1_upper": 0.06094956901475352,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0022085653927405415
+      ],
+      "upper": 0.0019212480460976962,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.3807182006411375e-07,
+      "n_eff": 3196.051511624439
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 10,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06156522122702376,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS64|T64|OP-B",
+    "seconds": 2.25299334526062,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8774509803921569,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS64|T128|OP-A",
+    "seconds": 1.3746271133422852,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10492,
+     "accept_genuine": 14
+    },
+    "FA": 14,
+    "FA_a": 14,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9093137254901961,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0007614696363982486,
+     "FA_rate_among_distinct_patient_pairs": 0.0007619047619047619,
+     "M1_upper": 0.06094956901475352,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0022085653927405415
+      ],
+      "upper": 0.0019212480460976962,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.3807182006411375e-07,
+      "n_eff": 3196.051511624439
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 10,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06156522122702376,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS64|T128|OP-B",
+    "seconds": 2.0684499740600586,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8639705882352942,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS8|T32|OP-A",
+    "seconds": 1.828444004058838,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10496,
+     "accept_genuine": 10
+    },
+    "FA": 10,
+    "FA_a": 10,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8946078431372549,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 4,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0003807348181991243,
+     "FA_rate_among_distinct_patient_pairs": 0.00038095238095238096,
+     "M1_upper": 0.059238300398336274,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0011523005210117502
+      ],
+      "upper": 0.0009604394987974786,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.884877596983502e-08,
+      "n_eff": 5527.910319917445
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05983666706902654,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS8|T32|OP-B",
+    "seconds": 1.2383558750152588,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8480392156862745,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS8|T64|OP-A",
+    "seconds": 2.3828272819519043,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10496,
+     "accept_genuine": 10
+    },
+    "FA": 10,
+    "FA_a": 10,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8946078431372549,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 4,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0003807348181991243,
+     "FA_rate_among_distinct_patient_pairs": 0.00038095238095238096,
+     "M1_upper": 0.059238300398336274,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0011523005210117502
+      ],
+      "upper": 0.0009604394987974786,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.884877596983502e-08,
+      "n_eff": 5527.910319917445
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05983666706902654,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS8|T64|OP-B",
+    "seconds": 1.2508819103240967,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8480392156862745,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS8|T128|OP-A",
+    "seconds": 2.9124820232391357,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10462,
+     "accept_genuine": 12,
+     "reject_tag": 32
+    },
+    "FA": 12,
+    "FA_a": 12,
+    "FA_b": 0,
+    "E_tag": 32,
+    "E_tag_idealized_expected_collisions": 9.4039548065783e-38,
+    "genuine_accept": 0.8921568627450981,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 6,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0005711022272986865,
+     "FA_rate_among_distinct_patient_pairs": 0.0005714285714285715,
+     "M1_upper": 0.06012235392274928,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0019190358832687723
+      ],
+      "upper": 0.0015402535669554872,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.7357138783974212e-07,
+      "n_eff": 3288.422571533832
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06072965042701948,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "HRS8|T128|OP-B",
+    "seconds": 1.652512550354004,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8480392156862745,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "DNA4|T32|OP-A",
+    "seconds": 2.483574151992798,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10486,
+     "accept_genuine": 13,
+     "reject_tag": 7
+    },
+    "FA": 13,
+    "FA_a": 13,
+    "FA_b": 0,
+    "E_tag": 7,
+    "E_tag_idealized_expected_collisions": 1.6298145055770874e-09,
+    "genuine_accept": 0.8884803921568627,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 7,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0006662859318484675,
+     "FA_rate_among_distinct_patient_pairs": 0.0006666666666666666,
+     "M1_upper": 0.0605418954362002,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0018227430511304375
+      ],
+      "upper": 0.0015390682892422547,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.501990402078769e-07,
+      "n_eff": 4433.064245843094
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 12,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.061153429733535554,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "DNA4|T32|OP-B",
+    "seconds": 2.238246440887451,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8480392156862745,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "DNA4|T64|OP-A",
+    "seconds": 1.5301218032836914,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10486,
+     "accept_genuine": 13,
+     "reject_tag": 7
+    },
+    "FA": 13,
+    "FA_a": 13,
+    "FA_b": 0,
+    "E_tag": 7,
+    "E_tag_idealized_expected_collisions": 3.7947076036992655e-19,
+    "genuine_accept": 0.8884803921568627,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 7,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0006662859318484675,
+     "FA_rate_among_distinct_patient_pairs": 0.0006666666666666666,
+     "M1_upper": 0.0605418954362002,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0018227430511304375
+      ],
+      "upper": 0.0015390682892422547,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.501990402078769e-07,
+      "n_eff": 4433.064245843094
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 12,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.061153429733535554,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "DNA4|T64|OP-B",
+    "seconds": 1.869506597518921,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8480392156862745,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "DNA4|T128|OP-A",
+    "seconds": 1.0909056663513184,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10493,
+     "accept_genuine": 10,
+     "reject_tag": 3
+    },
+    "FA": 10,
+    "FA_a": 10,
+    "FA_b": 0,
+    "E_tag": 3,
+    "E_tag_idealized_expected_collisions": 8.816207631167156e-39,
+    "genuine_accept": 0.8700980392156863,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 4,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0003807348181991243,
+     "FA_rate_among_distinct_patient_pairs": 0.00038095238095238096,
+     "M1_upper": 0.059238300398336274,
+     "M2": {
+      "ci": [
+       0.0,
+       0.00125
+      ],
+      "upper": 0.001055490003864565,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 8.751041787744826e-08,
+      "n_eff": 4349.080582957821
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 7,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05983666706902654,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "DNA4|T128|OP-B",
+    "seconds": 1.1087310314178467,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.7855392156862745,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "BCH|T32|OP-A",
+    "seconds": 10.755773544311523,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10492,
+     "accept_genuine": 14
+    },
+    "FA": 14,
+    "FA_a": 14,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9093137254901961,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0007614696363982486,
+     "FA_rate_among_distinct_patient_pairs": 0.0007619047619047619,
+     "M1_upper": 0.06094956901475352,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0021178384589723097
+      ],
+      "upper": 0.0018248350477152093,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.3807182006411385e-07,
+      "n_eff": 3196.051511624438
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 11,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06156522122702376,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "BCH|T32|OP-B",
+    "seconds": 1.918731927871704,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8492647058823529,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "BCH|T64|OP-A",
+    "seconds": 12.714956283569336,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10492,
+     "accept_genuine": 14
+    },
+    "FA": 14,
+    "FA_a": 14,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9093137254901961,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0007614696363982486,
+     "FA_rate_among_distinct_patient_pairs": 0.0007619047619047619,
+     "M1_upper": 0.06094956901475352,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0021178384589723097
+      ],
+      "upper": 0.0018248350477152093,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.3807182006411385e-07,
+      "n_eff": 3196.051511624438
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 11,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06156522122702376,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "BCH|T64|OP-B",
+    "seconds": 1.8206827640533447,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8492647058823529,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "BCH|T128|OP-A",
+    "seconds": 10.924283027648926,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10492,
+     "accept_genuine": 14
+    },
+    "FA": 14,
+    "FA_a": 14,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9093137254901961,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0007614696363982486,
+     "FA_rate_among_distinct_patient_pairs": 0.0007619047619047619,
+     "M1_upper": 0.06094956901475352,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0021178384589723097
+      ],
+      "upper": 0.0018248350477152093,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.3807182006411385e-07,
+      "n_eff": 3196.051511624438
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 11,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06156522122702376,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   {
+    "label": "BCH|T128|OP-B",
+    "seconds": 2.247535467147827,
+    "N": 103,
+    "M": 10506,
+    "counts": {
+     "reject_fail": 10500,
+     "accept_genuine": 6
+    },
+    "FA": 6,
+    "FA_a": 6,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8492647058823529,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.057047952360442744,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.05762419430347752,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   }
+  ],
+  "nc": {
+   "uncalibrated": {
+    "tau": 1.0,
+    "FA": 8,
+    "M": 10506,
+    "genuine_accept": 0.8517156862745098,
+    "stats": {
+     "FA": 2,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.00019036740909956216,
+     "FA_rate_among_distinct_patient_pairs": 0.00019047619047619048,
+     "M1_upper": 0.05826489665786589,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 3.587383590007195e-08,
+      "n_eff": 5305.5706080411965
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 4,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.0588534309675413,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   },
+   "OP-A": {
+    "tau": 0.988,
+    "FA": 12,
+    "M": 10506,
+    "genuine_accept": 0.8909313725490197,
+    "stats": {
+     "FA": 6,
+     "M": 10506,
+     "N": 103,
+     "same_patient_pairs": 6,
+     "same_patient_accepted": 6,
+     "p_hat": 0.0005711022272986865,
+     "FA_rate_among_distinct_patient_pairs": 0.0005714285714285715,
+     "M1_upper": 0.06012235392274928,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0015402461519798615
+      ],
+      "upper": 0.0013469309216855877,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.3624810402451578e-07,
+      "n_eff": 4189.240456821024
+     },
+     "disjoint": {
+      "pairs": 51,
+      "FA": 0,
+      "cp_upper95": 0.05704795236044276
+     },
+     "patients_involved_descriptive": 10,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 100
+     },
+     "M1_upper_finite_population": 0.06072965042701948,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    }
+   }
+  },
+  "log": [
+   "nih HRS64 T32 OP-A: 888 after 1 full checks",
+   "nih HRS64 T32 OP-B: 1136 after 1 full checks",
+   "nih HRS64 T64 OP-A: 888 after 1 full checks",
+   "nih HRS64 T64 OP-B: 1136 after 1 full checks",
+   "nih HRS64 T128 OP-A: 888 after 1 full checks",
+   "nih HRS64 T128 OP-B: 1146 after 1 full checks",
+   "nih HRS8 T32 OP-A: 782 after 1 full checks",
+   "nih HRS8 T32 OP-B: 919 after 1 full checks",
+   "nih HRS8 T64 OP-A: 782 after 1 full checks",
+   "nih HRS8 T64 OP-B: 919 after 1 full checks",
+   "nih HRS8 T128 OP-A: 918 after 1 full checks",
+   "nih HRS8 T128 OP-B: 919 after 1 full checks",
+   "nih DNA4 T32 OP-A: 920 after 1 full checks",
+   "nih DNA4 T32 OP-B: 921 after 1 full checks",
+   "nih DNA4 T64 OP-A: 920 after 1 full checks",
+   "nih DNA4 T64 OP-B: 921 after 1 full checks",
+   "nih DNA4 T128 OP-A: 64 after 1 full checks",
+   "nih DNA4 T128 OP-B: 788 after 1 full checks",
+   "nih BCH T32 OP-A: 1219 after 1 full checks",
+   "nih BCH T32 OP-B: 1194 after 1 full checks",
+   "nih BCH T64 OP-A: 1219 after 1 full checks",
+   "nih BCH T64 OP-B: 1194 after 1 full checks",
+   "nih BCH T128 OP-A: 1219 after 1 full checks",
+   "nih BCH T128 OP-B: 1194 after 1 full checks"
+  ]
+ }
+}

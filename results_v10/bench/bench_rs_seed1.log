@@ -1,0 +1,7 @@
+brats100 HRS64 {"cond": 2152, "n": 2400, "mism": 0} {"cond": 2, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2152, 'reject_fail': 248}, 'imp': {'reject_fail': 9898, 'accept_genuine': 2}} ms/gen 0.941 ms/imp 0.624
+brats100 HRS8 {"cond": 2060, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2060, 'reject_fail': 340}, 'imp': {'reject_fail': 9900}} ms/gen 1.025 ms/imp 0.090
+brats100 DNA4 {"cond": 2048, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2048, 'reject_fail': 351, 'reject_tag': 1}, 'imp': {'reject_fail': 9900}} ms/gen 2.190 ms/imp 0.093
+nih100 HRS8 {"cond": 1961, "n": 2400, "mism": 0} {"cond": 2, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 1961, 'reject_fail': 437, 'reject_tag': 2}, 'imp': {'reject_fail': 9898, 'accept_genuine': 2}} ms/gen 1.264 ms/imp 0.094
+nih100 DNA4 {"cond": 1930, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 1930, 'reject_fail': 461, 'reject_tag': 9}, 'imp': {'reject_fail': 9900}} ms/gen 1.062 ms/imp 0.025
+isic100 HRS8 {"cond": 2045, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2045, 'reject_fail': 355}, 'imp': {'reject_fail': 9900}} ms/gen 0.834 ms/imp 0.065
+isic100 DNA4 {"cond": 1989, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 1989, 'reject_fail': 392, 'reject_tag': 19}, 'imp': {'reject_fail': 9900}} ms/gen 0.866 ms/imp 0.025

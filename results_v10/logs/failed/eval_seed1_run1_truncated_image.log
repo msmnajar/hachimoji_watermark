@@ -1,0 +1,36 @@
+/home/claude/v3/experiments/eval_final_v10.py:64: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  f.write(json.dumps(dict(utc=datetime.datetime.utcnow().isoformat() + "Z", seed=seed, argv=sys.argv,
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/dist-packages/PIL/ImageFile.py", line 392, in load
+    s = read(read_bytes)
+  File "/usr/local/lib/python3.13/dist-packages/PIL/PngImagePlugin.py", line 1002, in load_read
+    cid, pos, length = self.png.read()
+                       ~~~~~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/PIL/PngImagePlugin.py", line 179, in read
+    length = i32(s)
+  File "/usr/local/lib/python3.13/dist-packages/PIL/_binary.py", line 96, in i32be
+    return unpack_from(">I", c, o)[0]
+           ~~~~~~~~~~~^^^^^^^^^^^^
+struct.error: unpack_from requires a buffer of at least 4 bytes for unpacking 4 bytes at offset 0 (actual buffer size is 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/claude/v3/experiments/eval_final_v10.py", line 176, in <module>
+    main(int(sys.argv[1]), sys.argv[2], sys.argv[3], sys.argv[4])
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/v3/experiments/eval_final_v10.py", line 151, in main
+    np.savez(fp, **FV.extract(M, mod, "untouched", weights, img_root))
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/v3/experiments/features_v10.py", line 76, in extract
+    args = [(load_image(mod, it, img_root), weights, i in gen) for i, it in enumerate(items)]
+             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/v3/experiments/features_v10.py", line 44, in load_image
+    return np.array(Image.open(os.path.join(img_root, mod, base.rsplit(".", 1)[0] + ".png")).convert("L"), np.uint8)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/PIL/Image.py", line 1069, in convert
+    self.load()
+    ~~~~~~~~~^^
+  File "/usr/local/lib/python3.13/dist-packages/PIL/ImageFile.py", line 399, in load
+    raise OSError(msg) from e
+OSError: image file is truncated

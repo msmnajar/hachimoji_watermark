@@ -1,0 +1,2 @@
+/home/claude/v3/experiments/eval_final_v10.py:64: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  f.write(json.dumps(dict(utc=datetime.datetime.utcnow().isoformat() + "Z", seed=seed, argv=sys.argv,

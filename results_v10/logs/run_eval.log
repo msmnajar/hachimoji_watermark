@@ -1,0 +1,14 @@
+seed 1 start 2026-10-28T12:55:19Z
+seed 0 start 2026-10-28T12:55:19Z
+seed 1 FAILED rc=1 2026-10-28T15:13:47Z
+seed 2 start 2026-10-28T15:13:57Z
+seed 1 start 2026-10-28T17:35:01Z
+interruption: container restart at ~17:33Z stopped seeds 0 and 2 (no exit status written); seed 1 re-run (17:35Z) unaffected. Seeds 0 and 2 re-run from the start under the guard; cached U features reused. 2026-10-28T19:35:47Z
+seed 0 start 2026-10-28T19:35:47Z
+seed 2 start 2026-10-28T19:35:49Z
+seed 1 DONE 2026-10-28T20:23:17Z
+interruption: container restart at ~23:05Z stopped seeds 0 (ISIC 12/15) and 2 (ISIC 8/18); all U features cached; re-run from the start under the guard 2026-10-28T23:06:52Z
+seed 0 start 2026-10-28T23:06:52Z
+seed 2 start 2026-10-28T23:06:54Z
+seed 0 DONE 2026-10-29T01:31:11Z
+seed 2 DONE 2026-10-29T01:43:57Z

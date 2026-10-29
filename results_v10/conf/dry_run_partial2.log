@@ -1,0 +1,19 @@
+brats HRS64|T32|OP-A 0 0 {'reject_fail': 9785, 'reject_tag': 107, 'accept_genuine': 8} 89s/2s
+brats HRS64|T32|OP-B 0 0 {'reject_fail': 9900} 86s/2s
+brats HRS64|T64|OP-A 0 0 {'reject_fail': 9785, 'reject_tag': 107, 'accept_genuine': 8} 89s/2s
+brats HRS64|T64|OP-B 0 0 {'reject_fail': 9900} 87s/1s
+brats HRS64|T128|OP-A 0 0 {'reject_fail': 9785, 'reject_tag': 107, 'accept_genuine': 8} 88s/1s
+brats HRS64|T128|OP-B 0 0 {'reject_fail': 9900} 88s/1s
+brats HRS8|T32|OP-A 0 0 {'reject_fail': 9892, 'accept_genuine': 7, 'reject_tag': 1} 326s/1s
+brats HRS8|T32|OP-B 0 0 {'reject_fail': 9900} 311s/1s
+brats HRS8|T64|OP-A 0 0 {'reject_fail': 9892, 'accept_genuine': 7, 'reject_tag': 1} 327s/1s
+brats HRS8|T64|OP-B 0 0 {'reject_fail': 9900} 314s/1s
+brats HRS8|T128|OP-A 0 0 {'reject_fail': 9852, 'reject_tag': 42, 'accept_genuine': 6} 562s/1s
+brats HRS8|T128|OP-B 0 0 {'reject_fail': 9900} 314s/1s
+brats DNA4|T32|OP-A 0 0 {'reject_fail': 9894, 'accept_genuine': 6} 851s/2s
+brats DNA4|T32|OP-B 0 0 {'reject_fail': 9900} 910s/1s
+brats DNA4|T64|OP-A 0 0 {'reject_fail': 9900} 912s/2s
+brats DNA4|T128|OP-A 0 0 {'reject_fail': 9900} 680s/1s
+brats BCH|T32|OP-A 0 0 {'reject_fail': 9894, 'accept_genuine': 6} 11584s/9s
+brats BCH|T32|OP-B 0 0 {'reject_fail': 9900} 4122s/16s
+brats BCH|T64|OP-A 0 0 {'reject_fail': 9894, 'accept_genuine': 6} 281s/12s

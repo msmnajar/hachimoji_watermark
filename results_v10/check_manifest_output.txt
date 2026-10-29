@@ -1,0 +1,4 @@
+nih untouched draws 1000 distinct 979
+manifest sha256 759339fe6931ab84c34df376936927fa458743200eb1b3a1492b85dafc5a9a2d
+sizes {'brats': {'pool': 90, 'test': 100, 'calib': 300, 'untouched': 842}, 'nih': {'pool': 100, 'test': 100, 'calib': 300, 'untouched': 1000}, 'isic': {'pool': 99, 'test': 100, 'calib': 300, 'untouched': 1557}}
+PASS: all checks

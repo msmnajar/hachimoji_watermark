@@ -1,0 +1,2 @@
+brats100 BCH {"cond": 2024, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2024, 'reject_fail': 376}, 'imp': {'reject_fail': 9900}} ms/gen 1.405 ms/imp 0.173
+isic100 BCH {"cond": 1996, "n": 2400, "mism": 0} {"cond": 1, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 1996, 'reject_fail': 404}, 'imp': {'reject_fail': 9899, 'accept_genuine': 1}} ms/gen 1.308 ms/imp 0.186

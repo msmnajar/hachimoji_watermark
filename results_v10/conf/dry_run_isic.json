@@ -1,0 +1,1866 @@
+{
+ "isic": {
+  "select_seconds": 201.95721793174744,
+  "n_selected": 24,
+  "none": [],
+  "hachimoji": [
+   [
+    "Hachimoji|T32|OP-A",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T32|OP-B",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T64|OP-A",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T64|OP-B",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T128|OP-A",
+    "HRS64"
+   ],
+   [
+    "Hachimoji|T128|OP-B",
+    "HRS64"
+   ]
+  ],
+  "nc_selection": {
+   "OP-A": {
+    "tau": 0.987,
+    "GAR": 0.9166666666666666,
+    "FA": 8
+   },
+   "OP-B": {
+    "tau": 1.0,
+    "GAR": 0.8627450980392157,
+    "FA": 0
+   }
+  },
+  "conformance": [
+   {
+    "label": "HRS64|T32|OP-A",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 0.9,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 36,
+     "s": 8,
+     "msg_bits": 216
+    },
+    "T": 32,
+    "seconds": 178.66096758842468,
+    "n_attempts": 10253,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T32|OP-B",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 1.0,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 24,
+     "s": 0,
+     "msg_bits": 144
+    },
+    "T": 32,
+    "seconds": 189.6480405330658,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T64|OP-A",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 0.9,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 36,
+     "s": 8,
+     "msg_bits": 216
+    },
+    "T": 64,
+    "seconds": 161.92820501327515,
+    "n_attempts": 10253,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T64|OP-B",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 1.0,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 24,
+     "s": 0,
+     "msg_bits": 144
+    },
+    "T": 64,
+    "seconds": 204.9997627735138,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T128|OP-A",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 0.9,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 36,
+     "s": 8,
+     "msg_bits": 216
+    },
+    "T": 128,
+    "seconds": 163.5921928882599,
+    "n_attempts": 10253,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS64|T128|OP-B",
+    "cfg": {
+     "fam": "HRS64",
+     "q": 1.0,
+     "il": true,
+     "m": 6,
+     "nblk": 1,
+     "nc": 63,
+     "k": 32,
+     "s": 8,
+     "msg_bits": 192
+    },
+    "T": 128,
+    "seconds": 162.24537706375122,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T32|OP-A",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.8,
+     "il": false,
+     "m": 3,
+     "nblk": 19,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 228
+    },
+    "T": 32,
+    "seconds": 333.3673574924469,
+    "n_attempts": 10252,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T32|OP-B",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 252
+    },
+    "T": 32,
+    "seconds": 313.5018620491028,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T64|OP-A",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.8,
+     "il": false,
+     "m": 3,
+     "nblk": 19,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 228
+    },
+    "T": 64,
+    "seconds": 329.22278451919556,
+    "n_attempts": 10252,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T64|OP-B",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 252
+    },
+    "T": 64,
+    "seconds": 318.9427230358124,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T128|OP-A",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.8,
+     "il": false,
+     "m": 3,
+     "nblk": 19,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 228
+    },
+    "T": 128,
+    "seconds": 327.3194854259491,
+    "n_attempts": 10252,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "HRS8|T128|OP-B",
+    "cfg": {
+     "fam": "HRS8",
+     "q": 0.9,
+     "il": true,
+     "m": 3,
+     "nblk": 21,
+     "nc": 7,
+     "k": 4,
+     "s": 2,
+     "msg_bits": 252
+    },
+    "T": 128,
+    "seconds": 312.4008083343506,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T32|OP-A",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.8,
+     "il": true,
+     "m": 2,
+     "nblk": 68,
+     "nc": 3,
+     "k": 1,
+     "s": 1,
+     "msg_bits": 136
+    },
+    "T": 32,
+    "seconds": 945.5548965930939,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T32|OP-B",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.7,
+     "il": false,
+     "m": 2,
+     "nblk": 59,
+     "nc": 3,
+     "k": 2,
+     "s": 0,
+     "msg_bits": 236
+    },
+    "T": 32,
+    "seconds": 781.8896086215973,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T64|OP-A",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.8,
+     "il": true,
+     "m": 2,
+     "nblk": 68,
+     "nc": 3,
+     "k": 1,
+     "s": 1,
+     "msg_bits": 136
+    },
+    "T": 64,
+    "seconds": 950.3958954811096,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T64|OP-B",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.7,
+     "il": false,
+     "m": 2,
+     "nblk": 59,
+     "nc": 3,
+     "k": 2,
+     "s": 0,
+     "msg_bits": 236
+    },
+    "T": 64,
+    "seconds": 810.1807405948639,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T128|OP-A",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.6,
+     "il": false,
+     "m": 2,
+     "nblk": 51,
+     "nc": 3,
+     "k": 2,
+     "s": 0,
+     "msg_bits": 204
+    },
+    "T": 128,
+    "seconds": 724.1375844478607,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "DNA4|T128|OP-B",
+    "cfg": {
+     "fam": "DNA4",
+     "q": 0.7,
+     "il": false,
+     "m": 2,
+     "nblk": 59,
+     "nc": 3,
+     "k": 2,
+     "s": 0,
+     "msg_bits": 236
+    },
+    "T": 128,
+    "seconds": 808.083291053772,
+    "n_attempts": 10251,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 300,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T32|OP-A",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 32,
+    "seconds": 619.6182401180267,
+    "n_attempts": 2823,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T32|OP-B",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": false,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 32,
+    "seconds": 83.78319787979126,
+    "n_attempts": 2816,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T64|OP-A",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 64,
+    "seconds": 632.7502362728119,
+    "n_attempts": 2823,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T64|OP-B",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": false,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 64,
+    "seconds": 90.27946019172668,
+    "n_attempts": 2816,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T128|OP-A",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": true,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 128,
+    "seconds": 656.2185573577881,
+    "n_attempts": 2823,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   },
+   {
+    "label": "BCH|T128|OP-B",
+    "cfg": {
+     "fam": "BCH",
+     "q": 1.0,
+     "il": false,
+     "m": 1,
+     "nblk": 2,
+     "nc": 255,
+     "k": 115,
+     "s": 12,
+     "t": 21,
+     "msg_bits": 230
+    },
+    "T": 128,
+    "seconds": 82.78062033653259,
+    "n_attempts": 2816,
+    "T1_mismatch": 0,
+    "T2_mismatch": 0,
+    "T3_n": 0,
+    "T3_mismatch": 0,
+    "helper_mismatch": 0,
+    "n_pipeline_pairs": 9900
+   }
+  ],
+  "evaluation": [
+   {
+    "label": "HRS64|T32|OP-A",
+    "seconds": 1.605752944946289,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9892,
+     "accept_genuine": 8
+    },
+    "FA": 8,
+    "FA_a": 8,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9154411764705882,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.002666199562819218
+      ],
+      "upper": 0.0023440923822501147,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 4.358453338045173e-07,
+      "n_eff": 1852.5558285558293
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 7,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS64|T32|OP-B",
+    "seconds": 2.206378698348999,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8602941176470589,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS64|T64|OP-A",
+    "seconds": 1.7286314964294434,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9892,
+     "accept_genuine": 8
+    },
+    "FA": 8,
+    "FA_a": 8,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9154411764705882,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.002666199562819218
+      ],
+      "upper": 0.0023440923822501147,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 4.358453338045173e-07,
+      "n_eff": 1852.5558285558293
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 7,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS64|T64|OP-B",
+    "seconds": 1.9877262115478516,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8602941176470589,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS64|T128|OP-A",
+    "seconds": 2.042213201522827,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9892,
+     "accept_genuine": 8
+    },
+    "FA": 8,
+    "FA_a": 8,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9154411764705882,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.002666199562819218
+      ],
+      "upper": 0.0023440923822501147,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 4.358453338045173e-07,
+      "n_eff": 1852.5558285558293
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 7,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS64|T128|OP-B",
+    "seconds": 2.287307024002075,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8247549019607843,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS8|T32|OP-A",
+    "seconds": 1.0398695468902588,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9892,
+     "accept_genuine": 8
+    },
+    "FA": 8,
+    "FA_a": 8,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9117647058823529,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.002349468339636878
+      ],
+      "upper": 0.0020387359836901123,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.675652821425414e-07,
+      "n_eff": 3017.685280477736
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 11,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS8|T32|OP-B",
+    "seconds": 1.0600647926330566,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8198529411764706,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS8|T64|OP-A",
+    "seconds": 1.2448668479919434,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9892,
+     "accept_genuine": 8
+    },
+    "FA": 8,
+    "FA_a": 8,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9117647058823529,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.002349468339636878
+      ],
+      "upper": 0.0020387359836901123,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.675652821425414e-07,
+      "n_eff": 3017.685280477736
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 11,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS8|T64|OP-B",
+    "seconds": 1.1354081630706787,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8198529411764706,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS8|T128|OP-A",
+    "seconds": 0.9976658821105957,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9892,
+     "accept_genuine": 8
+    },
+    "FA": 8,
+    "FA_a": 8,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9117647058823529,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.002349468339636878
+      ],
+      "upper": 0.0020387359836901123,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.675652821425414e-07,
+      "n_eff": 3017.685280477736
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 11,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "HRS8|T128|OP-B",
+    "seconds": 0.9140124320983887,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8198529411764706,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "DNA4|T32|OP-A",
+    "seconds": 1.7456188201904297,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9897,
+     "accept_genuine": 3
+    },
+    "FA": 3,
+    "FA_a": 3,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8970588235294118,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 3,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00030303030303030303,
+     "FA_rate_among_distinct_patient_pairs": 0.00030303030303030303,
+     "M1_upper": 0.05996549760095921,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0012244960445905245
+      ],
+      "upper": 0.0010199918400652795,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 8.035372466859352e-08,
+      "n_eff": 3770.061399333649
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 5,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.00030303030303030303,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "DNA4|T32|OP-B",
+    "seconds": 1.0550546646118164,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9899,
+     "reject_tag": 1
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 1,
+    "E_tag_idealized_expected_collisions": 2.3283064365386963e-10,
+    "genuine_accept": 0.866421568627451,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "DNA4|T64|OP-A",
+    "seconds": 1.935270071029663,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9897,
+     "accept_genuine": 3
+    },
+    "FA": 3,
+    "FA_a": 3,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8970588235294118,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 3,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00030303030303030303,
+     "FA_rate_among_distinct_patient_pairs": 0.00030303030303030303,
+     "M1_upper": 0.05996549760095921,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0012244960445905245
+      ],
+      "upper": 0.0010199918400652795,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 8.035372466859352e-08,
+      "n_eff": 3770.061399333649
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 5,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.00030303030303030303,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "DNA4|T64|OP-B",
+    "seconds": 0.8134639263153076,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9899,
+     "reject_tag": 1
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 1,
+    "E_tag_idealized_expected_collisions": 5.421010862427522e-20,
+    "genuine_accept": 0.866421568627451,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "DNA4|T128|OP-A",
+    "seconds": 0.624201774597168,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9897,
+     "accept_genuine": 2,
+     "reject_tag": 1
+    },
+    "FA": 2,
+    "FA_a": 2,
+    "FA_b": 0,
+    "E_tag": 1,
+    "E_tag_idealized_expected_collisions": 2.938735877055719e-39,
+    "genuine_accept": 0.8799019607843137,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 2,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00020202020202020202,
+     "FA_rate_among_distinct_patient_pairs": 0.00020202020202020202,
+     "M1_upper": 0.059437681300348606,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 6.142221885662118e-08,
+      "n_eff": 3288.376643143767
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 3,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.00020202020202020202,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "DNA4|T128|OP-B",
+    "seconds": 0.8667771816253662,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9899,
+     "reject_tag": 1
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 1,
+    "E_tag_idealized_expected_collisions": 2.938735877055719e-39,
+    "genuine_accept": 0.866421568627451,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "BCH|T32|OP-A",
+    "seconds": 9.649887561798096,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9893,
+     "accept_genuine": 7
+    },
+    "FA": 7,
+    "FA_a": 7,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9007352941176471,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 7,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0007070707070707071,
+     "FA_rate_among_distinct_patient_pairs": 0.0007070707070707071,
+     "M1_upper": 0.06183361302495733,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0022531399612925797
+      ],
+      "upper": 0.0019392108586087527,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.949107905376127e-07,
+      "n_eff": 2395.87963803513
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0007070707070707071,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "BCH|T32|OP-B",
+    "seconds": 10.5719313621521,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8774509803921569,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "BCH|T64|OP-A",
+    "seconds": 10.303164005279541,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9893,
+     "accept_genuine": 7
+    },
+    "FA": 7,
+    "FA_a": 7,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9007352941176471,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 7,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0007070707070707071,
+     "FA_rate_among_distinct_patient_pairs": 0.0007070707070707071,
+     "M1_upper": 0.06183361302495733,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0022531399612925797
+      ],
+      "upper": 0.0019392108586087527,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.949107905376127e-07,
+      "n_eff": 2395.87963803513
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0007070707070707071,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "BCH|T64|OP-B",
+    "seconds": 11.00597620010376,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8774509803921569,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "BCH|T128|OP-A",
+    "seconds": 9.263023853302002,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9893,
+     "accept_genuine": 7
+    },
+    "FA": 7,
+    "FA_a": 7,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9007352941176471,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 7,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0007070707070707071,
+     "FA_rate_among_distinct_patient_pairs": 0.0007070707070707071,
+     "M1_upper": 0.06183361302495733,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0022531399612925797
+      ],
+      "upper": 0.0019392108586087527,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.949107905376127e-07,
+      "n_eff": 2395.87963803513
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0007070707070707071,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   {
+    "label": "BCH|T128|OP-B",
+    "seconds": 12.680574655532837,
+    "N": 100,
+    "M": 9900,
+    "counts": {
+     "reject_fail": 9900
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8774509803921569,
+    "pair_count_check": true,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   }
+  ],
+  "nc": {
+   "uncalibrated": {
+    "tau": 1.0,
+    "FA": 0,
+    "M": 9900,
+    "genuine_accept": 0.8627450980392157,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   "OP-A": {
+    "tau": 0.987,
+    "FA": 8,
+    "M": 9900,
+    "genuine_accept": 0.9166666666666666,
+    "stats": {
+     "FA": 8,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0008080808080808081,
+     "FA_rate_among_distinct_patient_pairs": 0.0008080808080808081,
+     "M1_upper": 0.062262306350300785,
+     "M2": {
+      "ci": [
+       0.0,
+       0.0025636030197041587
+      ],
+      "upper": 0.0022453791162953484,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.5170530797352926e-07,
+      "n_eff": 2295.751002851483
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 9,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0008080808080808081,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   },
+   "OP-B": {
+    "tau": 1.0,
+    "FA": 0,
+    "M": 9900,
+    "genuine_accept": 0.8627450980392157,
+    "stats": {
+     "FA": 0,
+     "M": 9900,
+     "N": 100,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.05815507911697221,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 50,
+      "FA": 0,
+      "cp_upper95": 0.05815507911697225
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 100
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    }
+   }
+  },
+  "log": [
+   "isic HRS64 T32 OP-A: 886 after 1 full checks",
+   "isic HRS64 T32 OP-B: 1125 after 1 full checks",
+   "isic HRS64 T64 OP-A: 886 after 1 full checks",
+   "isic HRS64 T64 OP-B: 1125 after 1 full checks",
+   "isic HRS64 T128 OP-A: 886 after 1 full checks",
+   "isic HRS64 T128 OP-B: 1146 after 1 full checks",
+   "isic HRS8 T32 OP-A: 517 after 1 full checks",
+   "isic HRS8 T32 OP-B: 919 after 1 full checks",
+   "isic HRS8 T64 OP-A: 517 after 1 full checks",
+   "isic HRS8 T64 OP-B: 919 after 1 full checks",
+   "isic HRS8 T128 OP-A: 517 after 1 full checks",
+   "isic HRS8 T128 OP-B: 919 after 1 full checks",
+   "isic DNA4 T32 OP-A: 653 after 1 full checks",
+   "isic DNA4 T32 OP-B: 270 after 1 full checks",
+   "isic DNA4 T64 OP-A: 653 after 1 full checks",
+   "isic DNA4 T64 OP-B: 270 after 1 full checks",
+   "isic DNA4 T128 OP-A: 64 after 1 full checks",
+   "isic DNA4 T128 OP-B: 270 after 1 full checks",
+   "isic BCH T32 OP-A: 1219 after 1 full checks",
+   "isic BCH T32 OP-B: 1085 after 1 full checks",
+   "isic BCH T64 OP-A: 1219 after 1 full checks",
+   "isic BCH T64 OP-B: 1085 after 1 full checks",
+   "isic BCH T128 OP-A: 1219 after 1 full checks",
+   "isic BCH T128 OP-B: 1085 after 1 full checks"
+  ]
+ }
+}

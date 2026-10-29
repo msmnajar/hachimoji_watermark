@@ -1,0 +1,178 @@
+{
+ "brats100|HRS64": {
+  "cfg": {
+   "fam": "HRS64",
+   "q": 1.0,
+   "il": true,
+   "m": 6,
+   "nblk": 1,
+   "nc": 63,
+   "k": 20,
+   "s": 0,
+   "payload": 120
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 12300,
+  "tags": {
+   "32": 88,
+   "64": "infeasible (< 64 content bits)",
+   "128": "infeasible (< 64 content bits)"
+  },
+  "ms_per_attempt_creedsolo": 0.25183396610787245
+ },
+ "brats100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 0.8,
+   "il": true,
+   "m": 3,
+   "nblk": 19,
+   "nc": 7,
+   "k": 4,
+   "s": 2,
+   "payload": 228
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 36900,
+  "tags": {
+   "32": 196,
+   "64": 164,
+   "128": 100
+  },
+  "ms_per_attempt_creedsolo": 0.17124291034894906
+ },
+ "brats100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.8,
+   "il": true,
+   "m": 2,
+   "nblk": 68,
+   "nc": 3,
+   "k": 1,
+   "s": 1,
+   "payload": 136
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 24600,
+  "tags": {
+   "32": 104,
+   "64": 72,
+   "128": "infeasible (< 64 content bits)"
+  },
+  "ms_per_attempt_creedsolo": 0.26136337257013087
+ },
+ "nih100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 1.0,
+   "il": true,
+   "m": 3,
+   "nblk": 24,
+   "nc": 7,
+   "k": 4,
+   "s": 1,
+   "payload": 288
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 36900,
+  "tags": {
+   "32": 256,
+   "64": 224,
+   "128": 160
+  },
+  "ms_per_attempt_creedsolo": 0.2574877493426729
+ },
+ "nih100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.9,
+   "il": false,
+   "m": 2,
+   "nblk": 76,
+   "nc": 3,
+   "k": 2,
+   "s": 0,
+   "payload": 304
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 36900,
+  "tags": {
+   "32": 272,
+   "64": 240,
+   "128": 176
+  },
+  "ms_per_attempt_creedsolo": 0.19160514924584365
+ },
+ "isic100|HRS64": {
+  "cfg": {
+   "fam": "HRS64",
+   "q": 1.0,
+   "il": true,
+   "m": 6,
+   "nblk": 1,
+   "nc": 63,
+   "k": 28,
+   "s": 32,
+   "payload": 168
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 24600,
+  "tags": {
+   "32": 136,
+   "64": 104,
+   "128": "infeasible (< 64 content bits)"
+  },
+  "ms_per_attempt_creedsolo": 0.28226965811194443
+ },
+ "isic100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 1.0,
+   "il": true,
+   "m": 3,
+   "nblk": 24,
+   "nc": 7,
+   "k": 3,
+   "s": 3,
+   "payload": 216
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 36900,
+  "tags": {
+   "32": 184,
+   "64": 152,
+   "128": 88
+  },
+  "ms_per_attempt_creedsolo": 0.23652939938594333
+ },
+ "isic100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.9,
+   "il": false,
+   "m": 2,
+   "nblk": 76,
+   "nc": 3,
+   "k": 1,
+   "s": 1,
+   "payload": 152
+  },
+  "py_vs_c_mismatch": 0,
+  "msg_invariance_mismatch": 0,
+  "n": 24600,
+  "tags": {
+   "32": 120,
+   "64": 88,
+   "128": "infeasible (< 64 content bits)"
+  },
+  "ms_per_attempt_creedsolo": 0.37033822478317635
+ }
+}

@@ -1,0 +1,4 @@
+table time 19.0s
+condition_table vs Coder.condition: configs 40 mismatches 0
+NC table vs fast_nc mismatches 0 of 1560
+full_check 0 {'reject_fail': 1560} 0.0s

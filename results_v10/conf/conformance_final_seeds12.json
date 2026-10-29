@@ -1,0 +1,3068 @@
+{
+ "grs_selftest": {
+  "m6_n63_K20": 1.0,
+  "m6_n59_K28": 1.0,
+  "m6_n51_K16": 1.0,
+  "m6_n63_K44": 1.0,
+  "m3_n7_K1": 1.0,
+  "m3_n7_K4": 1.0,
+  "m2_n3_K1": 1.0,
+  "m2_n3_K2": 1.0
+ },
+ "interleave": {
+  "n": 400,
+  "mismatches": 0
+ },
+ "configs": [
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS64|T32|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 24,
+    "s": 4,
+    "msg_bits": 144
+   },
+   "T": 32,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10141,
+    "accept_genuine": 2267
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS64|T32|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 20,
+    "s": 12,
+    "msg_bits": 120
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10251,
+    "accept_genuine": 2149
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS64|T64|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 24,
+    "s": 4,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10141,
+    "accept_genuine": 2267
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS64|T64|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 24,
+    "s": 16,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10293,
+    "accept_genuine": 2107
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS64|T128|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 12,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10142,
+    "accept_genuine": 2266
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS64|T128|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 16,
+    "msg_bits": 264
+   },
+   "T": 128,
+   "n_attempts": 13326,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10203,
+    "reject_tag": 1033,
+    "accept_genuine": 2090
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS8|T32|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": false,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 204
+   },
+   "T": 32,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10167,
+    "accept_genuine": 2237,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS8|T32|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": true,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10279,
+    "accept_genuine": 2121
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS8|T64|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": false,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 204
+   },
+   "T": 64,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10167,
+    "accept_genuine": 2237,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS8|T64|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": true,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10279,
+    "accept_genuine": 2121
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS8|T128|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": false,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 204
+   },
+   "T": 128,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10167,
+    "accept_genuine": 2237,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "HRS8|T128|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": true,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10279,
+    "accept_genuine": 2121
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "DNA4|T32|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": true,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 118
+   },
+   "T": 32,
+   "n_attempts": 12407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10185,
+    "accept_genuine": 2222
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "DNA4|T32|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 236
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10343,
+    "accept_genuine": 2036,
+    "reject_tag": 21
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "DNA4|T64|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": true,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 136
+   },
+   "T": 64,
+   "n_attempts": 12401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10288,
+    "accept_genuine": 2112,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "DNA4|T64|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 236
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10343,
+    "accept_genuine": 2036,
+    "reject_tag": 21
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "DNA4|T128|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.6,
+    "il": true,
+    "m": 2,
+    "nblk": 51,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 204
+   },
+   "T": 128,
+   "n_attempts": 12401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10292,
+    "accept_genuine": 2109
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "DNA4|T128|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 236
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10343,
+    "accept_genuine": 2036,
+    "reject_tag": 21
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "BCH|T32|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 87,
+    "s": 4,
+    "t": 26,
+    "msg_bits": 174
+   },
+   "T": 32,
+   "n_attempts": 4407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2152,
+    "accept_genuine": 2255
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "BCH|T32|OP-B",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": false,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 36,
+    "s": 2,
+    "t": 5,
+    "msg_bits": 252
+   },
+   "T": 32,
+   "n_attempts": 4401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2279,
+    "accept_genuine": 2121,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "BCH|T64|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 87,
+    "s": 4,
+    "t": 26,
+    "msg_bits": 174
+   },
+   "T": 64,
+   "n_attempts": 4407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2152,
+    "accept_genuine": 2255
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "BCH|T64|OP-B",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": false,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 36,
+    "s": 2,
+    "t": 5,
+    "msg_bits": 252
+   },
+   "T": 64,
+   "n_attempts": 4401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2279,
+    "accept_genuine": 2121,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "BCH|T128|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 30,
+    "s": 0,
+    "t": 6,
+    "msg_bits": 210
+   },
+   "T": 128,
+   "n_attempts": 4407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2153,
+    "accept_genuine": 2254
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "brats",
+   "label": "BCH|T128|OP-B",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": false,
+    "m": 1,
+    "nblk": 7,
+    "nc": 63,
+    "k": 36,
+    "s": 2,
+    "t": 5,
+    "msg_bits": 252
+   },
+   "T": 128,
+   "n_attempts": 4401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2279,
+    "accept_genuine": 2121,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS64|T32|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 12,
+    "msg_bits": 240
+   },
+   "T": 32,
+   "n_attempts": 12410,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10409,
+    "accept_genuine": 1998,
+    "reject_tag": 3
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS64|T32|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 0,
+    "msg_bits": 264
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10452,
+    "accept_genuine": 1948
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS64|T64|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 12,
+    "msg_bits": 240
+   },
+   "T": 64,
+   "n_attempts": 12410,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10409,
+    "accept_genuine": 1998,
+    "reject_tag": 3
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS64|T64|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 0,
+    "msg_bits": 264
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10452,
+    "accept_genuine": 1948
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS64|T128|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 12,
+    "msg_bits": 240
+   },
+   "T": 128,
+   "n_attempts": 12410,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10409,
+    "accept_genuine": 1998,
+    "reject_tag": 3
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS64|T128|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 0,
+    "msg_bits": 264
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10452,
+    "accept_genuine": 1948
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS8|T32|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 12406,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10442,
+    "accept_genuine": 1960,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS8|T32|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 288
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10553,
+    "accept_genuine": 1845,
+    "reject_tag": 2
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS8|T64|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 12406,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10442,
+    "accept_genuine": 1960,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS8|T64|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 288
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10553,
+    "accept_genuine": 1845,
+    "reject_tag": 2
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS8|T128|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 12406,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10442,
+    "accept_genuine": 1960,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "HRS8|T128|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 288
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10553,
+    "accept_genuine": 1845,
+    "reject_tag": 2
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "DNA4|T32|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 32,
+   "n_attempts": 12401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10473,
+    "accept_genuine": 1917,
+    "reject_tag": 11
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "DNA4|T32|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": true,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 170
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10614,
+    "accept_genuine": 1786
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "DNA4|T64|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 64,
+   "n_attempts": 12401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10473,
+    "accept_genuine": 1917,
+    "reject_tag": 11
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "DNA4|T64|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": true,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 170
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10614,
+    "accept_genuine": 1786
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "DNA4|T128|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 128,
+   "n_attempts": 12401,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10473,
+    "accept_genuine": 1917,
+    "reject_tag": 11
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "nih",
+   "label": "DNA4|T128|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 1.0,
+    "il": false,
+    "m": 2,
+    "nblk": 85,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 340
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 11304,
+    "accept_genuine": 1094,
+    "reject_tag": 2
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS64|T32|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 24,
+    "msg_bits": 192
+   },
+   "T": 32,
+   "n_attempts": 12456,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10399,
+    "accept_genuine": 2004,
+    "reject_tag": 53
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS64|T32|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 16,
+    "msg_bits": 240
+   },
+   "T": 32,
+   "n_attempts": 12471,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10545,
+    "reject_tag": 86,
+    "accept_genuine": 1840
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS64|T64|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 24,
+    "msg_bits": 192
+   },
+   "T": 64,
+   "n_attempts": 12456,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10399,
+    "accept_genuine": 2004,
+    "reject_tag": 53
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS64|T64|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 16,
+    "msg_bits": 240
+   },
+   "T": 64,
+   "n_attempts": 12471,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10545,
+    "reject_tag": 86,
+    "accept_genuine": 1840
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS64|T128|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 24,
+    "msg_bits": 192
+   },
+   "T": 128,
+   "n_attempts": 12456,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10399,
+    "accept_genuine": 2004,
+    "reject_tag": 53
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS64|T128|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 16,
+    "msg_bits": 240
+   },
+   "T": 128,
+   "n_attempts": 12471,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10545,
+    "reject_tag": 86,
+    "accept_genuine": 1840
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS8|T32|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 2,
+    "s": 4,
+    "msg_bits": 144
+   },
+   "T": 32,
+   "n_attempts": 12405,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10434,
+    "accept_genuine": 1969,
+    "reject_tag": 2
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS8|T32|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10605,
+    "accept_genuine": 1794,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS8|T64|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 2,
+    "s": 4,
+    "msg_bits": 144
+   },
+   "T": 64,
+   "n_attempts": 12405,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10434,
+    "accept_genuine": 1969,
+    "reject_tag": 2
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS8|T64|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10605,
+    "accept_genuine": 1794,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "HRS8|T128|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10605,
+    "accept_genuine": 1794,
+    "reject_tag": 1
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "DNA4|T32|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": false,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 272
+   },
+   "T": 32,
+   "n_attempts": 12403,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10411,
+    "accept_genuine": 1979,
+    "reject_tag": 13
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "DNA4|T32|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10632,
+    "accept_genuine": 1760,
+    "reject_tag": 8
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "DNA4|T64|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": false,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 272
+   },
+   "T": 64,
+   "n_attempts": 12403,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10411,
+    "accept_genuine": 1979,
+    "reject_tag": 13
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "DNA4|T64|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10632,
+    "accept_genuine": 1760,
+    "reject_tag": 8
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "DNA4|T128|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.8,
+    "il": false,
+    "m": 2,
+    "nblk": 68,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 272
+   },
+   "T": 128,
+   "n_attempts": 12403,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10411,
+    "accept_genuine": 1979,
+    "reject_tag": 13
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "DNA4|T128|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10632,
+    "accept_genuine": 1760,
+    "reject_tag": 8
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "BCH|T32|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 30,
+    "s": 6,
+    "t": 6,
+    "msg_bits": 240
+   },
+   "T": 32,
+   "n_attempts": 4407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2445,
+    "accept_genuine": 1962
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "BCH|T64|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 30,
+    "s": 6,
+    "t": 6,
+    "msg_bits": 240
+   },
+   "T": 64,
+   "n_attempts": 4407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2445,
+    "accept_genuine": 1962
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 1,
+   "modality": "isic",
+   "label": "BCH|T128|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 30,
+    "s": 6,
+    "t": 6,
+    "msg_bits": 240
+   },
+   "T": 128,
+   "n_attempts": 4407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2445,
+    "accept_genuine": 1962
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS64|T32|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 8,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 12407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10146,
+    "accept_genuine": 2261
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS64|T32|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 28,
+    "s": 12,
+    "msg_bits": 168
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10176,
+    "accept_genuine": 2224
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS64|T64|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 8,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 12407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10146,
+    "accept_genuine": 2261
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS64|T64|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.9,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 28,
+    "s": 12,
+    "msg_bits": 168
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10176,
+    "accept_genuine": 2224
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS64|T128|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 36,
+    "s": 8,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 12407,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10146,
+    "accept_genuine": 2261
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS64|T128|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 0.8,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 8,
+    "msg_bits": 264
+   },
+   "T": 128,
+   "n_attempts": 12403,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10204,
+    "accept_genuine": 2195,
+    "reject_tag": 4
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS8|T32|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": true,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 204
+   },
+   "T": 32,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10199,
+    "accept_genuine": 2209
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS8|T32|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": false,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10261,
+    "accept_genuine": 2136,
+    "reject_tag": 3
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS8|T64|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": true,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 204
+   },
+   "T": 64,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10199,
+    "accept_genuine": 2209
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS8|T64|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": false,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10261,
+    "accept_genuine": 2136,
+    "reject_tag": 3
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS8|T128|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.7,
+    "il": true,
+    "m": 3,
+    "nblk": 17,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 204
+   },
+   "T": 128,
+   "n_attempts": 12408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10199,
+    "accept_genuine": 2209
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "HRS8|T128|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 0.8,
+    "il": false,
+    "m": 3,
+    "nblk": 19,
+    "nc": 7,
+    "k": 4,
+    "s": 2,
+    "msg_bits": 228
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10261,
+    "accept_genuine": 2136,
+    "reject_tag": 3
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "DNA4|T32|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": true,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 1,
+    "s": 1,
+    "msg_bits": 118
+   },
+   "T": 32,
+   "n_attempts": 12404,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10206,
+    "accept_genuine": 2198
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "DNA4|T32|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 236
+   },
+   "T": 32,
+   "n_attempts": 12402,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10345,
+    "accept_genuine": 2021,
+    "reject_tag": 36
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "DNA4|T64|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.6,
+    "il": false,
+    "m": 2,
+    "nblk": 51,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 204
+   },
+   "T": 64,
+   "n_attempts": 12404,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10248,
+    "accept_genuine": 2122,
+    "reject_tag": 34
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "DNA4|T64|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 236
+   },
+   "T": 64,
+   "n_attempts": 12402,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10345,
+    "accept_genuine": 2021,
+    "reject_tag": 36
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "DNA4|T128|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.6,
+    "il": false,
+    "m": 2,
+    "nblk": 51,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 204
+   },
+   "T": 128,
+   "n_attempts": 12404,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10248,
+    "accept_genuine": 2122,
+    "reject_tag": 34
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "DNA4|T128|OP-B",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.7,
+    "il": false,
+    "m": 2,
+    "nblk": 59,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 236
+   },
+   "T": 128,
+   "n_attempts": 12402,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10345,
+    "accept_genuine": 2021,
+    "reject_tag": 36
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "BCH|T32|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 230,
+    "k": 106,
+    "s": 16,
+    "t": 18,
+    "msg_bits": 212
+   },
+   "T": 32,
+   "n_attempts": 4404,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2146,
+    "accept_genuine": 2258
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "BCH|T32|OP-B",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 16,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 32,
+   "n_attempts": 4400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2229,
+    "accept_genuine": 2171
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "BCH|T64|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 230,
+    "k": 106,
+    "s": 16,
+    "t": 18,
+    "msg_bits": 212
+   },
+   "T": 64,
+   "n_attempts": 4404,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2146,
+    "accept_genuine": 2258
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "BCH|T64|OP-B",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 16,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 64,
+   "n_attempts": 4400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2229,
+    "accept_genuine": 2171
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "BCH|T128|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 0.9,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 230,
+    "k": 106,
+    "s": 16,
+    "t": 18,
+    "msg_bits": 212
+   },
+   "T": 128,
+   "n_attempts": 4404,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2146,
+    "accept_genuine": 2258
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "brats",
+   "label": "BCH|T128|OP-B",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": true,
+    "m": 1,
+    "nblk": 2,
+    "nc": 255,
+    "k": 99,
+    "s": 16,
+    "t": 23,
+    "msg_bits": 198
+   },
+   "T": 128,
+   "n_attempts": 4400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2229,
+    "accept_genuine": 2171
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS64|T32|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 12,
+    "msg_bits": 264
+   },
+   "T": 32,
+   "n_attempts": 12512,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10346,
+    "reject_tag": 118,
+    "accept_genuine": 2048
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS64|T32|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 20,
+    "msg_bits": 240
+   },
+   "T": 32,
+   "n_attempts": 13198,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10361,
+    "reject_tag": 909,
+    "accept_genuine": 1928
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS64|T64|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 12,
+    "msg_bits": 264
+   },
+   "T": 64,
+   "n_attempts": 12512,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10346,
+    "reject_tag": 118,
+    "accept_genuine": 2048
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS64|T64|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 20,
+    "msg_bits": 240
+   },
+   "T": 64,
+   "n_attempts": 13198,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10361,
+    "reject_tag": 909,
+    "accept_genuine": 1928
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS64|T128|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": false,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 44,
+    "s": 12,
+    "msg_bits": 264
+   },
+   "T": 128,
+   "n_attempts": 12512,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10346,
+    "reject_tag": 118,
+    "accept_genuine": 2048
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS64|T128|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 40,
+    "s": 20,
+    "msg_bits": 240
+   },
+   "T": 128,
+   "n_attempts": 13198,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10361,
+    "reject_tag": 909,
+    "accept_genuine": 1928
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS8|T32|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 32,
+   "n_attempts": 12406,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10431,
+    "accept_genuine": 1968,
+    "reject_tag": 7
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS8|T32|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 288
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10651,
+    "accept_genuine": 1749
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS8|T64|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 64,
+   "n_attempts": 12406,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10431,
+    "accept_genuine": 1968,
+    "reject_tag": 7
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS8|T64|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 288
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10651,
+    "accept_genuine": 1749
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS8|T128|OP-A",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": false,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 3,
+    "s": 3,
+    "msg_bits": 216
+   },
+   "T": 128,
+   "n_attempts": 12406,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10431,
+    "accept_genuine": 1968,
+    "reject_tag": 7
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "HRS8|T128|OP-B",
+   "cfg": {
+    "fam": "HRS8",
+    "q": 1.0,
+    "il": true,
+    "m": 3,
+    "nblk": 24,
+    "nc": 7,
+    "k": 4,
+    "s": 0,
+    "msg_bits": 288
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10651,
+    "accept_genuine": 1749
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "DNA4|T32|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 32,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10434,
+    "accept_genuine": 1947,
+    "reject_tag": 19
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "DNA4|T64|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 64,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10434,
+    "accept_genuine": 1947,
+    "reject_tag": 19
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "DNA4|T128|OP-A",
+   "cfg": {
+    "fam": "DNA4",
+    "q": 0.9,
+    "il": false,
+    "m": 2,
+    "nblk": 76,
+    "nc": 3,
+    "k": 2,
+    "s": 0,
+    "msg_bits": 304
+   },
+   "T": 128,
+   "n_attempts": 12400,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 300,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10434,
+    "accept_genuine": 1947,
+    "reject_tag": 19
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "BCH|T32|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 36,
+    "s": 6,
+    "t": 5,
+    "msg_bits": 288
+   },
+   "T": 32,
+   "n_attempts": 4408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2420,
+    "accept_genuine": 1988
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "BCH|T64|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 36,
+    "s": 6,
+    "t": 5,
+    "msg_bits": 288
+   },
+   "T": 64,
+   "n_attempts": 4408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2420,
+    "accept_genuine": 1988
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "nih",
+   "label": "BCH|T128|OP-A",
+   "cfg": {
+    "fam": "BCH",
+    "q": 1.0,
+    "il": false,
+    "m": 1,
+    "nblk": 8,
+    "nc": 63,
+    "k": 36,
+    "s": 6,
+    "t": 5,
+    "msg_bits": 288
+   },
+   "T": 128,
+   "n_attempts": 4408,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 2420,
+    "accept_genuine": 1988
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "isic",
+   "label": "HRS64|T32|OP-A",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 28,
+    "s": 28,
+    "msg_bits": 168
+   },
+   "T": 32,
+   "n_attempts": 12441,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10347,
+    "accept_genuine": 2059,
+    "reject_tag": 35
+   },
+   "n_pipeline_pairs": 89700
+  },
+  {
+   "seed": 2,
+   "modality": "isic",
+   "label": "HRS64|T32|OP-B",
+   "cfg": {
+    "fam": "HRS64",
+    "q": 1.0,
+    "il": true,
+    "m": 6,
+    "nblk": 1,
+    "nc": 63,
+    "k": 32,
+    "s": 28,
+    "msg_bits": 192
+   },
+   "T": 32,
+   "n_attempts": 13059,
+   "T1_mismatch": 0,
+   "T2_mismatch": 0,
+   "T3_mismatch": 0,
+   "T3_n": 0,
+   "helper_mismatch": 0,
+   "status": {
+    "reject_fail": 10378,
+    "reject_tag": 735,
+    "accept_genuine": 1946
+   },
+   "n_pipeline_pairs": 89700
+  }
+ ]
+}

@@ -1,0 +1,4922 @@
+{
+ "seed": 1,
+ "freeze_record_sha256": "801fd0cf48dd2d1a74443d9ee1e54408d652f71f3476cb87b09e054fa3a2a47a",
+ "modalities": {
+  "brats": {
+   "BCH|T128|OP-A": {
+    "cfg": {
+     "fam": "BCH",
+     "il": true,
+     "k": 30,
+     "m": 1,
+     "msg_bits": 210,
+     "nblk": 7,
+     "nc": 63,
+     "q": 0.9,
+     "s": 0,
+     "t": 6
+    },
+    "T": 128,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708031,
+     "accept_genuine": 90,
+     "reject_tag": 1
+    },
+    "FA": 90,
+    "FA_a": 90,
+    "FA_b": 0,
+    "E_tag": 1,
+    "E_tag_idealized_expected_collisions": 2.938735877055719e-39,
+    "genuine_accept": 0.9345833333333333,
+    "genuine_status": {
+     "accept_genuine": 4486,
+     "reject_fail": 313,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.995,
+     0.895,
+     1.0,
+     0.99,
+     0.79,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.9,
+     0.035,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.825,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.0564236342906952,
+    "stats": {
+     "FA": 90,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00012709674321656437,
+     "FA_rate_among_distinct_patient_pairs": 0.00012709674321656437,
+     "M1_upper": 0.00773595214425965,
+     "M2": {
+      "ci": [
+       7.493620172199416e-05,
+       0.00019086944212136226
+      ],
+      "upper": 0.00017822908904117172,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.915232247982442e-10,
+      "n_eff": 183769.08407017653
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 121,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.00012709674321656437,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 90,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9897,
+      "accept_genuine": 3
+     },
+     "FA": 3,
+     "FA_a": 3,
+     "FA_b": 0,
+     "genuine_accept": 0.9320833333333334
+    }
+   },
+   "BCH|T128|OP-B": {
+    "cfg": {
+     "fam": "BCH",
+     "il": false,
+     "k": 36,
+     "m": 1,
+     "msg_bits": 252,
+     "nblk": 7,
+     "nc": 63,
+     "q": 0.9,
+     "s": 2,
+     "t": 5
+    },
+    "T": 128,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708111,
+     "accept_genuine": 11
+    },
+    "FA": 11,
+    "FA_a": 11,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.86875,
+    "genuine_status": {
+     "accept_genuine": 4170,
+     "reject_fail": 630
+    },
+    "genuine_per_op": [
+     1.0,
+     0.995,
+     0.885,
+     0.71,
+     0.985,
+     0.845,
+     0.555,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.98,
+     0.92,
+     0.48,
+     0.005,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.49,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.9668692449728647,
+    "stats": {
+     "FA": 11,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.5534046393135645e-05,
+     "FA_rate_among_distinct_patient_pairs": 1.5534046393135645e-05,
+     "M1_upper": 0.0072007115257679,
+     "M2": {
+      "ci": [
+       1.4139787637401533e-06,
+       3.962716695526959e-05
+      ],
+      "upper": 3.534451143612921e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.689706607381087e-11,
+      "n_eff": 232204.57933684383
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 17,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 1.5534046393135645e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 11,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8554166666666667
+    }
+   },
+   "BCH|T32|OP-A": {
+    "cfg": {
+     "fam": "BCH",
+     "il": true,
+     "k": 87,
+     "m": 1,
+     "msg_bits": 174,
+     "nblk": 2,
+     "nc": 255,
+     "q": 1.0,
+     "s": 4,
+     "t": 26
+    },
+    "T": 32,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708058,
+     "accept_genuine": 64
+    },
+    "FA": 64,
+    "FA_a": 64,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9333333333333333,
+    "genuine_status": {
+     "accept_genuine": 4480,
+     "reject_fail": 320
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.995,
+     0.895,
+     1.0,
+     0.99,
+     0.795,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.875,
+     0.025,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.825,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 4.418923159440358,
+    "stats": {
+     "FA": 64,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 9.037990628733467e-05,
+     "FA_rate_among_distinct_patient_pairs": 9.037990628733467e-05,
+     "M1_upper": 0.007578250148808697,
+     "M2": {
+      "ci": [
+       4.100248531628955e-05,
+       0.00015132211875481776
+      ],
+      "upper": 0.00014138600131631456,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.255198943996605e-10,
+      "n_eff": 144474.60195747728
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 67,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 9.037990628733467e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 64,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.93125
+    }
+   },
+   "BCH|T32|OP-B": {
+    "cfg": {
+     "fam": "BCH",
+     "il": false,
+     "k": 36,
+     "m": 1,
+     "msg_bits": 252,
+     "nblk": 7,
+     "nc": 63,
+     "q": 0.9,
+     "s": 2,
+     "t": 5
+    },
+    "T": 32,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708111,
+     "accept_genuine": 11
+    },
+    "FA": 11,
+    "FA_a": 11,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.86875,
+    "genuine_status": {
+     "accept_genuine": 4170,
+     "reject_fail": 630
+    },
+    "genuine_per_op": [
+     1.0,
+     0.995,
+     0.885,
+     0.71,
+     0.985,
+     0.845,
+     0.555,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.98,
+     0.92,
+     0.48,
+     0.005,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.49,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.1216390132904053,
+    "stats": {
+     "FA": 11,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.5534046393135645e-05,
+     "FA_rate_among_distinct_patient_pairs": 1.5534046393135645e-05,
+     "M1_upper": 0.0072007115257679,
+     "M2": {
+      "ci": [
+       1.4139787637401533e-06,
+       3.962716695526959e-05
+      ],
+      "upper": 3.534451143612921e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.689706607381087e-11,
+      "n_eff": 232204.57933684383
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 17,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 1.5534046393135645e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 11,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8554166666666667
+    }
+   },
+   "BCH|T64|OP-A": {
+    "cfg": {
+     "fam": "BCH",
+     "il": true,
+     "k": 87,
+     "m": 1,
+     "msg_bits": 174,
+     "nblk": 2,
+     "nc": 255,
+     "q": 1.0,
+     "s": 4,
+     "t": 26
+    },
+    "T": 64,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708058,
+     "accept_genuine": 64
+    },
+    "FA": 64,
+    "FA_a": 64,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9333333333333333,
+    "genuine_status": {
+     "accept_genuine": 4480,
+     "reject_fail": 320
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.995,
+     0.895,
+     1.0,
+     0.99,
+     0.795,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.875,
+     0.025,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.825,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 4.526844322681427,
+    "stats": {
+     "FA": 64,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 9.037990628733467e-05,
+     "FA_rate_among_distinct_patient_pairs": 9.037990628733467e-05,
+     "M1_upper": 0.007578250148808697,
+     "M2": {
+      "ci": [
+       4.100248531628955e-05,
+       0.00015132211875481776
+      ],
+      "upper": 0.00014138600131631456,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.255198943996605e-10,
+      "n_eff": 144474.60195747728
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 67,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 9.037990628733467e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 64,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.93125
+    }
+   },
+   "BCH|T64|OP-B": {
+    "cfg": {
+     "fam": "BCH",
+     "il": false,
+     "k": 36,
+     "m": 1,
+     "msg_bits": 252,
+     "nblk": 7,
+     "nc": 63,
+     "q": 0.9,
+     "s": 2,
+     "t": 5
+    },
+    "T": 64,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708111,
+     "accept_genuine": 11
+    },
+    "FA": 11,
+    "FA_a": 11,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.86875,
+    "genuine_status": {
+     "accept_genuine": 4170,
+     "reject_fail": 630
+    },
+    "genuine_per_op": [
+     1.0,
+     0.995,
+     0.885,
+     0.71,
+     0.985,
+     0.845,
+     0.555,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.98,
+     0.92,
+     0.48,
+     0.005,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.49,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.023564835389455,
+    "stats": {
+     "FA": 11,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.5534046393135645e-05,
+     "FA_rate_among_distinct_patient_pairs": 1.5534046393135645e-05,
+     "M1_upper": 0.0072007115257679,
+     "M2": {
+      "ci": [
+       1.4139787637401533e-06,
+       3.962716695526959e-05
+      ],
+      "upper": 3.534451143612921e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.689706607381087e-11,
+      "n_eff": 232204.57933684383
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 17,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 1.5534046393135645e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 11,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8554166666666667
+    }
+   },
+   "DNA4|T128|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": true,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 204,
+     "nblk": 51,
+     "nc": 3,
+     "q": 0.6,
+     "s": 0
+    },
+    "T": 128,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708115,
+     "accept_genuine": 7
+    },
+    "FA": 7,
+    "FA_a": 7,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.865,
+    "genuine_status": {
+     "accept_genuine": 4152,
+     "reject_fail": 648
+    },
+    "genuine_per_op": [
+     1.0,
+     0.97,
+     0.93,
+     0.685,
+     1.0,
+     0.86,
+     0.55,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.925,
+     0.405,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.435,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.7127690811951956,
+    "stats": {
+     "FA": 7,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 9.88530225017723e-06,
+     "FA_rate_among_distinct_patient_pairs": 9.88530225017723e-06,
+     "M1_upper": 0.007165021696944718,
+     "M2": {
+      "ci": [
+       0.0,
+       2.5449410072472388e-05
+      ],
+      "upper": 2.2620663212405733e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.7553680710901688e-11,
+      "n_eff": 358761.6708886934
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 14,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 9.88530225017723e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 7,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8520833333333333
+    }
+   },
+   "DNA4|T128|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 236,
+     "nblk": 59,
+     "nc": 3,
+     "q": 0.7,
+     "s": 0
+    },
+    "T": 128,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708118,
+     "reject_tag": 4
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 4,
+    "E_tag_idealized_expected_collisions": 1.1754943508222875e-38,
+    "genuine_accept": 0.824375,
+    "genuine_status": {
+     "accept_genuine": 3957,
+     "reject_fail": 789,
+     "reject_tag": 54
+    },
+    "genuine_per_op": [
+     1.0,
+     0.965,
+     0.825,
+     0.51,
+     0.99,
+     0.71,
+     0.405,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     0.81,
+     0.3,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.285,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.7879104216893514,
+    "stats": {
+     "FA": 0,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.007090496587222661,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 0,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8095833333333333
+    }
+   },
+   "DNA4|T32|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": true,
+     "k": 1,
+     "m": 2,
+     "msg_bits": 118,
+     "nblk": 59,
+     "nc": 3,
+     "q": 0.7,
+     "s": 1
+    },
+    "T": 32,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708075,
+     "accept_genuine": 46,
+     "reject_tag": 1
+    },
+    "FA": 46,
+    "FA_a": 46,
+    "FA_b": 0,
+    "E_tag": 1,
+    "E_tag_idealized_expected_collisions": 2.3283064365386963e-10,
+    "genuine_accept": 0.914375,
+    "genuine_status": {
+     "accept_genuine": 4389,
+     "reject_fail": 411
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.985,
+     0.82,
+     1.0,
+     0.965,
+     0.735,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.72,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.73,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.7045288781325023,
+    "stats": {
+     "FA": 46,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 6.49605576440218e-05,
+     "FA_rate_among_distinct_patient_pairs": 6.49605576440218e-05,
+     "M1_upper": 0.00746137763378757,
+     "M2": {
+      "ci": [
+       2.9654173752988676e-05,
+       0.00011311391872566709
+      ],
+      "upper": 0.00010320880415081829,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.76158133183369e-10,
+      "n_eff": 172683.59245686588
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 62,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 6.49605576440218e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 46,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.91
+    }
+   },
+   "DNA4|T32|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 236,
+     "nblk": 59,
+     "nc": 3,
+     "q": 0.7,
+     "s": 0
+    },
+    "T": 32,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708118,
+     "reject_tag": 4
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 4,
+    "E_tag_idealized_expected_collisions": 9.313225746154785e-10,
+    "genuine_accept": 0.824375,
+    "genuine_status": {
+     "accept_genuine": 3957,
+     "reject_fail": 789,
+     "reject_tag": 54
+    },
+    "genuine_per_op": [
+     1.0,
+     0.965,
+     0.825,
+     0.51,
+     0.99,
+     0.71,
+     0.405,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     0.81,
+     0.3,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.285,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.8111994465192159,
+    "stats": {
+     "FA": 0,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.007090496587222661,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 0,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8095833333333333
+    }
+   },
+   "DNA4|T64|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": true,
+     "k": 1,
+     "m": 2,
+     "msg_bits": 136,
+     "nblk": 68,
+     "nc": 3,
+     "q": 0.8,
+     "s": 1
+    },
+    "T": 64,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708118,
+     "accept_genuine": 4
+    },
+    "FA": 4,
+    "FA_a": 4,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8677083333333333,
+    "genuine_status": {
+     "accept_genuine": 4165,
+     "reject_fail": 633,
+     "reject_tag": 2
+    },
+    "genuine_per_op": [
+     1.0,
+     0.995,
+     0.895,
+     0.685,
+     0.995,
+     0.83,
+     0.54,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     0.965,
+     0.455,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.48,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.9103880723317463,
+    "stats": {
+     "FA": 4,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.648744142958417e-06,
+     "FA_rate_among_distinct_patient_pairs": 5.648744142958417e-06,
+     "M1_upper": 0.007136198864476085,
+     "M2": {
+      "ci": [
+       0.0,
+       1.6967944301039268e-05
+      ],
+      "upper": 1.4210617981926826e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.585905432221671e-11,
+      "n_eff": 356182.1606686112
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 5.648744142958417e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 4,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8533333333333334
+    }
+   },
+   "DNA4|T64|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 236,
+     "nblk": 59,
+     "nc": 3,
+     "q": 0.7,
+     "s": 0
+    },
+    "T": 64,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708118,
+     "reject_tag": 4
+    },
+    "FA": 0,
+    "FA_a": 0,
+    "FA_b": 0,
+    "E_tag": 4,
+    "E_tag_idealized_expected_collisions": 2.168404344971009e-19,
+    "genuine_accept": 0.824375,
+    "genuine_status": {
+     "accept_genuine": 3957,
+     "reject_fail": 789,
+     "reject_tag": 54
+    },
+    "genuine_per_op": [
+     1.0,
+     0.965,
+     0.825,
+     0.51,
+     0.99,
+     0.71,
+     0.405,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     0.81,
+     0.3,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.285,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.7844456533590952,
+    "stats": {
+     "FA": 0,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.007090496587222661,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.0,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 0,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8095833333333333
+    }
+   },
+   "Hachimoji|T128|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 36,
+     "m": 6,
+     "msg_bits": 216,
+     "nblk": 1,
+     "nc": 63,
+     "q": 0.8,
+     "s": 12
+    },
+    "T": 128,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708045,
+     "accept_genuine": 77
+    },
+    "FA": 77,
+    "FA_a": 77,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.93875,
+    "genuine_status": {
+     "accept_genuine": 4506,
+     "reject_fail": 294
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.995,
+     0.935,
+     1.0,
+     0.99,
+     0.855,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.915,
+     0.025,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.815,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.30995572606722516,
+    "stats": {
+     "FA": 77,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00010873832475194952,
+     "FA_rate_among_distinct_patient_pairs": 0.00010873832475194952,
+     "M1_upper": 0.00765848603527003,
+     "M2": {
+      "ci": [
+       5.655986232943605e-05,
+       0.00017819849484539536
+      ],
+      "upper": 0.00016543263817690436,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 8.242429725703148e-10,
+      "n_eff": 131910.74033622336
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 88,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.00010873832475194952,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 77,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9897,
+      "accept_genuine": 3
+     },
+     "FA": 3,
+     "FA_a": 3,
+     "FA_b": 0,
+     "genuine_accept": 0.935
+    }
+   },
+   "Hachimoji|T128|OP-B": {
+    "cfg": {
+     "fam": "HRS8",
+     "il": true,
+     "k": 4,
+     "m": 3,
+     "msg_bits": 228,
+     "nblk": 19,
+     "nc": 7,
+     "q": 0.8,
+     "s": 2
+    },
+    "T": 128,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708117,
+     "accept_genuine": 5
+    },
+    "FA": 5,
+    "FA_a": 5,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8720833333333333,
+    "genuine_status": {
+     "accept_genuine": 4186,
+     "reject_fail": 613,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     1.0,
+     0.995,
+     0.9,
+     0.695,
+     0.99,
+     0.835,
+     0.575,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.975,
+     0.47,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.495,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.8103358248869578,
+    "stats": {
+     "FA": 5,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 7.060930178698021e-06,
+     "FA_rate_among_distinct_patient_pairs": 7.060930178698021e-06,
+     "M1_upper": 0.0071460695194296995,
+     "M2": {
+      "ci": [
+       0.0,
+       2.262387295147391e-05
+      ],
+      "upper": 1.9794034586995022e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.778186854287601e-11,
+      "n_eff": 254154.26291669015
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 7.060930178698021e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 5,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8583333333333333
+    }
+   },
+   "Hachimoji|T32|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 24,
+     "m": 6,
+     "msg_bits": 144,
+     "nblk": 1,
+     "nc": 63,
+     "q": 0.9,
+     "s": 4
+    },
+    "T": 32,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708042,
+     "accept_genuine": 80
+    },
+    "FA": 80,
+    "FA_a": 80,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9370833333333334,
+    "genuine_status": {
+     "accept_genuine": 4498,
+     "reject_fail": 302
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.995,
+     0.91,
+     1.0,
+     0.995,
+     0.8,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.92,
+     0.03,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.84,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.3304903209209442,
+    "stats": {
+     "FA": 80,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00011297488285916833,
+     "FA_rate_among_distinct_patient_pairs": 0.00011297488285916833,
+     "M1_upper": 0.007676590551220886,
+     "M2": {
+      "ci": [
+       5.938825012122128e-05,
+       0.00018097418404167787
+      ],
+      "upper": 0.00016682890070516366,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 7.477144784219207e-10,
+      "n_eff": 151076.5443159828
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 91,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.00011297488285916833,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 80,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9899,
+      "accept_genuine": 1
+     },
+     "FA": 1,
+     "FA_a": 1,
+     "FA_b": 0,
+     "genuine_accept": 0.9358333333333333
+    }
+   },
+   "Hachimoji|T32|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 20,
+     "m": 6,
+     "msg_bits": 120,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 12
+    },
+    "T": 32,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708111,
+     "accept_genuine": 11
+    },
+    "FA": 11,
+    "FA_a": 11,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8895833333333333,
+    "genuine_status": {
+     "accept_genuine": 4270,
+     "reject_fail": 530
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.94,
+     0.74,
+     1.0,
+     0.89,
+     0.605,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.975,
+     0.615,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.585,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.39972345034281415,
+    "stats": {
+     "FA": 11,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.5534046393135645e-05,
+     "FA_rate_among_distinct_patient_pairs": 1.5534046393135645e-05,
+     "M1_upper": 0.0072007115257679,
+     "M2": {
+      "ci": [
+       1.4139628691961394e-06,
+       3.6761288101575246e-05
+      ],
+      "upper": 3.110772634482967e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 5.889147630204442e-11,
+      "n_eff": 263770.00649241736
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 19,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 1.5534046393135645e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 11,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8783333333333333
+    }
+   },
+   "Hachimoji|T64|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 24,
+     "m": 6,
+     "msg_bits": 144,
+     "nblk": 1,
+     "nc": 63,
+     "q": 0.9,
+     "s": 4
+    },
+    "T": 64,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708042,
+     "accept_genuine": 80
+    },
+    "FA": 80,
+    "FA_a": 80,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.9370833333333334,
+    "genuine_status": {
+     "accept_genuine": 4498,
+     "reject_fail": 302
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.995,
+     0.91,
+     1.0,
+     0.995,
+     0.8,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.92,
+     0.03,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.84,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.3268142541249593,
+    "stats": {
+     "FA": 80,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 0.00011297488285916833,
+     "FA_rate_among_distinct_patient_pairs": 0.00011297488285916833,
+     "M1_upper": 0.007676590551220886,
+     "M2": {
+      "ci": [
+       5.938825012122128e-05,
+       0.00018097418404167787
+      ],
+      "upper": 0.00016682890070516366,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 7.477144784219207e-10,
+      "n_eff": 151076.5443159828
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 91,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 0.00011297488285916833,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 80,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9899,
+      "accept_genuine": 1
+     },
+     "FA": 1,
+     "FA_a": 1,
+     "FA_b": 0,
+     "genuine_accept": 0.9358333333333333
+    }
+   },
+   "Hachimoji|T64|OP-B": {
+    "cfg": {
+     "fam": "HRS8",
+     "il": true,
+     "k": 4,
+     "m": 3,
+     "msg_bits": 228,
+     "nblk": 19,
+     "nc": 7,
+     "q": 0.8,
+     "s": 2
+    },
+    "T": 64,
+    "N": 842,
+    "M": 708122,
+    "counts": {
+     "reject_fail": 708117,
+     "accept_genuine": 5
+    },
+    "FA": 5,
+    "FA_a": 5,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8720833333333333,
+    "genuine_status": {
+     "accept_genuine": 4186,
+     "reject_fail": 613,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     1.0,
+     0.995,
+     0.9,
+     0.695,
+     0.99,
+     0.835,
+     0.575,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.975,
+     0.47,
+     0.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.495,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.7817942400773367,
+    "stats": {
+     "FA": 5,
+     "M": 708122,
+     "N": 842,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 7.060930178698021e-06,
+     "FA_rate_among_distinct_patient_pairs": 7.060930178698021e-06,
+     "M1_upper": 0.0071460695194296995,
+     "M2": {
+      "ci": [
+       0.0,
+       2.262387295147391e-05
+      ],
+      "upper": 1.9794034586995022e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 2.778186854287601e-11,
+      "n_eff": 254154.26291669015
+     },
+     "disjoint": {
+      "pairs": 421,
+      "FA": 0,
+      "cp_upper95": 0.007090496587222647
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 842
+     },
+     "exact_finite_population_FAR": 7.060930178698021e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 5,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8583333333333333
+    }
+   },
+   "NC": {
+    "uncalibrated": {
+     "tau": 1.0,
+     "FA": 0,
+     "M": 708122,
+     "genuine_accept": 0.8229166666666666,
+     "stats": {
+      "FA": 0,
+      "M": 708122,
+      "N": 842,
+      "same_patient_pairs": 0,
+      "same_patient_accepted": 0,
+      "p_hat": 0.0,
+      "FA_rate_among_distinct_patient_pairs": 0.0,
+      "M1_upper": 0.007090496587222661,
+      "M2": "not reported (FA < 3)",
+      "M3": {
+       "var": 0.0,
+       "n_eff": null
+      },
+      "disjoint": {
+       "pairs": 421,
+       "FA": 0,
+       "cp_upper95": 0.007090496587222647
+      },
+      "patients_involved_descriptive": 0,
+      "design": {
+       "kind": "census of all remaining eligible patients",
+       "population_size": 842
+      },
+      "exact_finite_population_FAR": 0.0,
+      "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+     }
+    },
+    "OP-A": {
+     "tau": 0.979,
+     "FA": 64,
+     "M": 708122,
+     "genuine_accept": 0.9289583333333333,
+     "stats": {
+      "FA": 64,
+      "M": 708122,
+      "N": 842,
+      "same_patient_pairs": 0,
+      "same_patient_accepted": 0,
+      "p_hat": 9.037990628733467e-05,
+      "FA_rate_among_distinct_patient_pairs": 9.037990628733467e-05,
+      "M1_upper": 0.007578250148808697,
+      "M2": {
+       "ci": [
+        4.5243875446164685e-05,
+        0.00014844410433955714
+       ],
+       "upper": 0.0001357263395066904,
+       "degenerate": false
+      },
+      "M3": {
+       "var": 5.854919455408286e-10,
+       "n_eff": 154351.80355281627
+      },
+      "disjoint": {
+       "pairs": 421,
+       "FA": 0,
+       "cp_upper95": 0.007090496587222647
+      },
+      "patients_involved_descriptive": 80,
+      "design": {
+       "kind": "census of all remaining eligible patients",
+       "population_size": 842
+      },
+      "exact_finite_population_FAR": 9.037990628733467e-05,
+      "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+     }
+    },
+    "OP-B": {
+     "tau": 0.995,
+     "FA": 3,
+     "M": 708122,
+     "genuine_accept": 0.8575,
+     "stats": {
+      "FA": 3,
+      "M": 708122,
+      "N": 842,
+      "same_patient_pairs": 0,
+      "same_patient_accepted": 0,
+      "p_hat": 4.236558107218812e-06,
+      "FA_rate_among_distinct_patient_pairs": 4.236558107218812e-06,
+      "M1_upper": 0.0071259775203826314,
+      "M2": {
+       "ci": [
+        0.0,
+        1.5551528966245538e-05
+       ],
+       "upper": 1.272556056094271e-05,
+       "degenerate": false
+      },
+      "M3": {
+       "var": 1.1922814220659319e-11,
+       "n_eff": 355330.5520313593
+      },
+      "disjoint": {
+       "pairs": 421,
+       "FA": 0,
+       "cp_upper95": 0.007090496587222647
+      },
+      "patients_involved_descriptive": 6,
+      "design": {
+       "kind": "census of all remaining eligible patients",
+       "population_size": 842
+      },
+      "exact_finite_population_FAR": 4.236558107218812e-06,
+      "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+     }
+    }
+   }
+  },
+  "nih": {
+   "BCH|T128|OP-A": "none",
+   "BCH|T128|OP-B": "none",
+   "BCH|T32|OP-A": "none",
+   "BCH|T32|OP-B": "none",
+   "BCH|T64|OP-A": "none",
+   "BCH|T64|OP-B": "none",
+   "DNA4|T128|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 304,
+     "nblk": 76,
+     "nc": 3,
+     "q": 0.9,
+     "s": 0
+    },
+    "T": 128,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998894,
+     "accept_genuine": 89,
+     "reject_tag": 17
+    },
+    "FA": 47,
+    "FA_a": 89,
+    "FA_b": 0,
+    "E_tag": 17,
+    "E_tag_idealized_expected_collisions": 4.995850990994722e-38,
+    "genuine_accept": 0.8014583333333334,
+    "genuine_status": {
+     "accept_genuine": 3847,
+     "reject_fail": 926,
+     "reject_tag": 27
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.99,
+     0.985,
+     1.0,
+     1.0,
+     0.98,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.25,
+     0.025,
+     0.0,
+     1.0,
+     1.0,
+     0.305,
+     0.005,
+     0.695,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.9288939833641052,
+    "stats": {
+     "FA": 47,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 4.704704704704705e-05,
+     "FA_rate_among_distinct_patient_pairs": 4.704902508413767e-05,
+     "M1_upper": 0.0062492133165921735,
+     "M2": {
+      "ci": [
+       1.703361925438228e-05,
+       9.321536738557069e-05
+      ],
+      "upper": 8.22214917460028e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.4488567064741377e-10,
+      "n_eff": 136407.0404377758
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 44,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006249419534032663,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 89,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8041666666666667
+    }
+   },
+   "DNA4|T128|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 340,
+     "nblk": 85,
+     "nc": 3,
+     "q": 1.0,
+     "s": 0
+    },
+    "T": 128,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998958,
+     "accept_genuine": 42
+    },
+    "FA": 0,
+    "FA_a": 42,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.43395833333333333,
+    "genuine_status": {
+     "accept_genuine": 2083,
+     "reject_fail": 2713,
+     "reject_tag": 4
+    },
+    "genuine_per_op": [
+     0.605,
+     0.415,
+     0.175,
+     0.085,
+     0.345,
+     0.15,
+     0.07,
+     0.845,
+     0.76,
+     0.68,
+     0.525,
+     0.71,
+     0.505,
+     0.0,
+     0.0,
+     0.0,
+     0.855,
+     0.91,
+     0.005,
+     0.005,
+     0.025,
+     1.0,
+     0.89,
+     0.855
+    ],
+    "ms_per_genuine_attempt": 0.694898267587026,
+    "stats": {
+     "FA": 0,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.0,
+     "FA_rate_among_distinct_patient_pairs": 0.0,
+     "M1_upper": 0.005973551516349541,
+     "M2": "not reported (FA < 3)",
+     "M3": {
+      "var": 0.0,
+      "n_eff": null
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 0,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.005973748637241712,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 42,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.42541666666666667
+    }
+   },
+   "DNA4|T32|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 304,
+     "nblk": 76,
+     "nc": 3,
+     "q": 0.9,
+     "s": 0
+    },
+    "T": 32,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998894,
+     "accept_genuine": 89,
+     "reject_tag": 17
+    },
+    "FA": 47,
+    "FA_a": 89,
+    "FA_b": 0,
+    "E_tag": 17,
+    "E_tag_idealized_expected_collisions": 3.958120942115784e-09,
+    "genuine_accept": 0.8014583333333334,
+    "genuine_status": {
+     "accept_genuine": 3847,
+     "reject_fail": 926,
+     "reject_tag": 27
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.99,
+     0.985,
+     1.0,
+     1.0,
+     0.98,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.25,
+     0.025,
+     0.0,
+     1.0,
+     1.0,
+     0.305,
+     0.005,
+     0.695,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.9260488053162893,
+    "stats": {
+     "FA": 47,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 4.704704704704705e-05,
+     "FA_rate_among_distinct_patient_pairs": 4.704902508413767e-05,
+     "M1_upper": 0.0062492133165921735,
+     "M2": {
+      "ci": [
+       1.703361925438228e-05,
+       9.321536738557069e-05
+      ],
+      "upper": 8.22214917460028e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.4488567064741377e-10,
+      "n_eff": 136407.0404377758
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 44,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006249419534032663,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 89,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8041666666666667
+    }
+   },
+   "DNA4|T32|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": true,
+     "k": 1,
+     "m": 2,
+     "msg_bits": 170,
+     "nblk": 85,
+     "nc": 3,
+     "q": 1.0,
+     "s": 1
+    },
+    "T": 32,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998936,
+     "accept_genuine": 64
+    },
+    "FA": 22,
+    "FA_a": 64,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.7483333333333333,
+    "genuine_status": {
+     "accept_genuine": 3592,
+     "reject_fail": 1207,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     0.98,
+     0.98,
+     0.89,
+     0.77,
+     0.95,
+     0.89,
+     0.775,
+     0.995,
+     1.0,
+     0.995,
+     0.985,
+     0.995,
+     0.99,
+     0.145,
+     0.01,
+     0.0,
+     1.0,
+     1.0,
+     0.19,
+     0.005,
+     0.415,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 2.040142814318339,
+    "stats": {
+     "FA": 22,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 2.2022022022022024e-05,
+     "FA_rate_among_distinct_patient_pairs": 2.2022947911724015e-05,
+     "M1_upper": 0.00611874470098156,
+     "M2": {
+      "ci": [
+       5.009938967424931e-06,
+       5.0100905729188764e-05
+      ],
+      "upper": 4.3085576572220555e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.1262623059362839e-10,
+      "n_eff": 195527.60432891475
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 26,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006118946613095505,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 64,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.75
+    }
+   },
+   "DNA4|T64|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 304,
+     "nblk": 76,
+     "nc": 3,
+     "q": 0.9,
+     "s": 0
+    },
+    "T": 64,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998894,
+     "accept_genuine": 89,
+     "reject_tag": 17
+    },
+    "FA": 47,
+    "FA_a": 89,
+    "FA_b": 0,
+    "E_tag": 17,
+    "E_tag_idealized_expected_collisions": 9.215718466126788e-19,
+    "genuine_accept": 0.8014583333333334,
+    "genuine_status": {
+     "accept_genuine": 3847,
+     "reject_fail": 926,
+     "reject_tag": 27
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.99,
+     0.985,
+     1.0,
+     1.0,
+     0.98,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.25,
+     0.025,
+     0.0,
+     1.0,
+     1.0,
+     0.305,
+     0.005,
+     0.695,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.9511121114095052,
+    "stats": {
+     "FA": 47,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 4.704704704704705e-05,
+     "FA_rate_among_distinct_patient_pairs": 4.704902508413767e-05,
+     "M1_upper": 0.0062492133165921735,
+     "M2": {
+      "ci": [
+       1.703361925438228e-05,
+       9.321536738557069e-05
+      ],
+      "upper": 8.22214917460028e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.4488567064741377e-10,
+      "n_eff": 136407.0404377758
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 44,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006249419534032663,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 89,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8041666666666667
+    }
+   },
+   "DNA4|T64|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": true,
+     "k": 1,
+     "m": 2,
+     "msg_bits": 170,
+     "nblk": 85,
+     "nc": 3,
+     "q": 1.0,
+     "s": 1
+    },
+    "T": 64,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998936,
+     "accept_genuine": 64
+    },
+    "FA": 22,
+    "FA_a": 64,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.7483333333333333,
+    "genuine_status": {
+     "accept_genuine": 3592,
+     "reject_fail": 1207,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     0.98,
+     0.98,
+     0.89,
+     0.77,
+     0.95,
+     0.89,
+     0.775,
+     0.995,
+     1.0,
+     0.995,
+     0.985,
+     0.995,
+     0.99,
+     0.145,
+     0.01,
+     0.0,
+     1.0,
+     1.0,
+     0.19,
+     0.005,
+     0.415,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 2.02959472934405,
+    "stats": {
+     "FA": 22,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 2.2022022022022024e-05,
+     "FA_rate_among_distinct_patient_pairs": 2.2022947911724015e-05,
+     "M1_upper": 0.00611874470098156,
+     "M2": {
+      "ci": [
+       5.009938967424931e-06,
+       5.0100905729188764e-05
+      ],
+      "upper": 4.3085576572220555e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.1262623059362839e-10,
+      "n_eff": 195527.60432891475
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 26,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006118946613095505,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 64,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.75
+    }
+   },
+   "Hachimoji|T128|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 40,
+     "m": 6,
+     "msg_bits": 240,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 12
+    },
+    "T": 128,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998715,
+     "accept_genuine": 249,
+     "reject_tag": 36
+    },
+    "FA": 207,
+    "FA_a": 249,
+    "FA_b": 0,
+    "E_tag": 36,
+    "E_tag_idealized_expected_collisions": 1.0579449157400588e-37,
+    "genuine_accept": 0.8320833333333333,
+    "genuine_status": {
+     "accept_genuine": 3994,
+     "reject_fail": 806
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     1.0,
+     1.0,
+     0.995,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.485,
+     0.11,
+     0.0,
+     1.0,
+     1.0,
+     0.565,
+     0.015,
+     0.805,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.27471691370010376,
+    "stats": {
+     "FA": 207,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.0002072072072072072,
+     "FA_rate_among_distinct_patient_pairs": 0.00020721591898758507,
+     "M1_upper": 0.00690260736484466,
+     "M2": {
+      "ci": [
+       0.00010821464916821393,
+       0.0003386931502006116
+      ],
+      "upper": 0.00030867280513462923,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.2769626104592706e-09,
+      "n_eff": 63218.38147291349
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 121,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.00690283514359878,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 249,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.8279166666666666
+    }
+   },
+   "Hachimoji|T128|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 44,
+     "m": 6,
+     "msg_bits": 264,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 0
+    },
+    "T": 128,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998843,
+     "accept_genuine": 157
+    },
+    "FA": 115,
+    "FA_a": 157,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8135416666666667,
+    "genuine_status": {
+     "accept_genuine": 3905,
+     "reject_fail": 895
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     1.0,
+     1.0,
+     0.975,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.355,
+     0.07,
+     0.0,
+     1.0,
+     1.0,
+     0.405,
+     0.01,
+     0.725,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.18484428524971008,
+    "stats": {
+     "FA": 115,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.00011511511511511511,
+     "FA_rate_among_distinct_patient_pairs": 0.0001151199549931028,
+     "M1_upper": 0.0065510086275593635,
+     "M2": {
+      "ci": [
+       5.410636228706849e-05,
+       0.00019939130543887172
+      ],
+      "upper": 0.00018136414293737726,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.2895373757378344e-09,
+      "n_eff": 89258.26097869349
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 85,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006551224803926429,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 157,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.8108333333333333
+    }
+   },
+   "Hachimoji|T32|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 40,
+     "m": 6,
+     "msg_bits": 240,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 12
+    },
+    "T": 32,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998715,
+     "accept_genuine": 249,
+     "reject_tag": 36
+    },
+    "FA": 207,
+    "FA_a": 249,
+    "FA_b": 0,
+    "E_tag": 36,
+    "E_tag_idealized_expected_collisions": 8.381903171539307e-09,
+    "genuine_accept": 0.8320833333333333,
+    "genuine_status": {
+     "accept_genuine": 3994,
+     "reject_fail": 806
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     1.0,
+     1.0,
+     0.995,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.485,
+     0.11,
+     0.0,
+     1.0,
+     1.0,
+     0.565,
+     0.015,
+     0.805,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.2979689836502075,
+    "stats": {
+     "FA": 207,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.0002072072072072072,
+     "FA_rate_among_distinct_patient_pairs": 0.00020721591898758507,
+     "M1_upper": 0.00690260736484466,
+     "M2": {
+      "ci": [
+       0.00010821464916821393,
+       0.0003386931502006116
+      ],
+      "upper": 0.00030867280513462923,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.2769626104592706e-09,
+      "n_eff": 63218.38147291349
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 121,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.00690283514359878,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 249,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.8279166666666666
+    }
+   },
+   "Hachimoji|T32|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 44,
+     "m": 6,
+     "msg_bits": 264,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 0
+    },
+    "T": 32,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998843,
+     "accept_genuine": 157
+    },
+    "FA": 115,
+    "FA_a": 157,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8135416666666667,
+    "genuine_status": {
+     "accept_genuine": 3905,
+     "reject_fail": 895
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     1.0,
+     1.0,
+     0.975,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.355,
+     0.07,
+     0.0,
+     1.0,
+     1.0,
+     0.405,
+     0.01,
+     0.725,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.1863434910774231,
+    "stats": {
+     "FA": 115,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.00011511511511511511,
+     "FA_rate_among_distinct_patient_pairs": 0.0001151199549931028,
+     "M1_upper": 0.0065510086275593635,
+     "M2": {
+      "ci": [
+       5.410636228706849e-05,
+       0.00019939130543887172
+      ],
+      "upper": 0.00018136414293737726,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.2895373757378344e-09,
+      "n_eff": 89258.26097869349
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 85,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006551224803926429,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 157,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.8108333333333333
+    }
+   },
+   "Hachimoji|T64|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 40,
+     "m": 6,
+     "msg_bits": 240,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 12
+    },
+    "T": 64,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998715,
+     "accept_genuine": 249,
+     "reject_tag": 36
+    },
+    "FA": 207,
+    "FA_a": 249,
+    "FA_b": 0,
+    "E_tag": 36,
+    "E_tag_idealized_expected_collisions": 1.951563910473908e-18,
+    "genuine_accept": 0.8320833333333333,
+    "genuine_status": {
+     "accept_genuine": 3994,
+     "reject_fail": 806
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     1.0,
+     1.0,
+     0.995,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.485,
+     0.11,
+     0.0,
+     1.0,
+     1.0,
+     0.565,
+     0.015,
+     0.805,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.30915990471839905,
+    "stats": {
+     "FA": 207,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.0002072072072072072,
+     "FA_rate_among_distinct_patient_pairs": 0.00020721591898758507,
+     "M1_upper": 0.00690260736484466,
+     "M2": {
+      "ci": [
+       0.00010821464916821393,
+       0.0003386931502006116
+      ],
+      "upper": 0.00030867280513462923,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 3.2769626104592706e-09,
+      "n_eff": 63218.38147291349
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 121,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.00690283514359878,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 249,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.8279166666666666
+    }
+   },
+   "Hachimoji|T64|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 44,
+     "m": 6,
+     "msg_bits": 264,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 0
+    },
+    "T": 64,
+    "N": 1000,
+    "M": 999000,
+    "counts": {
+     "reject_fail": 998843,
+     "accept_genuine": 157
+    },
+    "FA": 115,
+    "FA_a": 157,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.8135416666666667,
+    "genuine_status": {
+     "accept_genuine": 3905,
+     "reject_fail": 895
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     1.0,
+     0.985,
+     1.0,
+     1.0,
+     0.975,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.355,
+     0.07,
+     0.0,
+     1.0,
+     1.0,
+     0.405,
+     0.01,
+     0.725,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.19193669160207114,
+    "stats": {
+     "FA": 115,
+     "M": 999000,
+     "N": 1000,
+     "same_patient_pairs": 42,
+     "same_patient_accepted": 42,
+     "p_hat": 0.00011511511511511511,
+     "FA_rate_among_distinct_patient_pairs": 0.0001151199549931028,
+     "M1_upper": 0.0065510086275593635,
+     "M2": {
+      "ci": [
+       5.410636228706849e-05,
+       0.00019939130543887172
+      ],
+      "upper": 0.00018136414293737726,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.2895373757378344e-09,
+      "n_eff": 89258.26097869349
+     },
+     "disjoint": {
+      "pairs": 500,
+      "FA": 0,
+      "cp_upper95": 0.005973551516349557
+     },
+     "patients_involved_descriptive": 85,
+     "design": {
+      "kind": "iid draws with replacement",
+      "population_size": 30305,
+      "draws": 1000,
+      "distinct_patients": 979
+     },
+     "M1_upper_finite_population": 0.006551224803926429,
+     "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+    },
+    "accepted_draw_pairs_incl_same_patient": 157,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "accept_genuine": 2
+     },
+     "FA": 2,
+     "FA_a": 2,
+     "FA_b": 0,
+     "genuine_accept": 0.8108333333333333
+    }
+   },
+   "NC": {
+    "uncalibrated": {
+     "tau": 1.0,
+     "FA": 687,
+     "M": 999000,
+     "genuine_accept": 0.8835416666666667,
+     "stats": {
+      "FA": 645,
+      "M": 999000,
+      "N": 1000,
+      "same_patient_pairs": 42,
+      "same_patient_accepted": 42,
+      "p_hat": 0.0006456456456456456,
+      "FA_rate_among_distinct_patient_pairs": 0.0006456727910482723,
+      "M1_upper": 0.008253177898980115,
+      "M2": {
+       "ci": [
+        0.0004769767052009175,
+        0.0008356882155493769
+       ],
+       "upper": 0.0008035950729204896,
+       "degenerate": false
+      },
+      "M3": {
+       "var": 7.913403743139342e-09,
+       "n_eff": 81536.18951962312
+      },
+      "disjoint": {
+       "pairs": 500,
+       "FA": 0,
+       "cp_upper95": 0.005973551516349557
+      },
+      "patients_involved_descriptive": 370,
+      "design": {
+       "kind": "iid draws with replacement",
+       "population_size": 30305,
+       "draws": 1000,
+       "distinct_patients": 979
+      },
+      "M1_upper_finite_population": 0.008253450245135704,
+      "interpretation": "rigorous one-sided 95% bound on the impostor FAR of the finite eligible population (i.i.d. draws with replacement)"
+     }
+    }
+   }
+  },
+  "isic": {
+   "BCH|T128|OP-A": {
+    "cfg": {
+     "fam": "BCH",
+     "il": false,
+     "k": 30,
+     "m": 1,
+     "msg_bits": 240,
+     "nblk": 8,
+     "nc": 63,
+     "q": 1.0,
+     "s": 6,
+     "t": 6
+    },
+    "T": 128,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422560,
+     "accept_genuine": 132
+    },
+    "FA": 132,
+    "FA_a": 132,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.788125,
+    "genuine_status": {
+     "accept_genuine": 3783,
+     "reject_fail": 1017
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.945,
+     0.85,
+     0.995,
+     0.885,
+     0.68,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.43,
+     0.175,
+     0.0,
+     1.0,
+     1.0,
+     0.355,
+     0.045,
+     0.565,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.3273577392101288,
+    "stats": {
+     "FA": 132,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.448484578312059e-05,
+     "FA_rate_among_distinct_patient_pairs": 5.448484578312059e-05,
+     "M1_upper": 0.004132552087482922,
+     "M2": {
+      "ci": [
+       3.3868704620974715e-05,
+       7.888917271292585e-05
+      ],
+      "upper": 7.475689347521248e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.1116807135776285e-10,
+      "n_eff": 490085.6560636565
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 140,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 5.448484578312059e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 132,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8075
+    }
+   },
+   "BCH|T128|OP-B": "none",
+   "BCH|T32|OP-A": {
+    "cfg": {
+     "fam": "BCH",
+     "il": false,
+     "k": 30,
+     "m": 1,
+     "msg_bits": 240,
+     "nblk": 8,
+     "nc": 63,
+     "q": 1.0,
+     "s": 6,
+     "t": 6
+    },
+    "T": 32,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422560,
+     "accept_genuine": 132
+    },
+    "FA": 132,
+    "FA_a": 132,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.788125,
+    "genuine_status": {
+     "accept_genuine": 3783,
+     "reject_fail": 1017
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.945,
+     0.85,
+     0.995,
+     0.885,
+     0.68,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.43,
+     0.175,
+     0.0,
+     1.0,
+     1.0,
+     0.355,
+     0.045,
+     0.565,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.3730740547180176,
+    "stats": {
+     "FA": 132,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.448484578312059e-05,
+     "FA_rate_among_distinct_patient_pairs": 5.448484578312059e-05,
+     "M1_upper": 0.004132552087482922,
+     "M2": {
+      "ci": [
+       3.3868704620974715e-05,
+       7.888917271292585e-05
+      ],
+      "upper": 7.475689347521248e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.1116807135776285e-10,
+      "n_eff": 490085.6560636565
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 140,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 5.448484578312059e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 132,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8075
+    }
+   },
+   "BCH|T32|OP-B": "none",
+   "BCH|T64|OP-A": {
+    "cfg": {
+     "fam": "BCH",
+     "il": false,
+     "k": 30,
+     "m": 1,
+     "msg_bits": 240,
+     "nblk": 8,
+     "nc": 63,
+     "q": 1.0,
+     "s": 6,
+     "t": 6
+    },
+    "T": 64,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422560,
+     "accept_genuine": 132
+    },
+    "FA": 132,
+    "FA_a": 132,
+    "FA_b": 0,
+    "E_tag": 0,
+    "E_tag_idealized_expected_collisions": 0.0,
+    "genuine_accept": 0.788125,
+    "genuine_status": {
+     "accept_genuine": 3783,
+     "reject_fail": 1017
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.945,
+     0.85,
+     0.995,
+     0.885,
+     0.68,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.43,
+     0.175,
+     0.0,
+     1.0,
+     1.0,
+     0.355,
+     0.045,
+     0.565,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 1.3577283918857574,
+    "stats": {
+     "FA": 132,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.448484578312059e-05,
+     "FA_rate_among_distinct_patient_pairs": 5.448484578312059e-05,
+     "M1_upper": 0.004132552087482922,
+     "M2": {
+      "ci": [
+       3.3868704620974715e-05,
+       7.888917271292585e-05
+      ],
+      "upper": 7.475689347521248e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.1116807135776285e-10,
+      "n_eff": 490085.6560636565
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 140,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 5.448484578312059e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 132,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8075
+    }
+   },
+   "BCH|T64|OP-B": "none",
+   "DNA4|T128|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 272,
+     "nblk": 68,
+     "nc": 3,
+     "q": 0.8,
+     "s": 0
+    },
+    "T": 128,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422562,
+     "accept_genuine": 77,
+     "reject_tag": 53
+    },
+    "FA": 77,
+    "FA_a": 77,
+    "FA_b": 0,
+    "E_tag": 53,
+    "E_tag_idealized_expected_collisions": 1.557530014839531e-37,
+    "genuine_accept": 0.8052083333333333,
+    "genuine_status": {
+     "accept_genuine": 3865,
+     "reject_fail": 919,
+     "reject_tag": 16
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.985,
+     0.885,
+     1.0,
+     0.95,
+     0.795,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.575,
+     0.16,
+     0.0,
+     1.0,
+     1.0,
+     0.365,
+     0.03,
+     0.585,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.8175823589166006,
+    "stats": {
+     "FA": 77,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 3.1782826706820346e-05,
+     "FA_rate_among_distinct_patient_pairs": 3.1782826706820346e-05,
+     "M1_upper": 0.0040282284645471456,
+     "M2": {
+      "ci": [
+       1.6521616511346596e-05,
+       5.204164752623066e-05
+      ],
+      "upper": 4.749887644505676e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.431543090217294e-11,
+      "n_eff": 494155.385619489
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 91,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 3.1782826706820346e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 77,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.82875
+    }
+   },
+   "DNA4|T128|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 304,
+     "nblk": 76,
+     "nc": 3,
+     "q": 0.9,
+     "s": 0
+    },
+    "T": 128,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422683,
+     "reject_tag": 5,
+     "accept_genuine": 4
+    },
+    "FA": 4,
+    "FA_a": 4,
+    "FA_b": 0,
+    "E_tag": 5,
+    "E_tag_idealized_expected_collisions": 1.4693679385278594e-38,
+    "genuine_accept": 0.7208333333333333,
+    "genuine_status": {
+     "accept_genuine": 3460,
+     "reject_fail": 1313,
+     "reject_tag": 27
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.835,
+     0.705,
+     0.985,
+     0.72,
+     0.475,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.985,
+     0.22,
+     0.02,
+     0.0,
+     1.0,
+     1.0,
+     0.085,
+     0.0,
+     0.28,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.8771599332491556,
+    "stats": {
+     "FA": 4,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.6510559328218362e-06,
+     "FA_rate_among_distinct_patient_pairs": 1.6510559328218362e-06,
+     "M1_upper": 0.003857559693049628,
+     "M2": {
+      "ci": [
+       0.0,
+       4.956352398899852e-06
+      ],
+      "upper": 4.130416411239652e-06,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.3586068509169818e-12,
+      "n_eff": 1215254.5865065942
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 1.6510559328218362e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 4,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.7379166666666667
+    }
+   },
+   "DNA4|T32|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 272,
+     "nblk": 68,
+     "nc": 3,
+     "q": 0.8,
+     "s": 0
+    },
+    "T": 32,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422562,
+     "accept_genuine": 77,
+     "reject_tag": 53
+    },
+    "FA": 77,
+    "FA_a": 77,
+    "FA_b": 0,
+    "E_tag": 53,
+    "E_tag_idealized_expected_collisions": 1.234002411365509e-08,
+    "genuine_accept": 0.8052083333333333,
+    "genuine_status": {
+     "accept_genuine": 3865,
+     "reject_fail": 919,
+     "reject_tag": 16
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.985,
+     0.885,
+     1.0,
+     0.95,
+     0.795,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.575,
+     0.16,
+     0.0,
+     1.0,
+     1.0,
+     0.365,
+     0.03,
+     0.585,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.8537795146306356,
+    "stats": {
+     "FA": 77,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 3.1782826706820346e-05,
+     "FA_rate_among_distinct_patient_pairs": 3.1782826706820346e-05,
+     "M1_upper": 0.0040282284645471456,
+     "M2": {
+      "ci": [
+       1.6521616511346596e-05,
+       5.204164752623066e-05
+      ],
+      "upper": 4.749887644505676e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.431543090217294e-11,
+      "n_eff": 494155.385619489
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 91,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 3.1782826706820346e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 77,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.82875
+    }
+   },
+   "DNA4|T32|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 304,
+     "nblk": 76,
+     "nc": 3,
+     "q": 0.9,
+     "s": 0
+    },
+    "T": 32,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422683,
+     "reject_tag": 5,
+     "accept_genuine": 4
+    },
+    "FA": 4,
+    "FA_a": 4,
+    "FA_b": 0,
+    "E_tag": 5,
+    "E_tag_idealized_expected_collisions": 1.1641532182693481e-09,
+    "genuine_accept": 0.7208333333333333,
+    "genuine_status": {
+     "accept_genuine": 3460,
+     "reject_fail": 1313,
+     "reject_tag": 27
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.835,
+     0.705,
+     0.985,
+     0.72,
+     0.475,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.985,
+     0.22,
+     0.02,
+     0.0,
+     1.0,
+     1.0,
+     0.085,
+     0.0,
+     0.28,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.8629527688026428,
+    "stats": {
+     "FA": 4,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.6510559328218362e-06,
+     "FA_rate_among_distinct_patient_pairs": 1.6510559328218362e-06,
+     "M1_upper": 0.003857559693049628,
+     "M2": {
+      "ci": [
+       0.0,
+       4.956352398899852e-06
+      ],
+      "upper": 4.130416411239652e-06,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.3586068509169818e-12,
+      "n_eff": 1215254.5865065942
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 1.6510559328218362e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 4,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.7379166666666667
+    }
+   },
+   "DNA4|T64|OP-A": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 272,
+     "nblk": 68,
+     "nc": 3,
+     "q": 0.8,
+     "s": 0
+    },
+    "T": 64,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422562,
+     "accept_genuine": 77,
+     "reject_tag": 53
+    },
+    "FA": 77,
+    "FA_a": 77,
+    "FA_b": 0,
+    "E_tag": 53,
+    "E_tag_idealized_expected_collisions": 2.8731357570865868e-18,
+    "genuine_accept": 0.8052083333333333,
+    "genuine_status": {
+     "accept_genuine": 3865,
+     "reject_fail": 919,
+     "reject_tag": 16
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.985,
+     0.885,
+     1.0,
+     0.95,
+     0.795,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.575,
+     0.16,
+     0.0,
+     1.0,
+     1.0,
+     0.365,
+     0.03,
+     0.585,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.9088443219661713,
+    "stats": {
+     "FA": 77,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 3.1782826706820346e-05,
+     "FA_rate_among_distinct_patient_pairs": 3.1782826706820346e-05,
+     "M1_upper": 0.0040282284645471456,
+     "M2": {
+      "ci": [
+       1.6521616511346596e-05,
+       5.204164752623066e-05
+      ],
+      "upper": 4.749887644505676e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 6.431543090217294e-11,
+      "n_eff": 494155.385619489
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 91,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 3.1782826706820346e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 77,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.82875
+    }
+   },
+   "DNA4|T64|OP-B": {
+    "cfg": {
+     "fam": "DNA4",
+     "il": false,
+     "k": 2,
+     "m": 2,
+     "msg_bits": 304,
+     "nblk": 76,
+     "nc": 3,
+     "q": 0.9,
+     "s": 0
+    },
+    "T": 64,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2422683,
+     "reject_tag": 5,
+     "accept_genuine": 4
+    },
+    "FA": 4,
+    "FA_a": 4,
+    "FA_b": 0,
+    "E_tag": 5,
+    "E_tag_idealized_expected_collisions": 2.710505431213761e-19,
+    "genuine_accept": 0.7208333333333333,
+    "genuine_status": {
+     "accept_genuine": 3460,
+     "reject_fail": 1313,
+     "reject_tag": 27
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.835,
+     0.705,
+     0.985,
+     0.72,
+     0.475,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.99,
+     0.985,
+     0.22,
+     0.02,
+     0.0,
+     1.0,
+     1.0,
+     0.085,
+     0.0,
+     0.28,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.939401239156723,
+    "stats": {
+     "FA": 4,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 1.6510559328218362e-06,
+     "FA_rate_among_distinct_patient_pairs": 1.6510559328218362e-06,
+     "M1_upper": 0.003857559693049628,
+     "M2": {
+      "ci": [
+       0.0,
+       4.956352398899852e-06
+      ],
+      "upper": 4.130416411239652e-06,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.3586068509169818e-12,
+      "n_eff": 1215254.5865065942
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 8,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 1.6510559328218362e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 4,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9900
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.7379166666666667
+    }
+   },
+   "Hachimoji|T128|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 32,
+     "m": 6,
+     "msg_bits": 192,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 24
+    },
+    "T": 128,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2421312,
+     "reject_tag": 1257,
+     "accept_genuine": 123
+    },
+    "FA": 123,
+    "FA_a": 123,
+    "FA_b": 0,
+    "E_tag": 1257,
+    "E_tag_idealized_expected_collisions": 3.6939909974590385e-36,
+    "genuine_accept": 0.8072916666666666,
+    "genuine_status": {
+     "accept_genuine": 3875,
+     "reject_fail": 925
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.955,
+     0.885,
+     1.0,
+     0.935,
+     0.77,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.565,
+     0.175,
+     0.005,
+     1.0,
+     1.0,
+     0.375,
+     0.055,
+     0.66,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.38080349564552307,
+    "stats": {
+     "FA": 123,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.0769969934271464e-05,
+     "FA_rate_among_distinct_patient_pairs": 5.0769969934271464e-05,
+     "M1_upper": 0.004116192121426388,
+     "M2": {
+      "ci": [
+       3.1391020156794824e-05,
+       7.55855900670114e-05
+      ],
+      "upper": 7.062652084741065e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 9.988391613473354e-11,
+      "n_eff": 508263.935866753
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 138,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 5.0769969934271464e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 123,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "reject_tag": 2
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8308333333333333
+    }
+   },
+   "Hachimoji|T128|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 40,
+     "m": 6,
+     "msg_bits": 240,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 16
+    },
+    "T": 128,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2420501,
+     "reject_tag": 2168,
+     "accept_genuine": 23
+    },
+    "FA": 23,
+    "FA_a": 23,
+    "FA_b": 0,
+    "E_tag": 2168,
+    "E_tag_idealized_expected_collisions": 6.371179381456798e-36,
+    "genuine_accept": 0.7479166666666667,
+    "genuine_status": {
+     "accept_genuine": 3590,
+     "reject_fail": 1209,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.895,
+     0.72,
+     1.0,
+     0.815,
+     0.54,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.995,
+     0.98,
+     0.32,
+     0.07,
+     0.0,
+     1.0,
+     1.0,
+     0.17,
+     0.005,
+     0.445,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.27060319979985553,
+    "stats": {
+     "FA": 23,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 9.493571613725558e-06,
+     "FA_rate_among_distinct_patient_pairs": 9.493571613725558e-06,
+     "M1_upper": 0.003909580665779456,
+     "M2": {
+      "ci": [
+       2.89137030882036e-06,
+       1.858700052459219e-05
+      ],
+      "upper": 1.6933754656171787e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.2058622524100789e-11,
+      "n_eff": 787277.4412541371
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 35,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 9.493571613725558e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 23,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9891,
+      "reject_tag": 9
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.7654166666666666
+    }
+   },
+   "Hachimoji|T32|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 32,
+     "m": 6,
+     "msg_bits": 192,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 24
+    },
+    "T": 32,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2421312,
+     "reject_tag": 1257,
+     "accept_genuine": 123
+    },
+    "FA": 123,
+    "FA_a": 123,
+    "FA_b": 0,
+    "E_tag": 1257,
+    "E_tag_idealized_expected_collisions": 2.926681190729141e-07,
+    "genuine_accept": 0.8072916666666666,
+    "genuine_status": {
+     "accept_genuine": 3875,
+     "reject_fail": 925
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.955,
+     0.885,
+     1.0,
+     0.935,
+     0.77,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.565,
+     0.175,
+     0.005,
+     1.0,
+     1.0,
+     0.375,
+     0.055,
+     0.66,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.369822879632314,
+    "stats": {
+     "FA": 123,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.0769969934271464e-05,
+     "FA_rate_among_distinct_patient_pairs": 5.0769969934271464e-05,
+     "M1_upper": 0.004116192121426388,
+     "M2": {
+      "ci": [
+       3.1391020156794824e-05,
+       7.55855900670114e-05
+      ],
+      "upper": 7.062652084741065e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 9.988391613473354e-11,
+      "n_eff": 508263.935866753
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 138,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 5.0769969934271464e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 123,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "reject_tag": 2
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8308333333333333
+    }
+   },
+   "Hachimoji|T32|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 40,
+     "m": 6,
+     "msg_bits": 240,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 16
+    },
+    "T": 32,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2420501,
+     "reject_tag": 2168,
+     "accept_genuine": 23
+    },
+    "FA": 23,
+    "FA_a": 23,
+    "FA_b": 0,
+    "E_tag": 2168,
+    "E_tag_idealized_expected_collisions": 5.047768354415894e-07,
+    "genuine_accept": 0.7479166666666667,
+    "genuine_status": {
+     "accept_genuine": 3590,
+     "reject_fail": 1209,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.895,
+     0.72,
+     1.0,
+     0.815,
+     0.54,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.995,
+     0.98,
+     0.32,
+     0.07,
+     0.0,
+     1.0,
+     1.0,
+     0.17,
+     0.005,
+     0.445,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.2834319571654002,
+    "stats": {
+     "FA": 23,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 9.493571613725558e-06,
+     "FA_rate_among_distinct_patient_pairs": 9.493571613725558e-06,
+     "M1_upper": 0.003909580665779456,
+     "M2": {
+      "ci": [
+       2.89137030882036e-06,
+       1.858700052459219e-05
+      ],
+      "upper": 1.6933754656171787e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.2058622524100789e-11,
+      "n_eff": 787277.4412541371
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 35,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 9.493571613725558e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 23,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9891,
+      "reject_tag": 9
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.7654166666666666
+    }
+   },
+   "Hachimoji|T64|OP-A": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 32,
+     "m": 6,
+     "msg_bits": 192,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 24
+    },
+    "T": 64,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2421312,
+     "reject_tag": 1257,
+     "accept_genuine": 123
+    },
+    "FA": 123,
+    "FA_a": 123,
+    "FA_b": 0,
+    "E_tag": 1257,
+    "E_tag_idealized_expected_collisions": 6.814210654071395e-17,
+    "genuine_accept": 0.8072916666666666,
+    "genuine_status": {
+     "accept_genuine": 3875,
+     "reject_fail": 925
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.955,
+     0.885,
+     1.0,
+     0.935,
+     0.77,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.565,
+     0.175,
+     0.005,
+     1.0,
+     1.0,
+     0.375,
+     0.055,
+     0.66,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.35164838035901386,
+    "stats": {
+     "FA": 123,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 5.0769969934271464e-05,
+     "FA_rate_among_distinct_patient_pairs": 5.0769969934271464e-05,
+     "M1_upper": 0.004116192121426388,
+     "M2": {
+      "ci": [
+       3.1391020156794824e-05,
+       7.55855900670114e-05
+      ],
+      "upper": 7.062652084741065e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 9.988391613473354e-11,
+      "n_eff": 508263.935866753
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 138,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 5.0769969934271464e-05,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 123,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9898,
+      "reject_tag": 2
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.8308333333333333
+    }
+   },
+   "Hachimoji|T64|OP-B": {
+    "cfg": {
+     "fam": "HRS64",
+     "il": true,
+     "k": 40,
+     "m": 6,
+     "msg_bits": 240,
+     "nblk": 1,
+     "nc": 63,
+     "q": 1.0,
+     "s": 16
+    },
+    "T": 64,
+    "N": 1557,
+    "M": 2422692,
+    "counts": {
+     "reject_fail": 2420501,
+     "reject_tag": 2168,
+     "accept_genuine": 23
+    },
+    "FA": 23,
+    "FA_a": 23,
+    "FA_b": 0,
+    "E_tag": 2168,
+    "E_tag_idealized_expected_collisions": 1.1752751549742868e-16,
+    "genuine_accept": 0.7479166666666667,
+    "genuine_status": {
+     "accept_genuine": 3590,
+     "reject_fail": 1209,
+     "reject_tag": 1
+    },
+    "genuine_per_op": [
+     1.0,
+     1.0,
+     0.895,
+     0.72,
+     1.0,
+     0.815,
+     0.54,
+     1.0,
+     1.0,
+     1.0,
+     0.995,
+     0.995,
+     0.98,
+     0.32,
+     0.07,
+     0.0,
+     1.0,
+     1.0,
+     0.17,
+     0.005,
+     0.445,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "ms_per_genuine_attempt": 0.2913115421930949,
+    "stats": {
+     "FA": 23,
+     "M": 2422692,
+     "N": 1557,
+     "same_patient_pairs": 0,
+     "same_patient_accepted": 0,
+     "p_hat": 9.493571613725558e-06,
+     "FA_rate_among_distinct_patient_pairs": 9.493571613725558e-06,
+     "M1_upper": 0.003909580665779456,
+     "M2": {
+      "ci": [
+       2.89137030882036e-06,
+       1.858700052459219e-05
+      ],
+      "upper": 1.6933754656171787e-05,
+      "degenerate": false
+     },
+     "M3": {
+      "var": 1.2058622524100789e-11,
+      "n_eff": 787277.4412541371
+     },
+     "disjoint": {
+      "pairs": 778,
+      "FA": 0,
+      "cp_upper95": 0.0038431517383073627
+     },
+     "patients_involved_descriptive": 35,
+     "design": {
+      "kind": "census of all remaining eligible patients",
+      "population_size": 1557
+     },
+     "exact_finite_population_FAR": 9.493571613725558e-06,
+     "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+    },
+    "accepted_draw_pairs_incl_same_patient": 23,
+    "test_set_rev9": {
+     "N": 100,
+     "M": 9900,
+     "counts": {
+      "reject_fail": 9891,
+      "reject_tag": 9
+     },
+     "FA": 0,
+     "FA_a": 0,
+     "FA_b": 0,
+     "genuine_accept": 0.7654166666666666
+    }
+   },
+   "NC": {
+    "uncalibrated": {
+     "tau": 1.0,
+     "FA": 334,
+     "M": 2422692,
+     "genuine_accept": 0.849375,
+     "stats": {
+      "FA": 334,
+      "M": 2422692,
+      "N": 1557,
+      "same_patient_pairs": 0,
+      "same_patient_accepted": 0,
+      "p_hat": 0.00013786317039062333,
+      "FA_rate_among_distinct_patient_pairs": 0.00013786317039062333,
+      "M1_upper": 0.00445830598075031,
+      "M2": {
+       "ci": [
+        9.911700649983849e-05,
+        0.00018544797964657785
+       ],
+       "upper": 0.00017803707611736784,
+       "degenerate": false
+      },
+      "M3": {
+       "var": 4.5055468471923437e-10,
+       "n_eff": 305943.2490925525
+      },
+      "disjoint": {
+       "pairs": 778,
+       "FA": 0,
+       "cp_upper95": 0.0038431517383073627
+      },
+      "patients_involved_descriptive": 277,
+      "design": {
+       "kind": "census of all remaining eligible patients",
+       "population_size": 1557
+      },
+      "exact_finite_population_FAR": 0.00013786317039062333,
+      "interpretation": "census: exact FAR of the remaining eligible patients of the release; M1 holds only under the superpopulation (i.i.d.) model assumption"
+     }
+    }
+   }
+  }
+ }
+}

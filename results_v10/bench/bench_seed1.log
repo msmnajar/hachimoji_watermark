@@ -1,0 +1,3 @@
+brats100 HRS64 {"cond": 2152, "n": 2400, "mism": 0} {"cond": 2, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2152, 'reject_fail': 248}, 'imp': {'reject_fail': 9898, 'accept_genuine': 2}} ms/gen 1.235 ms/imp 1.002
+brats100 HRS8 {"cond": 2060, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2060, 'reject_fail': 340}, 'imp': {'reject_fail': 9900}} ms/gen 1.205 ms/imp 0.095
+brats100 DNA4 {"cond": 2048, "n": 2400, "mism": 0} {"cond": 0, "n": 9900, "mism": 0} {'gen': {'accept_genuine': 2048, 'reject_fail': 351, 'reject_tag': 1}, 'imp': {'reject_fail': 9900}} ms/gen 2.257 ms/imp 0.094

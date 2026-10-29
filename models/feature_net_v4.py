@@ -121,11 +121,18 @@ def tta_views(image: np.ndarray):
     f = image.astype(np.float32)
     h, w = image.shape
     small = Image.fromarray(image).resize((int(w * 0.85), int(h * 0.85)), Image.LANCZOS).resize((w, h), Image.LANCZOS)
-    return [image,
-            np.clip(gaussian_filter(f, 0.7), 0, 255).astype(np.uint8),
-            np.clip(rotate(f, 2, reshape=False, order=1, mode="constant"), 0, 255).astype(np.uint8),
-            np.clip(rotate(f, -2, reshape=False, order=1, mode="constant"), 0, 255).astype(np.uint8),
-            np.asarray(small)]
+    views = [image,
+             np.clip(gaussian_filter(f, 0.7), 0, 255).astype(np.uint8),
+             np.clip(rotate(f, 2, reshape=False, order=1, mode="constant"), 0, 255).astype(np.uint8),
+             np.clip(rotate(f, -2, reshape=False, order=1, mode="constant"), 0, 255).astype(np.uint8),
+             np.asarray(small)]
+    # optional extra rotated views (revision 9 study; default: none). AIF_TTA_ROT="10,20" adds +-10 and +-20 deg
+    import os
+    extra = os.environ.get("AIF_TTA_ROT", "")
+    for a in [float(x) for x in extra.split(",") if x.strip()]:
+        for sgn in (1, -1):
+            views.append(np.clip(rotate(f, sgn * a, reshape=False, order=1, mode="constant"), 0, 255).astype(np.uint8))
+    return views
 
 
 @torch.no_grad()

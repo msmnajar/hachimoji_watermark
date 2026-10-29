@@ -1,0 +1,25 @@
+brats HRS64|T32|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9785, 'reject_tag': 107, 'accept_genuine': 8} | FA 8 same-patient acc 0 M1 6.23e-02 | 111s/2s
+brats HRS64|T32|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 115s/2s
+brats HRS64|T64|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9785, 'reject_tag': 107, 'accept_genuine': 8} | FA 8 same-patient acc 0 M1 6.23e-02 | 112s/2s
+brats HRS64|T64|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 113s/1s
+brats HRS64|T128|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9785, 'reject_tag': 107, 'accept_genuine': 8} | FA 8 same-patient acc 0 M1 6.23e-02 | 114s/2s
+brats HRS64|T128|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 113s/1s
+brats HRS8|T32|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9892, 'accept_genuine': 7, 'reject_tag': 1} | FA 7 same-patient acc 0 M1 6.18e-02 | 166s/1s
+brats HRS8|T32|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 273s/1s
+brats HRS8|T64|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9892, 'accept_genuine': 7, 'reject_tag': 1} | FA 7 same-patient acc 0 M1 6.18e-02 | 305s/2s
+brats HRS8|T64|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 272s/1s
+brats HRS8|T128|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9852, 'reject_tag': 42, 'accept_genuine': 6} | FA 6 same-patient acc 0 M1 6.14e-02 | 595s/2s
+brats HRS8|T128|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 281s/1s
+brats DNA4|T32|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9894, 'accept_genuine': 6} | FA 6 same-patient acc 0 M1 6.14e-02 | 711s/3s
+brats DNA4|T32|OP-B T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 794s/2s
+brats DNA4|T64|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 738s/2s
+brats DNA4|T128|OP-A T1 0 T2 0 T3 0 / 300 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 633s/1s
+brats BCH|T32|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9894, 'accept_genuine': 6} | FA 6 same-patient acc 0 M1 6.14e-02 | 198s/13s
+brats BCH|T32|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 280s/16s
+brats BCH|T64|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9894, 'accept_genuine': 6} | FA 6 same-patient acc 0 M1 6.14e-02 | 221s/13s
+brats BCH|T64|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 376s/16s
+brats BCH|T128|OP-A T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9894, 'accept_genuine': 6} | FA 6 same-patient acc 0 M1 6.14e-02 | 224s/13s
+brats BCH|T128|OP-B T1 0 T2 0 T3 0 / 0 reg 0 | pairs 9900 count-check True {'reject_fail': 9900} | FA 0 same-patient acc 0 M1 5.82e-02 | 180s/17s
+brats NC {'uncalibrated': (1.0, 0, 0.8235), 'OP-A': (0.983, 7, 0.9216), 'OP-B': (1.0, 0, 0.8235)}
+brats selection 178s; selected 24; none: []
+total 7288s

@@ -1,0 +1,293 @@
+{
+ "brats100|HRS64": {
+  "cfg": {
+   "fam": "HRS64",
+   "q": 1.0,
+   "il": false,
+   "m": 6,
+   "nblk": 1,
+   "nc": 63,
+   "k": 28,
+   "s": 0,
+   "payload": 168
+  },
+  "content_bits": 136,
+  "genuine": {
+   "cond": 2129,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 2,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2129,
+    "reject_fail": 271
+   },
+   "imp": {
+    "reject_fail": 9898,
+    "accept_genuine": 2
+   }
+  },
+  "ms_per_genuine": 0.6883940100669861,
+  "ms_per_impostor": 0.47671770808672664
+ },
+ "brats100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 0.9,
+   "il": true,
+   "m": 3,
+   "nblk": 21,
+   "nc": 7,
+   "k": 4,
+   "s": 1,
+   "payload": 252
+  },
+  "content_bits": 220,
+  "genuine": {
+   "cond": 2009,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 2009,
+    "reject_fail": 278,
+    "reject_tag": 113
+   },
+   "imp": {
+    "reject_fail": 9893,
+    "reject_tag": 7
+   }
+  },
+  "ms_per_genuine": 0.9954331318537394,
+  "ms_per_impostor": 0.16854069449684836
+ },
+ "brats100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.7,
+   "il": false,
+   "m": 2,
+   "nblk": 59,
+   "nc": 3,
+   "k": 2,
+   "s": 0,
+   "payload": 236
+  },
+  "content_bits": 204,
+  "genuine": {
+   "cond": 1998,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1998,
+    "reject_fail": 330,
+    "reject_tag": 72
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 1.0321304202079773,
+  "ms_per_impostor": 0.03912179156987354
+ },
+ "nih100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 1.0,
+   "il": true,
+   "m": 3,
+   "nblk": 24,
+   "nc": 7,
+   "k": 3,
+   "s": 3,
+   "payload": 216
+  },
+  "content_bits": 184,
+  "genuine": {
+   "cond": 1961,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 4,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1961,
+    "reject_fail": 439
+   },
+   "imp": {
+    "reject_fail": 9896,
+    "accept_genuine": 4
+   }
+  },
+  "ms_per_genuine": 1.2488614519437153,
+  "ms_per_impostor": 0.0887974344118677
+ },
+ "nih100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.9,
+   "il": false,
+   "m": 2,
+   "nblk": 76,
+   "nc": 3,
+   "k": 2,
+   "s": 0,
+   "payload": 304
+  },
+  "content_bits": 272,
+  "genuine": {
+   "cond": 1943,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1943,
+    "reject_fail": 443,
+    "reject_tag": 14
+   },
+   "imp": {
+    "reject_fail": 9899,
+    "reject_tag": 1
+   }
+  },
+  "ms_per_genuine": 1.0344948371251423,
+  "ms_per_impostor": 0.024155053225430576
+ },
+ "isic100|HRS64": {
+  "cfg": {
+   "fam": "HRS64",
+   "q": 1.0,
+   "il": true,
+   "m": 6,
+   "nblk": 1,
+   "nc": 63,
+   "k": 28,
+   "s": 32,
+   "payload": 168
+  },
+  "content_bits": 136,
+  "genuine": {
+   "cond": 1961,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1961,
+    "reject_fail": 438,
+    "reject_tag": 1
+   },
+   "imp": {
+    "reject_fail": 9837,
+    "reject_tag": 63
+   }
+  },
+  "ms_per_genuine": 0.5692963798840841,
+  "ms_per_impostor": 0.2867600412079782
+ },
+ "isic100|HRS8": {
+  "cfg": {
+   "fam": "HRS8",
+   "q": 0.9,
+   "il": false,
+   "m": 3,
+   "nblk": 21,
+   "nc": 7,
+   "k": 4,
+   "s": 0,
+   "payload": 252
+  },
+  "content_bits": 220,
+  "genuine": {
+   "cond": 1967,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1967,
+    "reject_fail": 429,
+    "reject_tag": 4
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 0.38342485825220746,
+  "ms_per_impostor": 0.03044629337811711
+ },
+ "isic100|DNA4": {
+  "cfg": {
+   "fam": "DNA4",
+   "q": 0.8,
+   "il": false,
+   "m": 2,
+   "nblk": 68,
+   "nc": 3,
+   "k": 2,
+   "s": 0,
+   "payload": 272
+  },
+  "content_bits": 240,
+  "genuine": {
+   "cond": 1988,
+   "n": 2400,
+   "mism": 0
+  },
+  "impostor": {
+   "cond": 0,
+   "n": 9900,
+   "mism": 0
+  },
+  "status": {
+   "gen": {
+    "accept_genuine": 1988,
+    "reject_fail": 384,
+    "reject_tag": 28
+   },
+   "imp": {
+    "reject_fail": 9900
+   }
+  },
+  "ms_per_genuine": 0.5931188662846884,
+  "ms_per_impostor": 0.01733305478336835
+ }
+}

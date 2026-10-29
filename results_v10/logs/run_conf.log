@@ -1,0 +1,6 @@
+restart: resumed 2026-10-27T01:06:27Z
+restart: resumed 2026-10-27T21:14:10Z (processes found stopped)
+restart: resumed 2026-10-27T22:48:25Z
+shard 0 DONE
+Terminated
+shard 1,2 FAILED
